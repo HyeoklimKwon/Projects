@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class = "container mx-3">
+    <h1 class = "fw-bold ">DETAIL</h1>
+    <div >
+        <img width="400" src= {{ movie.poster_url }} alt="movie_img">
+    </div>
+    <p class = "fw-bold">{{ movie.title }}</p>
+    <br>
+    <p>Audience : {{ movie.audience }}</p>
+    <br>
+    <p>Release Dates : {{ movie.release_date }}</p>
+    <br>
+    <p>Genre: {{ movie.genre }}</p>
+    <br>
+    <p>Score: {{ movie.score }}</p>
+    <br>
+    <p>{{ movie.description }}</p>
+    <br>
+    <a  href="{% url 'movies:edit' movie.pk %}">EDIT</a>
+    <a  href="{% url 'movies:delete' movie.pk %}" method="POST">
+        {% csrf_token %}
+        DELETE
+    </a>
+    <br>
+    <a href="{% url 'movies:index' %}">BACK</a>
+    
+</div>
+
+{% endblock content %}

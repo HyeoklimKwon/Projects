@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<div> 
+    <h1 class= "fw-bold">EDIT</h1>
+
+    <form action="{% url 'movies:update' movie.pk  %}" method="POST">
+        {% csrf_token %}
+        <div class="mb-3">
+          <label for="title" class="form-label">TITLE</label>
+          <input type="text" name="title" id="title" class="form-control" value = "{{ movie.title }}">
+        </div>
+        <div class="mb-3">
+          <label for="audience" class="form-label">AUDIENCE</label>
+          <input type="text" name="audience" id="audience" class="form-control" value = "{{ movie.audience }}">
+        </div>
+        <div class="mb-3">
+            <label for="release_date" class="form-label">RELEASE_DATE</label>
+            <input type="date" name="release_date" id="release_date" class="form-control" value="{{ movie.release_date|date:'Y-m-d' }}">
+        </div>
+        <div class="mb-3">
+            <label for="genre" class="form-label">GENRE</label>
+            <input type="text" name="genre" id="genre" class="form-control" value = "{{ movie.genre}}">
+        </div>
+        <div class="mb-3">
+            <label for="score" class="form-label">SCORE</label>
+            <input type="text" name="score" id="score" class="form-control" value = "{{ movie.score }}">
+        </div>
+        <div class="mb-3">
+            <label for="poster_url" class="form-label">POSTER_URL</label>
+            <input type="url" name="poster_url" id="poster_url" class="form-control" value = "{{ movie.poster_url}}">
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">DESCRIPTION</label>
+            <textarea name="description" id="description" cols="30" rows="10" class="form-control">{{ movie.description }}</textarea>
+          </div>
+        
+        <button class="btn btn-primary">submit</button>
+        <a href="{% url 'movies:detail' movie.pk %}" class = "text-decoration-none">BACK</a>
+    </form>
+    <a href="{% url 'movies:edit' movie.pk %}">
+        <button>Reset</button>
+    </a>
+    
+
+</div>
+{% endblock content %}

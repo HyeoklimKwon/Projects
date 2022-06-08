@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class = "fw-bold">NEW</h1>
+
+<form action="{% url 'movies:create' %}" method="POST">
+    {% csrf_token %}
+    <div class="mb-3">
+      <label for="title" class="form-label">TITLE</label>
+      <input type="text" name="title" id="title" class="form-control">
+    </div>
+    <div class="mb-3">
+      <label for="audience" class="form-label">AUDIENCE</label>
+      <input type="text" name="audience" id="audience" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label for="release_date" class="form-label">RELEASE_DATE</label>
+        <input type="date" name="release_date" id="release_date" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label for="genre" class="form-label">GENRE</label>
+        <select id = "genre" class="form-select" aria-label="Default select example" name= "genre">
+            <option selected>장르를 선택해주세요</option>
+            <option value="코미디">코미디</option>
+            <option value="액션">액션</option>
+            <option value="로맨스코미디">로맨스코미디</option>
+          </select>
+    </div>
+    <div class="mb-3">
+        <label for="score" class="form-label">SCORE</label>
+        <input type="text" name="score" id="score" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label for="poster_url" class="form-label">POSTER_URL</label>
+        <input type="url" name="poster_url" id="poster_url" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label for="description" class="form-label">DESCRIPTION</label>
+        <textarea name="description" id="description" cols="30" rows="10" class="form-control"></textarea>
+      </div>
+    <button class="btn btn-primary">submit</button>
+    <a href="{% url 'movies:index' %}" class = "text-decoration-none">BACK</a>
+  </form>
+{% endblock content %}

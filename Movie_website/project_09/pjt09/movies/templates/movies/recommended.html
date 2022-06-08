@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>당신의 오늘 기분은 어떠신가요?</h1>
+<hr>
+<br>
+<h1>ANSWER:
+    <a href="{% url 'movies:todetail' 35 %}">
+        <i onmouseenter = "zoomIn(event)" onmouseleave="zoomOut(event)" id = "smile" class="fa-solid fa-face-grin-beam" ></i>
+    </a>
+    <a href="{% url 'movies:todetail' 10751 %}">
+        <i onmouseenter = "zoomIn(event)" onmouseleave="zoomOut(event)" id = "cry" class="fa-solid fa-face-sad-tear"></i>
+
+    </a>
+    <a href="{% url 'movies:todetail' 10749 %}">
+        
+        <i onmouseenter = "zoomIn(event)" onmouseleave="zoomOut(event)" id = "love" class="fa-solid fa-face-grin-hearts"></i>    
+    </a>  
+    <a href="{% url 'movies:todetail' 28 %}">
+        <i onmouseenter = "zoomIn(event)" onmouseleave="zoomOut(event)" id = "action" class="fa-solid fa-face-grin-squint"></i>
+        
+    </a>  
+    <a href="{% url 'movies:todetail' 27 %}">
+        <i onmouseenter = "zoomIn(event)" onmouseleave="zoomOut(event)" id = "scary" class="fa-solid fa-face-surprise"></i>        
+        
+    </a>       
+</h1>
+<hr>
+<h2 id= "emtionText"></h2>
+<br>
+<h2>추천영화는 과연???</h2>
+<div>
+    {% for movie in movies %}
+    {{ movie.title }}
+    {% endfor %}
+</div>
+
+{% endblock %}
+
+{% block script %}
+    <script>    
+        function zoomIn(event) {
+            event.target.style.transform = "scale(1.2)"; //1.2배 확대
+            console.log(event)
+            event.target.style.zIndex = 1;
+            event.target.style.transition = "all 0.5s";// 속도
+        }
+        
+        function zoomOut(event) {
+            event.target.style.transform = "scale(1)";
+            event.target.style.zIndex = 0;
+            event.target.style.transition = "all 0.5s";
+        }       
+    const smile = document.querySelector('#smile')
+    smile.addEventListener('click', function (event) {
+                        
+    })   
+
+    </script>
+{% endblock script %}
