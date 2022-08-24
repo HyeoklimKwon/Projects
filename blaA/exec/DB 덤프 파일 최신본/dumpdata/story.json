@@ -1,0 +1,443 @@
+[
+{
+    "model": "stories.story",
+    "pk": 2,
+    "fields": {
+        "user_pk": 5,
+        "story_title": "오늘도 출근완료..",
+        "story_picture": "user/story/20180419_173441_IMG_0399.JPG",
+        "created_at": "2022-08-17T13:45:31.751Z",
+        "region": "울산광역시 남구 야음동",
+        "category": "IT/인터넷",
+        "like_user": [
+            1,
+            5,
+            11
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 3,
+    "fields": {
+        "user_pk": 6,
+        "story_title": "학원보충 추가근무 너무 힘들어...",
+        "story_picture": "user/story/KakaoTalk_20220818_002646812.jpg",
+        "created_at": "2022-08-17T15:30:03.756Z",
+        "region": "대구광역시 남구 봉덕동",
+        "category": "카페/음료",
+        "like_user": [
+            11
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 4,
+    "fields": {
+        "user_pk": 8,
+        "story_title": "상하차 지옥에 나란 천사 강.림",
+        "story_picture": "user/story/KakaoTalk_20220818_002453195.jpg",
+        "created_at": "2022-08-17T15:32:03.009Z",
+        "region": "대구광역시 중구 종로2가",
+        "category": "기타",
+        "like_user": [
+            11
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 5,
+    "fields": {
+        "user_pk": 9,
+        "story_title": "청소년 캠프 2박 3일 조교 알바 시작!",
+        "story_picture": "user/story/KakaoTalk_20220818_002519104.jpg",
+        "created_at": "2022-08-14T15:34:22.174Z",
+        "region": "대구광역시 동구 동호동",
+        "category": "유통/판매",
+        "like_user": [
+            11
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 6,
+    "fields": {
+        "user_pk": 10,
+        "story_title": "단기 주점 알바 START",
+        "story_picture": "user/story/KakaoTalk_20220818_002208027.jpg",
+        "created_at": "2022-08-17T15:35:43.782Z",
+        "region": "부산광역시 수영구 수영동",
+        "category": "음식점",
+        "like_user": [
+            11,
+            16
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 7,
+    "fields": {
+        "user_pk": 11,
+        "story_title": "미소지기 키키 오출완",
+        "story_picture": "user/story/1FF00C7A-D7F5-47B2-BD27-383B3AE8CC80.jpeg",
+        "created_at": "2022-08-17T16:17:23.102Z",
+        "region": "대전광역시 유성구 봉명동",
+        "category": "문화/여가",
+        "like_user": [
+            5,
+            11,
+            12,
+            13
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 8,
+    "fields": {
+        "user_pk": 12,
+        "story_title": "카페 오출완☕️",
+        "story_picture": "user/story/569C9B30-E5DA-40B0-A984-AAB15A7BA6B7.jpeg",
+        "created_at": "2022-08-17T16:48:35.220Z",
+        "region": "서울특별시 서초구 방배동",
+        "category": "카페/음료",
+        "like_user": [
+            12
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 9,
+    "fields": {
+        "user_pk": 13,
+        "story_title": "32도 도라에몽 열일 후 탈진",
+        "story_picture": "user/story/92A38AA3-30AA-4077-B102-5C365CCECD23.jpeg",
+        "created_at": "2022-08-17T16:51:17.359Z",
+        "region": "대구광역시 수성구 수성동2가",
+        "category": "서비스",
+        "like_user": [
+            1,
+            12,
+            13
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 10,
+    "fields": {
+        "user_pk": 14,
+        "story_title": "내가 만든 케이크",
+        "story_picture": "user/story/케이크.jpg",
+        "created_at": "2022-08-17T21:20:39.758Z",
+        "region": "대전광역시 유성구 봉명동",
+        "category": "카페/음료",
+        "like_user": [
+            12
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 11,
+    "fields": {
+        "user_pk": 11,
+        "story_title": "오픈 미지 출근~~",
+        "story_picture": "user/story/C47FCF4C-70D6-46BF-AFFB-CE18CD45A0BD.jpeg",
+        "created_at": "2022-08-17T22:14:29.882Z",
+        "region": "대전광역시 유성구 봉명동",
+        "category": "문화/여가",
+        "like_user": [
+            12
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 12,
+    "fields": {
+        "user_pk": 12,
+        "story_title": "자몽레몬청 공장장 오출완.",
+        "story_picture": "user/story/D6F94A44-8AF9-41A5-A3CA-447D99092AF4.jpeg",
+        "created_at": "2022-08-17T23:45:18.766Z",
+        "region": "서울특별시 서초구 방배동",
+        "category": "카페/음료",
+        "like_user": []
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 13,
+    "fields": {
+        "user_pk": 20,
+        "story_title": "출근하려는데 폭우가..",
+        "story_picture": "user/story/KakaoTalk_20220818_133244693.png.jpg",
+        "created_at": "2022-08-18T04:37:33.081Z",
+        "region": "서울특별시 용산구 이태원동",
+        "category": "음식점",
+        "like_user": []
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 14,
+    "fields": {
+        "user_pk": 22,
+        "story_title": "알바중 잠깐 쉬는시간 호호",
+        "story_picture": "user/story/image.jpg",
+        "created_at": "2022-08-18T05:48:48.817Z",
+        "region": "대전광역시 서구 탄방동",
+        "category": "카페/음료",
+        "like_user": []
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 15,
+    "fields": {
+        "user_pk": 24,
+        "story_title": "편의점알바 고양이랑함께^^",
+        "story_picture": "user/story/KakaoTalk_20220818_133346918.png",
+        "created_at": "2022-08-18T07:04:17.334Z",
+        "region": "서울특별시 용산구 이태원동",
+        "category": "음식점",
+        "like_user": [
+            241,
+            246
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 16,
+    "fields": {
+        "user_pk": 25,
+        "story_title": "복지관야구체험부스 알바 너무 재밌다.",
+        "story_picture": "user/story/야구.png",
+        "created_at": "2022-08-18T07:07:11.634Z",
+        "region": "서울특별시 용산구 이태원동",
+        "category": "음식점",
+        "like_user": [
+            241,
+            246
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 17,
+    "fields": {
+        "user_pk": 26,
+        "story_title": "영화보조촬영알바",
+        "story_picture": "user/story/영화보조촬영.png",
+        "created_at": "2022-08-18T07:15:06.812Z",
+        "region": "서울특별시 용산구 이태원동",
+        "category": "음식점",
+        "like_user": [
+            241,
+            246
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 18,
+    "fields": {
+        "user_pk": 28,
+        "story_title": "오늘도 손님으로 붐비는 우리가게 모두모두 홧팅",
+        "story_picture": "user/story/음식점알바1.png",
+        "created_at": "2022-08-18T07:21:20.006Z",
+        "region": "대전광역시 서구 정림동",
+        "category": "음식점",
+        "like_user": []
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 19,
+    "fields": {
+        "user_pk": 29,
+        "story_title": "출근했더니,,누군가 컵을 깨놨다..ㅠㅠ",
+        "story_picture": "user/story/음식점알바2.png",
+        "created_at": "2022-08-18T07:23:34.870Z",
+        "region": "광주광역시 북구 누문동",
+        "category": "음식점",
+        "like_user": [
+            246
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 20,
+    "fields": {
+        "user_pk": 30,
+        "story_title": "저희 알바구해요...출근하자마자 광고..",
+        "story_picture": "user/story/음식점알바3.png",
+        "created_at": "2022-08-18T07:26:04.710Z",
+        "region": "인천광역시 연수구 청학동",
+        "category": "음식점",
+        "like_user": []
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 21,
+    "fields": {
+        "user_pk": 11,
+        "story_title": "오출완 후 미지카드로 영화 한 편 땡기기~",
+        "story_picture": "user/story/E64F8724-12F2-457D-8476-2B4D73FED114.jpeg",
+        "created_at": "2022-08-18T10:18:25.757Z",
+        "region": "대전광역시 유성구 봉명동",
+        "category": "문화/여가",
+        "like_user": [
+            17,
+            241,
+            250
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 22,
+    "fields": {
+        "user_pk": 18,
+        "story_title": "고양이 왔다!",
+        "story_picture": "user/story/20150612_212527.jpg",
+        "created_at": "2022-08-18T10:43:52.013Z",
+        "region": "서울특별시 용산구 이태원동",
+        "category": "음식점",
+        "like_user": [
+            241
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 23,
+    "fields": {
+        "user_pk": 242,
+        "story_title": "일 끝나고 친구랑 술한잔",
+        "story_picture": "user/story/20211208_211809.jpg",
+        "created_at": "2022-08-18T10:49:20.800Z",
+        "region": "서울특별시 용산구 이태원동",
+        "category": "음식점",
+        "like_user": [
+            241
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 24,
+    "fields": {
+        "user_pk": 241,
+        "story_title": "모닝 스벅 헤헤 맛있다",
+        "story_picture": "user/story/83167d060e887c8fd63361e9efda0043_1.png",
+        "created_at": "2022-08-18T13:16:19.172Z",
+        "region": "대구광역시 동구 효목동",
+        "category": "카페/음료",
+        "like_user": [
+            3,
+            16,
+            241
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 25,
+    "fields": {
+        "user_pk": 244,
+        "story_title": "출근 도장!",
+        "story_picture": "user/story/1582187889462.jpg",
+        "created_at": "2022-08-18T14:08:54.529Z",
+        "region": "서울특별시 용산구 이태원동",
+        "category": "음식점",
+        "like_user": [
+            241,
+            246
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 26,
+    "fields": {
+        "user_pk": 152,
+        "story_title": "알바들 화이팅!",
+        "story_picture": "user/story/20220818_231202.jpg",
+        "created_at": "2022-08-18T14:12:40.828Z",
+        "region": "대전광역시 유성구 덕명동",
+        "category": "교육/강사",
+        "like_user": [
+            9,
+            246
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 27,
+    "fields": {
+        "user_pk": 248,
+        "story_title": "도주",
+        "story_picture": "user/story/pvz_4K9__400x400.jpg",
+        "created_at": "2022-08-18T15:46:56.202Z",
+        "region": "서울특별시 광진구 구의동",
+        "category": "카페/음료",
+        "like_user": []
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 28,
+    "fields": {
+        "user_pk": 250,
+        "story_title": "마감은 항상 힘들어~",
+        "story_picture": "user/story/6A0D3963-5027-47E0-93FF-D5A32FF4CB3C.jpeg",
+        "created_at": "2022-08-18T16:33:11.924Z",
+        "region": "대전광역시 유성구 봉명동",
+        "category": "문화/여가",
+        "like_user": [
+            1
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 29,
+    "fields": {
+        "user_pk": 16,
+        "story_title": "출근했는데 사장님 미소가 무섭다",
+        "story_picture": "user/story/20141206_181851.jpg",
+        "created_at": "2022-08-18T19:32:24.945Z",
+        "region": "서울특별시 용산구 이태원동",
+        "category": "음식점",
+        "like_user": [
+            241
+        ]
+    }
+},
+{
+    "model": "stories.story",
+    "pk": 31,
+    "fields": {
+        "user_pk": 251,
+        "story_title": "카카오 인턴 합격 후기 풉니다 오늘부터 노란피 가즈아 ~",
+        "story_picture": "user/story/img.jpg",
+        "created_at": "2022-08-18T20:15:01.252Z",
+        "region": "경상북도 청송군 주왕산면",
+        "category": "서비스",
+        "like_user": [
+            16,
+            241
+        ]
+    }
+}
+]

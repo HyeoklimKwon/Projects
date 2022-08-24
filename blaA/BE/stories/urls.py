@@ -14,6 +14,7 @@ urlpatterns=[
     path('comment/ud/<int:comment_pk>/',views.comment_update_or_delete),
     path('hashtag/<int:story_pk>/',views.hashtag_list_or_create),
     path('hashtag/ud/<int:hashtag_pk>/',views.hashtag_update_or_delete),
+    path('hashtag/filter/',views.hashtag_filter),
     path('like/<int:story_pk>/', views.like_story),
     path('mystory/<int:user_pk>/', views.mystory_list),
 ] 

@@ -1,140 +1,111 @@
 <template>
-  <h1>메인페이지</h1>
-
-  <div v-if="userInfo">
-    <div v-if="isKakaoLogin">
-      <p style="float: left">{{ userInfo.nickname }} 님</p>
-      &nbsp;
-      <img src="@/img/KakaoLogo.jpg" width="60" height="26" />
-    </div>
-    <div v-else>
-      <p>{{ userInfo.nickname }} 님</p>
-    </div>
-    <br />
-
-    <button @click.prevent="logout">로그아웃</button>
-    <button @click.prevent="gochatroom">채팅하러가기</button>
-    <button @click.prevent="gostory">오출완가기</button>
-    <button @click.prevent="gosearch">유저정보검색하기</button>
-    <button @click.prevent="goMyProfile">마이프로필</button>
-    <button @click.prevent="gocrew">크루가기</button>
+  <header-view></header-view>
+  <div class="app" style="padding-bottom: 80px">
+    <router-view></router-view>
   </div>
-
-  <div v-else>
-    <p>로그인이 필요합니다.</p>
-    <button type="button" @click="login">로그인</button>
-    &nbsp;
-    <button type="button" @click="kakaoLogin">카카오 로그인</button>
-    &nbsp;
-    <button @click="register">회원가입</button>
-  </div>
-  <router-view></router-view>
+  <footer-view v-if="isLogin"></footer-view>
 </template>
 
 <script>
-// import axios from 'axios';
+import HeaderView from "@/components/HeaderView.vue";
+import FooterView from "@/components/FooterView.vue";
+import { computed } from "vue";
 import { useStore } from "vuex";
-import { computed, onMounted } from "vue";
-// import router from "@/router/index.js";
-import { useRouter } from "vue-router";
 
 export default {
+  components: {
+    FooterView,
+    // HeaderView,
+  },
+
   setup() {
-    // // vuex store 사용법 예제
     const store = useStore();
-    const router = useRouter();
 
     const isLogin = computed(() => {
       return store.state.account.isLogin;
     });
 
-    const isKakaoLogin = computed(() => {
-      return store.state.account.kakaoLogin;
-    });
-
-    const userInfo = computed(() => {
-      return store.state.account.userInfo;
-    });
-
-    onMounted(() => {
-      store.dispatch("account/doReadStateFromStorage");
-    });
-
-    const login = () => {
-      router.push({ name: "login" });
-    };
-
-    const gochatroom = () => {
-      router.push({ path: "/chatroom" });
-    };
-
-    const gostory = () => {
-      router.push({ path: "/story" });
-    };
-
-    const gosearch = () => {
-      router.push({ path: "/searchusers" });
-    };
-
-    const gocrew = () => {
-      router.push({ path: "/crew" });
-    };
-
-    const goMyProfile = async () => {
-      await store.dispatch("profile/getMyFollower", userInfo.value.user_pk);
-      await store.dispatch("profile/getMyFollowing", userInfo.value.user_pk);
-      router.push({ path: "/profile" });
-    };
-
-    const kakaoLogin = () => {
-      const params = {
-        redirectUri: "http://localhost:8080/kakao",
-        // redirectUri: "http://127.0.0.1:8000/account/sign-in/kakao/callback",
-      };
-      window.Kakao.Auth.authorize(params);
-    };
-
-    const logout = () => {
-      store.commit("account/LOGIN", false);
-      store.commit("account/USER_INFO", null);
-      sessionStorage.removeItem("token");
-      store.commit("account/RESET_STORAGE");
-      router.replace("/");
-    };
-
-    const register = () => {
-      router.push({ name: "signup" });
-    };
-
     return {
       isLogin,
-      isKakaoLogin,
-      userInfo,
-      login,
-      kakaoLogin,
-      logout,
-      register,
-      gochatroom,
-      gostory,
-      gosearch,
-      gocrew,
-      goMyProfile,
     };
   },
 };
 </script>
 
 <style>
-#profile {
-  width: 150px;
-  height: 150px;
-  border-radius: 70%;
-  overflow: hidden;
+@font-face {
+  font-family: "Pretendard-ExtraLight";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff")
+    format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 200;
+  font-style: normal;
 }
 
-#imgProfile {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+* {
+  font-family: "Pretendard-Regular";
+}
+
+#top_box {
+  height: 55px;
+  margin: auto;
+
+  color: white;
+  background-color: #498d6d;
+  border-bottom: 0.5px solid #bdbdbd;
+}
+
+#top_box_text {
+  /* display: flex; */
+  text-align: center;
+  line-height: 55px;
+}
+
+#title_text {
+  font-weight: 800;
+  font-size: 18px;
+}
+
+#semi_title_text {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#small_title_text {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+#small_text {
+  font-size: 12px;
+}
+
+.member_icon {
+  width: 16px;
+  height: 14px;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 60px;
+  height: 36px;
+
+  background: #e58d1f;
+  color: white;
+  border-radius: 20px;
+  border: 0;
+
+  font-family: "Pretendard-Regular";
+  font-weight: 400;
 }
 </style>

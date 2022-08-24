@@ -9,7 +9,7 @@ async function findByToken(token, success, fail) {
   await axios
     .get(api.accounts.currentUserInfo(), {
       headers: {
-        Authorization: `Bearer ${token}`,
+        Authorization: "Bearer " + token,
       },
     })
     .then(success)

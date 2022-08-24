@@ -1,0 +1,152 @@
+[
+{
+    "model": "crews.crewinvite",
+    "pk": 3,
+    "fields": {
+        "crew": 3,
+        "user": 10,
+        "crew_leader_accept": true,
+        "user_accept": false
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 24,
+    "fields": {
+        "crew": 11,
+        "user": 16,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 26,
+    "fields": {
+        "crew": 18,
+        "user": 3,
+        "crew_leader_accept": true,
+        "user_accept": false
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 33,
+    "fields": {
+        "crew": 14,
+        "user": 9,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 40,
+    "fields": {
+        "crew": 14,
+        "user": 6,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 41,
+    "fields": {
+        "crew": 10,
+        "user": 246,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 42,
+    "fields": {
+        "crew": 18,
+        "user": 1,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 43,
+    "fields": {
+        "crew": 2,
+        "user": 14,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 44,
+    "fields": {
+        "crew": 1,
+        "user": 14,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 45,
+    "fields": {
+        "crew": 1,
+        "user": 241,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 46,
+    "fields": {
+        "crew": 4,
+        "user": 250,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 47,
+    "fields": {
+        "crew": 16,
+        "user": 15,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 48,
+    "fields": {
+        "crew": 10,
+        "user": 252,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 50,
+    "fields": {
+        "crew": 22,
+        "user": 3,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+},
+{
+    "model": "crews.crewinvite",
+    "pk": 51,
+    "fields": {
+        "crew": 12,
+        "user": 252,
+        "crew_leader_accept": false,
+        "user_accept": true
+    }
+}
+]

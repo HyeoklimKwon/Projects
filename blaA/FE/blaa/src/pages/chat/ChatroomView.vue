@@ -9,14 +9,14 @@
               <input v-model="searchText" type="text" placeholder="닉네임 검색" />
           </div>
           <div class="list">
-              <ul>
-                  <li @click="gochat(message.from_userpk)" v-for="message in filteredMessages" :key = "message.key">
+              <ul style="padding-left : 1rem">
+                  <li @click="gochat(message.from_userpk, message.username)" v-for="message in filteredMessages" :key = "message.key">
                       <table cellpadding="0" cellspacing="0">
                           <tr>
                               <td class="profile_td">
                               <!--ProfileImg-->
-                                  <img src="" />
-                                  <div>{{ message.from_userpk }}</div>
+                                  <img id = "chatprofile" class="imgProfile" :src=" HOST + message.profileurl" />  
+                                                        
                               </td>
                               <td class="chat_td">
                               <!--Email & Preview-->
@@ -32,8 +32,12 @@
                   </li>          
               </ul>
           </div>
+      </div>      
+      <div class="d-flex justify-content-center">
+        <span @click.prevent="gosearch" class="material-symbols-outlined">add_circle</span>
       </div>
     </div>
+    
     <div v-else>
       <div>로그인이 필요함</div>
     </div>
@@ -46,23 +50,30 @@ import db from '@/db'
 import { reactive, onMounted, ref, computed } from 'vue';
 import { useStore } from "vuex";
 import api from "@/api/api.js"
-import axios from 'axios'
+import axios from "@/api/axios.js";
 
 export default {
   setup () {
-    const gochat = (from_userpk) => {
+    const gochat = (from_userpk, from_usernickname) => {
       router.push({ name: 'chat',
       params: {
-        from_userpk: from_userpk
+        from_userpk: from_userpk,
+        from_usernickname : from_usernickname
       }}
       )
     }
+    const HOST = ref("https://i7b209.p.ssafy.io");
 
     const store = useStore();
 
     const userInfo = store.state.account.userInfo;
 
     const searchText = ref('');
+
+    const gosearch = () => {
+      router.push({ path: "/searchusers" });
+    };
+    
     const filteredMessages = computed(() => {
       if (searchText.value) {
         return state.messages.filter( message => {
@@ -73,13 +84,22 @@ export default {
     });
 
     const state = reactive({      
-      messages: [],      
+      messages: [],
+      userprofile : "",      
       
     })
 
+    const pkToimage = (async (user_pk) => {
+      await axios.get(api.accounts.myInfo(user_pk)).then((response) => {                   
+            state.userprofile =  response.data.image            
+          })
+          return state.userprofile
+    })
+    console.log("결과" + pkToimage(1));
+
     onMounted(() =>  {      
       if (userInfo) {
-        const messageRef = db.database().ref("messages");     
+        const messageRef = db.database().ref("messages");        
         
         messageRef.on('value', snapshot =>  {
           const data = snapshot.val();
@@ -92,6 +112,7 @@ export default {
                 username: data[key].username,
                 content: data[key].content,
                 from_userpk : data[key].from_userpk,
+                profileurl : data[key].profileurl,
                 to_userpk : data[key].to_userpk,
                 to_usernickname : "sorry",
                 to_userprofileurl : "you failed"                
@@ -101,13 +122,10 @@ export default {
           )          
           let arrayUniqueByKey = [...new Map(messages.map(item =>
           [item['from_userpk'], item])).values()];
-          let token = sessionStorage.getItem("token");
-
+          
           for (let index = 0; index < arrayUniqueByKey.length; index++)  {                         
             axios.get(api.accounts.myInfo(arrayUniqueByKey[index]['from_userpk']),
-            {
-              headers : {"Authorization": `Bearer ${token}`}
-            }).then(response => {                          
+           ).then(response => {                          
               arrayUniqueByKey[index]['to_usernickname'] = response.data.nickname,
               arrayUniqueByKey[index]['to_userprofileurl'] = response.data.image                                            
             })                 
@@ -128,7 +146,10 @@ export default {
       userInfo,
       state,
       filteredMessages,
-      searchText
+      searchText,
+      gosearch,
+      HOST,
+      pkToimage
 
     }
   }
@@ -150,7 +171,7 @@ body {
 .chat_list_wrap .header {
   font-size: 14px;
   padding: 15px 0;
-  background: #1daa13;
+  background: #498D6D;
   color: white;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
@@ -166,9 +187,7 @@ body {
   border: 0;
   text-align: center;
 }
-.chat_list_wrap .list {
-  padding: 0 16px;
-}
+
 .chat_list_wrap .list ul {
   width: 100%;
   list-style: none;
@@ -209,6 +228,14 @@ body {
   -moz-border-radius: 50%;
   border-radius: 50%;
   background: #e51c23;
+}
+#chatprofile{
+  width: 35px;
+  height: 35px;
+  border-radius: 70%;
+  overflow: hidden;
+  margin-right : 13px
+
 }
 
 </style>

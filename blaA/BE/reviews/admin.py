@@ -13,4 +13,8 @@ class ReviewAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Review, ReviewAdmin)
-admin.site.register(StoreButtonReview)
+
+
+class ButtonAdmin(admin.ModelAdmin):
+    list_display = ('store', 'button','review')
+admin.site.register(StoreButtonReview,ButtonAdmin)

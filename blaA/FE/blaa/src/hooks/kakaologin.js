@@ -1,34 +1,16 @@
-import axios from "axios";
+import axios from "@/api/axios.js";
 import VueCookies from "vue3-cookies";
-
-// const KakaoHeader = {
-//   Autorization: "ef3fff1b178e80bed777a9b87ac2fff3",
-//   "Content-type": "application/x-www-form-urlencoded;charset=utf-8",
-// };
 
 const getKakaoToken = async (code) => {
   console.log("loginWithKakao");
   try {
     const data = {
       grant_type: "authorization_code",
-      client_id: "0f5982ee3aa76733f951e5add93878c1",
-      // redirect_uri: "http://127.0.0.1:8000/account/sign-in/kakao/callback",
-      redirect_uri: "http://localhost:8080/kakao",
+      client_id: process.env.VUE_APP_KAKAO_REST_API,
+      redirect_uri: "https://i7b209.p.ssafy.io/kakao",
+      // redirect_uri: "http://localhost:3000/kakao",
       code: code,
     };
-    // const queryString = Object.keys(data)
-    //   .map((k) => encodeURIComponent(k) + "=" + encodeURIComponent(data[k]))
-    //   .join("&");
-    // console.log(
-    //   ("https://kauth.kakao.com/oauth/token",
-    //   queryString,
-    //   { headers: KakaoHeader })
-    // );
-    // const result = await axios.post(
-    //   "https://kauth.kakao.com/oauth/token",
-    //   queryString,
-    //   { headers: KakaoHeader }
-    // );
     console.log("data.client_id : ", data.client_id);
     const result = await axios.post(
       "https://kauth.kakao.com/oauth/token?grant_type=authorization_code&client_id=" +
@@ -72,4 +54,37 @@ const refreshToken = async () => {
   }
 };
 
-export { getKakaoToken, getKakaoUserInfo, refreshToken };
+const kakaoLogout = () => {
+  window.Kakao.isInitialized();
+
+  if (!window.Kakao.Auth.getAccessToken()) {
+    console.log("Not logged in");
+    return;
+  }
+
+  window.Kakao.Auth.logout(function () {
+    console.log(window.Kakao.Auth.getAccessToken());
+  });
+};
+
+const deleteKakaoAccount = () => {
+  window.Kakao.isInitialized();
+
+  window.Kakao.API.request({
+    url: "/v1/user/unlink",
+    success: function (response) {
+      console.log(response);
+    },
+    fail: function (error) {
+      console.log(error);
+    },
+  });
+};
+
+export {
+  getKakaoToken,
+  getKakaoUserInfo,
+  refreshToken,
+  kakaoLogout,
+  deleteKakaoAccount,
+};

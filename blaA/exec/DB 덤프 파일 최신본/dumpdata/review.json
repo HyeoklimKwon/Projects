@@ -1,0 +1,449 @@
+[
+{
+    "model": "reviews.review",
+    "pk": 1,
+    "fields": {
+        "created_at": "2022-08-17T12:30:57.092Z",
+        "updated_at": "2022-08-17T12:30:57.092Z",
+        "store": 1,
+        "user": 1,
+        "star": 4,
+        "oneline_review": "너무 행복해 ~",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 2,
+    "fields": {
+        "created_at": "2022-08-17T12:31:51.140Z",
+        "updated_at": "2022-08-17T12:31:51.140Z",
+        "store": 2,
+        "user": 1,
+        "star": 5,
+        "oneline_review": "맥주가 착하고 사장님이 맛있어요",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 3,
+    "fields": {
+        "created_at": "2022-08-17T12:32:50.993Z",
+        "updated_at": "2022-08-17T12:32:50.993Z",
+        "store": 3,
+        "user": 1,
+        "star": 4,
+        "oneline_review": "일 끝나면 사장님이 집까지 데려다주셔요 ㅎ",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 4,
+    "fields": {
+        "created_at": "2022-08-17T12:34:55.602Z",
+        "updated_at": "2022-08-17T12:34:55.602Z",
+        "store": 5,
+        "user": 1,
+        "star": 5,
+        "oneline_review": "서교동 버거킹 화이팅 !! 아자아자 !!",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 5,
+    "fields": {
+        "created_at": "2022-08-17T13:22:33.465Z",
+        "updated_at": "2022-08-17T13:22:33.465Z",
+        "store": 7,
+        "user": 1,
+        "star": 5,
+        "oneline_review": "개굴",
+        "like_users": [
+            5
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 6,
+    "fields": {
+        "created_at": "2022-08-17T13:27:11.710Z",
+        "updated_at": "2022-08-17T13:27:11.710Z",
+        "store": 8,
+        "user": 1,
+        "star": 4,
+        "oneline_review": "사장님이 너무 좋으세요~",
+        "like_users": [
+            241
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 7,
+    "fields": {
+        "created_at": "2022-08-17T13:27:50.693Z",
+        "updated_at": "2022-08-17T13:27:50.693Z",
+        "store": 9,
+        "user": 1,
+        "star": 5,
+        "oneline_review": "너무 좋아요~",
+        "like_users": [
+            3,
+            241
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 10,
+    "fields": {
+        "created_at": "2022-08-18T01:37:09.120Z",
+        "updated_at": "2022-08-18T01:37:09.120Z",
+        "store": 13,
+        "user": 6,
+        "star": 4,
+        "oneline_review": "알바하기 나쁘지 않은 곳입니다.",
+        "like_users": [
+            16
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 11,
+    "fields": {
+        "created_at": "2022-08-18T02:05:04.615Z",
+        "updated_at": "2022-08-18T02:05:04.615Z",
+        "store": 14,
+        "user": 14,
+        "star": 5,
+        "oneline_review": "매장 분위기도 너무 좋고, 친절합니다!! 알바 자리로 완전 추천해요~!",
+        "like_users": [
+            1,
+            3,
+            15,
+            17,
+            18
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 12,
+    "fields": {
+        "created_at": "2022-08-18T02:11:00.117Z",
+        "updated_at": "2022-08-18T02:11:00.117Z",
+        "store": 14,
+        "user": 15,
+        "star": 5,
+        "oneline_review": "분위기가 너무 좋고, 알바생 입장으로 너무 좋은 가게입니다! 알바 자리 구하는 중이라면 지원해보세요",
+        "like_users": [
+            1,
+            3,
+            17
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 13,
+    "fields": {
+        "created_at": "2022-08-18T02:13:56.747Z",
+        "updated_at": "2022-08-18T02:13:56.747Z",
+        "store": 14,
+        "user": 17,
+        "star": 4,
+        "oneline_review": "이태원이라 바쁜건 어쩔 수 없음\n그래도 일하시는 분들 모두 친절하고 다 친하셔서 좋아\n가게도 지하철 근처라 굿굿",
+        "like_users": [
+            3
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 14,
+    "fields": {
+        "created_at": "2022-08-18T07:21:12.114Z",
+        "updated_at": "2022-08-18T07:21:12.114Z",
+        "store": 14,
+        "user": 18,
+        "star": 4,
+        "oneline_review": "이태원 역근처라 편해요! 모두 친절하시고 좋아요!",
+        "like_users": [
+            3
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 15,
+    "fields": {
+        "created_at": "2022-08-18T08:54:02.409Z",
+        "updated_at": "2022-08-18T08:54:02.409Z",
+        "store": 14,
+        "user": 3,
+        "star": 5,
+        "oneline_review": "사장님이 친절해요!",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 16,
+    "fields": {
+        "created_at": "2022-08-18T09:06:30.822Z",
+        "updated_at": "2022-08-18T09:06:30.822Z",
+        "store": 15,
+        "user": 5,
+        "star": 5,
+        "oneline_review": "사장님이 너무 좋으셔요~!",
+        "like_users": [
+            1,
+            5,
+            241
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 17,
+    "fields": {
+        "created_at": "2022-08-18T09:07:07.543Z",
+        "updated_at": "2022-08-18T09:07:07.543Z",
+        "store": 15,
+        "user": 1,
+        "star": 5,
+        "oneline_review": "싸피커피는 진짜 최고다 이런 알바는 없다 주 5일 8시간 월 급여 100만원에 노트북도 빌려주고 커피도 엄청싸서 너무 좋음 진짜 좋음 다들 내 동료가 되어라",
+        "like_users": [
+            18,
+            241
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 18,
+    "fields": {
+        "created_at": "2022-08-18T10:37:20.876Z",
+        "updated_at": "2022-08-18T10:37:20.877Z",
+        "store": 15,
+        "user": 18,
+        "star": 5,
+        "oneline_review": "사장님도 친절하고 직원들끼리 분위기도 훈훈해서 좋아요\n매장이 천장이 높고 시설이 깨끗해서 일할 맛이 있어요\n대신 너무 구석진데에 있어 차 필수!",
+        "like_users": [
+            241
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 19,
+    "fields": {
+        "created_at": "2022-08-18T13:50:27.467Z",
+        "updated_at": "2022-08-18T13:50:27.467Z",
+        "store": 17,
+        "user": 137,
+        "star": 5,
+        "oneline_review": "너무 좋아요!",
+        "like_users": [
+            16
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 20,
+    "fields": {
+        "created_at": "2022-08-18T13:52:18.928Z",
+        "updated_at": "2022-08-18T13:52:18.928Z",
+        "store": 20,
+        "user": 137,
+        "star": 5,
+        "oneline_review": "너무 좋아요!",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 21,
+    "fields": {
+        "created_at": "2022-08-18T13:55:56.465Z",
+        "updated_at": "2022-08-18T13:55:56.465Z",
+        "store": 21,
+        "user": 137,
+        "star": 4,
+        "oneline_review": "사장님이 너무 친절하세요!",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 22,
+    "fields": {
+        "created_at": "2022-08-18T13:56:23.459Z",
+        "updated_at": "2022-08-18T13:56:23.459Z",
+        "store": 12,
+        "user": 137,
+        "star": 5,
+        "oneline_review": "교통편이 너무 편해요!",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 23,
+    "fields": {
+        "created_at": "2022-08-18T13:58:06.100Z",
+        "updated_at": "2022-08-18T13:58:06.100Z",
+        "store": 22,
+        "user": 137,
+        "star": 4,
+        "oneline_review": "조금 바쁘긴한데 분위기는 너무 좋아요!",
+        "like_users": [
+            16,
+            241
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 24,
+    "fields": {
+        "created_at": "2022-08-18T14:50:27.816Z",
+        "updated_at": "2022-08-18T14:50:27.816Z",
+        "store": 23,
+        "user": 8,
+        "star": 4,
+        "oneline_review": "매장 너무 깨끗하고 교통도 편합니다. 유니폼도 이쁘고요... 사장님이 조금 깐깐징어세요",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 25,
+    "fields": {
+        "created_at": "2022-08-18T14:53:06.588Z",
+        "updated_at": "2022-08-18T14:53:06.588Z",
+        "store": 24,
+        "user": 10,
+        "star": 5,
+        "oneline_review": "칼퇴근도 가능하고 사장님이 너무 친절하세요! 정말 행복알바했습니다.",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 26,
+    "fields": {
+        "created_at": "2022-08-18T14:54:57.788Z",
+        "updated_at": "2022-08-18T14:54:57.788Z",
+        "store": 25,
+        "user": 6,
+        "star": 3,
+        "oneline_review": "사장님 친절하신거 말고는 헬입니다...돔황챠..",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 27,
+    "fields": {
+        "created_at": "2022-08-18T15:00:02.123Z",
+        "updated_at": "2022-08-18T15:00:02.123Z",
+        "store": 15,
+        "user": 9,
+        "star": 5,
+        "oneline_review": "비록 칼같은 퇴근은 힘들지만, 너무나도 좋은 분위기와 사장님 그리고 멋있는 출근카드까지! 자존감 뿜뿜",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 28,
+    "fields": {
+        "created_at": "2022-08-18T15:35:11.962Z",
+        "updated_at": "2022-08-18T15:35:11.962Z",
+        "store": 24,
+        "user": 17,
+        "star": 4,
+        "oneline_review": "매일 식사마다 써브웨이 샌드위치 만들어 먹을 수 있어서 식대를 아낄 수 있어! 대신 프랜차이즈 특성상... 너무 일이 바쁜건 어쩔수 없는듯",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 29,
+    "fields": {
+        "created_at": "2022-08-18T15:38:21.534Z",
+        "updated_at": "2022-08-18T15:38:21.534Z",
+        "store": 22,
+        "user": 17,
+        "star": 4,
+        "oneline_review": "대전의 핫플 둔산동이라 너무 사람이 많아서 바빠... 대신 버스가 많아서 교통은 접근성은 굿!\n서빙 특성상 일이 밀려있으면 바로 퇴근하기가 그래서 칼퇴는 힘들어.. 대신 그만큼 챙겨주셔서 할만해!",
+        "like_users": [
+            16
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 30,
+    "fields": {
+        "created_at": "2022-08-18T15:43:18.320Z",
+        "updated_at": "2022-08-18T15:43:18.320Z",
+        "store": 21,
+        "user": 242,
+        "star": 4,
+        "oneline_review": "바다 바로앞에 있어서 뷰가 끝내줌!! 일하는 데 갑갑한 느낌이 전혀 안들어서 일할맛이 난다! \n대신 너무 고립된 위치라 차가 없으면 대중교통으로는 출퇴근이 가능은 한데 버스 한번 놓치면 오래기달려야 함.. ㅠㅠ",
+        "like_users": []
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 31,
+    "fields": {
+        "created_at": "2022-08-18T15:53:47.531Z",
+        "updated_at": "2022-08-18T15:53:47.531Z",
+        "store": 26,
+        "user": 249,
+        "star": 5,
+        "oneline_review": "사장님이 친절하세요 ㅎㅎ",
+        "like_users": [
+            16,
+            241
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 32,
+    "fields": {
+        "created_at": "2022-08-18T16:27:30.132Z",
+        "updated_at": "2022-08-18T16:27:30.133Z",
+        "store": 27,
+        "user": 248,
+        "star": 5,
+        "oneline_review": "쭈꾸미가 맛있는게 가장 큰 장점입니다. 사장님도 맛있는것도 많이주시고 편하게 대해주십니다",
+        "like_users": [
+            16
+        ]
+    }
+},
+{
+    "model": "reviews.review",
+    "pk": 33,
+    "fields": {
+        "created_at": "2022-08-18T22:32:13.349Z",
+        "updated_at": "2022-08-18T22:32:13.349Z",
+        "store": 28,
+        "user": 15,
+        "star": 4,
+        "oneline_review": "매장 분위기도 너무 좋고, 노은역 바로 앞이라 교통 접근성도 좋아요! 다 좋은데 너무 바빠요 ㅠㅠ",
+        "like_users": []
+    }
+}
+]

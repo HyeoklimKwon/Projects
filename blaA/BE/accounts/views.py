@@ -2,13 +2,13 @@ from django.http import HttpResponse, JsonResponse
 from django.shortcuts import redirect, render,get_object_or_404
 from django.views import View
 from rest_framework.generics import GenericAPIView,UpdateAPIView,CreateAPIView,ListAPIView
-from accounts.pagination import CustomPageNumberPagination
+from accounts.pagination import CustomPageNumberPagination, CustomPagehundredNumberPagination
 from notifications.models import Notification
 from accounts.models import User
 from rest_framework.decorators import api_view,permission_classes
 from accounts.serializers import  (RegisterSerializer,LoginSerializer, UserCrewSerializer, UserListSerializer, UserReviewSerializer,
                                    UserSerializer,ChangePasswordSerializer,
-                                   NicknameUniqueCheckSerializer,EmailUniqueCheckSerializer)
+                                   NicknameUniqueCheckSerializer,EmailUniqueCheckSerializer,UserNoneImageSerializer)
 from rest_framework import response,status,permissions
 from rest_framework.response import Response
 from django.contrib.auth import authenticate
@@ -48,6 +48,11 @@ class UserListAPIView(ListAPIView) :
     #요청한 유저를 가져와서, serializer에 넣음 
     serializer_class = UserListSerializer
     queryset = User.objects.all()
+    pagination_class = None
+    def list(self, request, *args, **kwargs):
+        queryset = self.filter_queryset(self.get_queryset())
+        serializer = UserListSerializer(queryset, many=True)
+        return Response(serializer.data)
 
 #회원가입 API (POST)
 class RegisterAPIView(GenericAPIView) :
@@ -126,7 +131,11 @@ class UserRetrieveUpdateDeleteAPIView(GenericAPIView):
         if request.user != user :
             return Response({'message':"You do not have permission to change the user's information,try again"},status=status.HTTP_400_BAD_REQUEST)
         #아니면 회원정보 수정 
-        serializer = UserSerializer(instance=user, data=request.data)
+
+        if request.FILES.get('image') :
+            serializer = UserSerializer(instance=user,data=request.data)
+        else : 
+            serializer = UserNoneImageSerializer(instance=user, data=request.data)
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)
@@ -217,7 +226,8 @@ class UserCrewAPIView(ListAPIView) :
         return User.objects.filter(user_pk=user_pk)
 
 class UserReviewAPIView(ListAPIView) :
-    serializer_class = UserReviewSerializer 
+    serializer_class = UserReviewSerializer
+    pagination_class = CustomPageNumberPagination 
     lookup_field = 'user_pk'
 
     def list(self, request,user_pk, *args, **kwargs):
@@ -241,7 +251,7 @@ class FollowAPIView(ListAPIView) :
     serializer_class = UserListSerializer
     lookup_field = 'user_pk'
     queryset = User.objects.all()
-    pagination_class = CustomPageNumberPagination
+    pagination_class = CustomPagehundredNumberPagination
     
     def list(self, request, *args, **kwargs):
         user = self.get_object()

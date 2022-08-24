@@ -1,33 +1,60 @@
-<template>
-  <div v-if="userInfo">
-    <div class="search">
-      <input v-model="searchText" type="text" placeholder="닉네임 검색" />
+<template>  
+  <div v-if="userInfo">    
+    <div class="view chat">    
+      <header class="chat_list_wrap">   
+
+        <div class="search">
+          <input v-model="searchText" type="text" placeholder="Search user to chat" />
+        </div>
+      </header>
+      <section class= "chat-box">
+        <br />
+        <div v-for="user in filteredUsers" :key="user.user_pk">
+          <b-card>
+            <b-card-text class="d-flex justify-content-between align-items-center">
+              <div @click="moveToProfile(user.user_pk)" >                
+                <img style="margin-left: 20px" id = "searchprofile" class="imgProfile" :src="HOST + user.image" alt="" />           
+                  <b>
+                    {{ user.nickname }}               
+                  </b>                                                                     
+              </div>
+              <button class="w-btn w-btn-green" @click="gochat(user.user_pk, user.nickname)">채팅하기</button>              
+              <br>
+            </b-card-text>
+          </b-card>
+        </div>
+
+      </section>   
+   
+
+      
     </div>
-    <div v-for="user in filteredUsers" :key="user.user_pk">
-      <!-- <img :src= "user.image" alt="#"> -->
-      <div>{{ user.nickname }}</div>   
-      <button @click="gochat(user.user_pk)">채팅하기</button>
-    </div>  
   </div>
   <div v-else>로그인이 필요합니다.</div>
 </template>
 
+
 <script>
-import axios from "axios";
+import axios from "@/api/axios.js";
 import api from "@/api/api.js";
 import { useStore } from "vuex";
-import { onBeforeMount, reactive, ref, computed } from "vue";
+import { onMounted, reactive, ref, computed } from "vue";
 import router from "@/router";
+import { useRoute } from "vue-router";
 
 export default {
   setup() {
+    const HOST = ref("https://i7b209.p.ssafy.io");
     const store = useStore();
+    const route = useRoute();
     const userInfo = store.state.account.userInfo;
-    const gochat = (from_userpk) => {
+    const crew_pk = route.params.crew_pk;
+    const gochat = (from_userpk, from_usernickname) => {
       router.push({
         name: "chat",
         params: {
           from_userpk: from_userpk,
+          from_usernickname : from_usernickname,
         },
       });
     };
@@ -43,20 +70,36 @@ export default {
         return user.nickname.includes("!@#$%");
       });
     });
+
     const state = reactive({
       users: [],
     });
-    onBeforeMount(() => {
+
+    onMounted(() => {
       if (userInfo) {
-        let token = store.state.chat.token;
-        axios
-          .get(api.accounts.searchallusers(), {
-            headers: { Authorization: `Bearer ${token}` },
-          })
-          .then((response) => (state.users = response.data.results));
-        console.log(state.users);
+        axios.get(api.accounts.searchallusers()).then((response) => {
+          state.users = response.data; 
+        });
       }
     });
+
+    const inviteuser = async (invitingcrew_pk, inviteduser_pk) => {
+      try {
+        const result = await axios.post(api.crew.inviteuser(invitingcrew_pk, inviteduser_pk), {});
+        alert(result.data.message);
+      } catch (error) {
+        alert(error.response.data.message);
+      }
+    };
+
+    const moveToProfile = (user_pk) => {
+      router.push({
+        name: "userProfile",
+        params: {
+          user_pk: user_pk,
+        },
+      });
+    };
 
     return {
       state,
@@ -64,6 +107,10 @@ export default {
       gochat,
       filteredUsers,
       userInfo,
+      crew_pk,
+      inviteuser,
+      moveToProfile,
+      HOST
     };
   },
 };

@@ -9,12 +9,13 @@ class Crew(TrackingModel,models.Model) :
     is_business = models.BooleanField()
     crew_name = models.CharField(max_length=50,unique=True)
     crew_img = models.ImageField(upload_to='crew/image',
-                default='crew/image/상점기본.png',
+                default='crew/image/crew_default2.png',
                 null=True,blank=True)
     crew_explain = models.TextField()
     crew_region = models.TextField(null=True,blank=True)
     crew_member = models.ManyToManyField(settings.AUTH_USER_MODEL,related_name='crews',blank=True)
-
+    def __str__(self) :
+        return str(self.crew_name)
     
 
 class CrewArticle(TrackingModel,models.Model) :
@@ -26,6 +27,8 @@ class CrewArticle(TrackingModel,models.Model) :
     crew_private = models.BooleanField(default=False)
     crew_pin = models.BooleanField(default=False)
 
+    def __str__(self) :
+        return str(self.crew_title)
 
 class CrewArticleImage(models.Model) :
     article_image_pk = models.AutoField(primary_key=True)
@@ -41,6 +44,9 @@ class CrewArticleComment(TrackingModel,models.Model) :
     article =models.ForeignKey(CrewArticle,on_delete=models.CASCADE)
     user =models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE)
     comment_content = models.TextField()
+
+    def __str__(self) :
+        return str(self.comment_content)
 
 class CrewInvite(models.Model) :
     crew = models.ForeignKey(Crew,on_delete=models.CASCADE) 

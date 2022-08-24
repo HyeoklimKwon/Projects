@@ -1,0 +1,269 @@
+[
+{
+    "model": "crews.crew",
+    "pk": 1,
+    "fields": {
+        "created_at": "2022-08-17T12:36:11.085Z",
+        "updated_at": "2022-08-17T12:36:11.087Z",
+        "crew_leader": 1,
+        "is_business": false,
+        "crew_name": "덕명동",
+        "crew_img": "crew/image/crew_default2.png",
+        "crew_explain": "덕명동 알바생 다 모여라",
+        "crew_region": "대전광역시 덕명동",
+        "crew_member": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 2,
+    "fields": {
+        "created_at": "2022-08-17T13:34:19.566Z",
+        "updated_at": "2022-08-18T14:34:29.462Z",
+        "crew_leader": 3,
+        "is_business": true,
+        "crew_name": "스타벅스 대전DT점 크루",
+        "crew_img": "crew/image/스타벅스.jpeg",
+        "crew_explain": "스타벅스 대전DT점 크루입니다.",
+        "crew_region": "서울특별시 용산구 이태원동 168-3",
+        "crew_member": [
+            3
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 3,
+    "fields": {
+        "created_at": "2022-08-17T15:46:25.109Z",
+        "updated_at": "2022-08-17T15:46:25.111Z",
+        "crew_leader": 6,
+        "is_business": true,
+        "crew_name": "스타벅스대전DT점",
+        "crew_img": "crew/image/crew_default1.png",
+        "crew_explain": "스타벅스대전DT점 공식 크루입니다.",
+        "crew_region": "서울특별시 용산구 이태원동 168-3",
+        "crew_member": [
+            6,
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 4,
+    "fields": {
+        "created_at": "2022-08-17T16:34:30.815Z",
+        "updated_at": "2022-08-17T16:34:30.815Z",
+        "crew_leader": 11,
+        "is_business": false,
+        "crew_name": "shootingStar",
+        "crew_img": "crew/image/cgv.jpg",
+        "crew_explain": "CGV 미소지기 소통 공간입니다~",
+        "crew_region": "서울특별시 용산구 이태원동 168-3",
+        "crew_member": [
+            11
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 10,
+    "fields": {
+        "created_at": "2022-08-18T04:33:23.141Z",
+        "updated_at": "2022-08-18T14:34:41.217Z",
+        "crew_leader": 16,
+        "is_business": true,
+        "crew_name": "스타벅스 가로수길점",
+        "crew_img": "crew/image/스타벅스_gMDz9qc.jpeg",
+        "crew_explain": "스타벅스 가로수길점",
+        "crew_region": "서울특별시 강남구 논현로175길 94",
+        "crew_member": [
+            1,
+            8,
+            14,
+            15,
+            16,
+            17
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 11,
+    "fields": {
+        "created_at": "2022-08-18T07:03:48.478Z",
+        "updated_at": "2022-08-18T07:03:48.478Z",
+        "crew_leader": 18,
+        "is_business": true,
+        "crew_name": "역전할머니맥주 이태원점",
+        "crew_img": "crew/image/역전할맥_로고.png",
+        "crew_explain": "역전할머니 이태원점에 오신걸 환영합니다\r\n항상 즐겁고 재밌는 역전할맥입니다!",
+        "crew_region": "서울특별시 용산구 이태원동 168-3",
+        "crew_member": [
+            17,
+            18,
+            27
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 12,
+    "fields": {
+        "created_at": "2022-08-18T09:08:38.655Z",
+        "updated_at": "2022-08-18T09:08:38.655Z",
+        "crew_leader": 5,
+        "is_business": true,
+        "crew_name": "싸피커피",
+        "crew_img": "crew/image/ssafy_logo.png",
+        "crew_explain": "싸피인들을 위한 카페",
+        "crew_region": "대전광역시 유성구",
+        "crew_member": [
+            1,
+            5,
+            16,
+            18,
+            137,
+            241
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 14,
+    "fields": {
+        "created_at": "2022-08-18T14:31:47.671Z",
+        "updated_at": "2022-08-18T14:31:47.671Z",
+        "crew_leader": 5,
+        "is_business": true,
+        "crew_name": "투썸플레이스 노은점",
+        "crew_img": "crew/image/투썸.png",
+        "crew_explain": "투썸플레이스 노은점",
+        "crew_region": "대전광역시 유성구 지족동 은구비서로23번길 15",
+        "crew_member": [
+            5,
+            16
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 15,
+    "fields": {
+        "created_at": "2022-08-18T14:34:04.425Z",
+        "updated_at": "2022-08-18T14:34:04.425Z",
+        "crew_leader": 5,
+        "is_business": true,
+        "crew_name": "동대문엽기떡볶이 논산점",
+        "crew_img": "crew/image/엽떡.png",
+        "crew_explain": "동대문엽기떡볶이 논산점",
+        "crew_region": "충청남도 논산시 취암동 1046-9",
+        "crew_member": [
+            5,
+            6,
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 16,
+    "fields": {
+        "created_at": "2022-08-18T14:36:42.416Z",
+        "updated_at": "2022-08-18T14:36:42.416Z",
+        "crew_leader": 5,
+        "is_business": true,
+        "crew_name": "청년다방 신부점",
+        "crew_img": "crew/image/청년다방.png",
+        "crew_explain": "청년다방 신부점",
+        "crew_region": "충청남도 천안시 동남구 신부동 11",
+        "crew_member": [
+            5,
+            8,
+            9,
+            241
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 17,
+    "fields": {
+        "created_at": "2022-08-18T14:41:17.125Z",
+        "updated_at": "2022-08-18T14:41:17.125Z",
+        "crew_leader": 5,
+        "is_business": false,
+        "crew_name": "한밭대 알바생 모임",
+        "crew_img": "crew/image/한밭.png",
+        "crew_explain": "한밭대학교 앞 알바생들 모여!!",
+        "crew_region": "한밭대학교",
+        "crew_member": [
+            5,
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 18,
+    "fields": {
+        "created_at": "2022-08-18T14:41:58.196Z",
+        "updated_at": "2022-08-18T14:41:58.196Z",
+        "crew_leader": 5,
+        "is_business": true,
+        "crew_name": "스타벅스 둔산점",
+        "crew_img": "crew/image/스벅.png",
+        "crew_explain": "스타벅스 둔산점",
+        "crew_region": "대전광역시 둔산동",
+        "crew_member": [
+            5,
+            6,
+            8,
+            9,
+            241
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 22,
+    "fields": {
+        "created_at": "2022-08-18T23:07:42.822Z",
+        "updated_at": "2022-08-18T23:07:42.822Z",
+        "crew_leader": 15,
+        "is_business": false,
+        "crew_name": "대전 맥사모",
+        "crew_img": "crew/image/맥주모임.jpg",
+        "crew_explain": "맥주를 사랑하는 사람들의 모임",
+        "crew_region": "대전광역시",
+        "crew_member": [
+            15
+        ]
+    }
+},
+{
+    "model": "crews.crew",
+    "pk": 23,
+    "fields": {
+        "created_at": "2022-08-19T00:10:25.706Z",
+        "updated_at": "2022-08-19T00:12:02.187Z",
+        "crew_leader": 252,
+        "is_business": true,
+        "crew_name": "스타벅스대전유성DT점",
+        "crew_img": "crew/image/스타벅스.png",
+        "crew_explain": "스타벅스대전DT점 크루입니다.",
+        "crew_region": "대전시 유성구",
+        "crew_member": [
+            17,
+            252
+        ]
+    }
+}
+]

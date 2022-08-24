@@ -1,0 +1,200 @@
+[
+{
+    "model": "reviews.store",
+    "pk": 1,
+    "fields": {
+        "name": "스타벅스 제주애월DT점",
+        "image": "store/logo/스타벅스.jpeg",
+        "region": "제주특별자치도 제주시 애월읍 고내리 340"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 2,
+    "fields": {
+        "name": "역전할머니맥주 서울신천점",
+        "image": "store/logo/역전할머니맥주_LbPDPXU.jpg",
+        "region": "서울 송파구 잠실동 192-10"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 3,
+    "fields": {
+        "name": "이디야커피 포항화진점",
+        "image": "store/logo/이디야.jpeg",
+        "region": "경북 포항시 북구 송라면 지경리 198-2"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 5,
+    "fields": {
+        "name": "버거킹 서교동사거리점",
+        "image": "store/logo/버거킹.jpg",
+        "region": "서울 마포구 서교동 372-1"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 7,
+    "fields": {
+        "name": "메가커피 신촌점",
+        "image": "store/logo/메가커피_opWgsc7.png",
+        "region": "서울 서대문구 창천동 31-40"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 8,
+    "fields": {
+        "name": "투썸플레이스 신논현역점",
+        "image": "store/logo/투썸플레이스.png",
+        "region": "서울 강남구 논현동 200-7"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 9,
+    "fields": {
+        "name": "빽다방 신사사거리점",
+        "image": "store/logo/빽다방.jpeg",
+        "region": "서울 서초구 잠원동 20-9"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 10,
+    "fields": {
+        "name": "역전할머니맥주 건대점",
+        "image": "store/logo/역전할머니맥주_8rfdIpo.jpg",
+        "region": "서울 광진구 화양동 45-82"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 12,
+    "fields": {
+        "name": "스타벅스 제주중문점",
+        "image": "store/logo/스타벅스_RVQ9uuE.jpeg",
+        "region": "제주특별자치도 서귀포시 색달동 2864-2"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 13,
+    "fields": {
+        "name": "스타벅스 일산가로수길R점",
+        "image": "store/logo/starbucks.jpg",
+        "region": "경기 고양시 일산서구 대화동 1050-185"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 14,
+    "fields": {
+        "name": "역전할머니맥주 서울이태원점",
+        "image": "store/logo/역전할머니맥주_LbPDPXU.jpg",
+        "region": "서울 용산구 이태원동 168-3"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 15,
+    "fields": {
+        "name": "싸피커피",
+        "image": "store/logo/SSAFY.jpg",
+        "region": "대전광역시 유성구 덕명동 124"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 17,
+    "fields": {
+        "name": "빽다방 부산서면교육센터점",
+        "image": "store/logo/빽다방.jpeg",
+        "region": "부산 부산진구 부전동 198-1"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 20,
+    "fields": {
+        "name": "바다김밥",
+        "image": "store/logo/상점기본.png",
+        "region": "전남 여수시 중앙동 667"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 21,
+    "fields": {
+        "name": "투썸플레이스 창원귀산점",
+        "image": "store/logo/투썸플레이스.png",
+        "region": "경남 창원시 성산구 귀곡동 717-1"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 22,
+    "fields": {
+        "name": "역전할머니맥주 둔산점",
+        "image": "store/logo/역전할머니맥주.jpg",
+        "region": "대전 서구 둔산동 1101"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 23,
+    "fields": {
+        "name": "할리스 강남역점",
+        "image": "store/logo/다운로드_1.png",
+        "region": "서울 강남구 역삼동 820-11"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 24,
+    "fields": {
+        "name": "써브웨이 대구동성로점",
+        "image": "store/logo/img_2.png",
+        "region": "대구 중구 동성로2가 56"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 25,
+    "fields": {
+        "name": "지혜횟집",
+        "image": "store/logo/20210625090402706_photo_df6476d967fd.png",
+        "region": "경북 포항시 북구 청하면 방어리 190"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 26,
+    "fields": {
+        "name": "미노스PC카페",
+        "image": "store/logo/상점기본.png",
+        "region": "경기 고양시 덕양구 원흥동 629"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 27,
+    "fields": {
+        "name": "대학로쭈왕쭈꾸미",
+        "image": "store/logo/상점기본.png",
+        "region": "서울 종로구 명륜4가 46-2"
+    }
+},
+{
+    "model": "reviews.store",
+    "pk": 28,
+    "fields": {
+        "name": "스타벅스 대전노은점",
+        "image": "store/logo/스타벅스로고.jfif",
+        "region": "대전 유성구 지족동 907-3"
+    }
+}
+]

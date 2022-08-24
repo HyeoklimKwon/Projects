@@ -17,5 +17,5 @@ class CrewCommentSerializer(serializers.ModelSerializer) :
     # user = UserSerializerComent(read_only=True)
     class Meta: 
         model = CrewArticleComment
-        fields= ('crew','article','comment_content','user','nickname','image','created_at','updated_at')
+        fields= ('crew_comment_pk','crew','article','comment_content','user','nickname','image','created_at','updated_at')
         read_only_fields = ('crew','article','user')

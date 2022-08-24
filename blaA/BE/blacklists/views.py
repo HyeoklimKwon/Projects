@@ -12,7 +12,7 @@ class BlacklistAPIView(GenericAPIView) :
     serializer_class = BlacklistSerializer
     
     def post(self,request) :
-        print(request.data)
+        #print(request.data)
         
         serializers = self.serializer_class(data=request.data)
         

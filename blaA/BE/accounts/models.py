@@ -34,7 +34,7 @@ class User(AbstractUser) :
     category = models.CharField(max_length=100,null=True,blank=True)
     is_alba = models.BooleanField(default=0)
     image = models.ImageField(upload_to='user/profile/',
-                default='user/profile/프로필기본.png',
+                default='user/profile/profile_default1.png',
                 null=True,blank=True)
     report = models.IntegerField(default=0)
     

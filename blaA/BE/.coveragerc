@@ -1,0 +1,8 @@
+[run]
+source=accounts/,blacklists/,categorys/,crews/,notifications/,reviews/,stories/,
+
+omit = 
+  venv
+  */migrations/*
+  */tests/*
+  */__init__.py

@@ -1,0 +1,386 @@
+[
+{
+    "model": "crews.crewschedule",
+    "pk": 1,
+    "fields": {
+        "crew": 3,
+        "user": 6,
+        "crew_day": "2022-08-22",
+        "color": "blue",
+        "crew_starthour": "16:48:00",
+        "crew_endhour": "18:48:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 2,
+    "fields": {
+        "crew": 3,
+        "user": 6,
+        "crew_day": "2022-08-24",
+        "color": "teal",
+        "crew_starthour": "16:50:00",
+        "crew_endhour": "18:50:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 3,
+    "fields": {
+        "crew": 3,
+        "user": 6,
+        "crew_day": "2022-08-19",
+        "color": "purple",
+        "crew_starthour": "07:12:00",
+        "crew_endhour": "22:12:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 4,
+    "fields": {
+        "crew": 3,
+        "user": 8,
+        "crew_day": "2022-08-18",
+        "color": "blue",
+        "crew_starthour": "14:32:00",
+        "crew_endhour": "21:32:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 5,
+    "fields": {
+        "crew": 3,
+        "user": 8,
+        "crew_day": "2022-08-31",
+        "color": "blue",
+        "crew_starthour": "15:33:00",
+        "crew_endhour": "21:33:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 8,
+    "fields": {
+        "crew": 10,
+        "user": 16,
+        "crew_day": "2022-08-18",
+        "color": "blue",
+        "crew_starthour": "14:16:00",
+        "crew_endhour": "16:16:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 9,
+    "fields": {
+        "crew": 10,
+        "user": 1,
+        "crew_day": "2022-08-18",
+        "color": "red",
+        "crew_starthour": "14:18:00",
+        "crew_endhour": "14:18:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 10,
+    "fields": {
+        "crew": 10,
+        "user": 8,
+        "crew_day": "2022-08-24",
+        "color": "blue",
+        "crew_starthour": "17:17:00",
+        "crew_endhour": "22:17:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 11,
+    "fields": {
+        "crew": 10,
+        "user": 8,
+        "crew_day": "2022-08-18",
+        "color": "teal",
+        "crew_starthour": "13:18:00",
+        "crew_endhour": "17:18:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 12,
+    "fields": {
+        "crew": 10,
+        "user": 17,
+        "crew_day": "2022-08-18",
+        "color": "blue",
+        "crew_starthour": "14:21:00",
+        "crew_endhour": "14:21:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 13,
+    "fields": {
+        "crew": 2,
+        "user": 3,
+        "crew_day": "2022-08-18",
+        "color": "red",
+        "crew_starthour": "14:35:00",
+        "crew_endhour": "14:35:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 14,
+    "fields": {
+        "crew": 2,
+        "user": 3,
+        "crew_day": "2022-08-18",
+        "color": "blue",
+        "crew_starthour": "14:35:00",
+        "crew_endhour": "14:35:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 15,
+    "fields": {
+        "crew": 11,
+        "user": 18,
+        "crew_day": "2022-08-18",
+        "color": "blue",
+        "crew_starthour": "17:00:00",
+        "crew_endhour": "23:30:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 16,
+    "fields": {
+        "crew": 11,
+        "user": 18,
+        "crew_day": "2022-08-18",
+        "color": "grey",
+        "crew_starthour": "16:11:00",
+        "crew_endhour": "16:11:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 17,
+    "fields": {
+        "crew": 11,
+        "user": 18,
+        "crew_day": "2022-08-19",
+        "color": "purple",
+        "crew_starthour": "18:00:00",
+        "crew_endhour": "02:00:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 18,
+    "fields": {
+        "crew": 11,
+        "user": 17,
+        "crew_day": "2022-08-18",
+        "color": "purple",
+        "crew_starthour": "21:00:00",
+        "crew_endhour": "04:00:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 19,
+    "fields": {
+        "crew": 11,
+        "user": 17,
+        "crew_day": "2022-08-20",
+        "color": "purple",
+        "crew_starthour": "17:00:00",
+        "crew_endhour": "02:00:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 20,
+    "fields": {
+        "crew": 12,
+        "user": 5,
+        "crew_day": "2022-08-18",
+        "color": "blue",
+        "crew_starthour": "13:19:00",
+        "crew_endhour": "15:19:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 21,
+    "fields": {
+        "crew": 12,
+        "user": 5,
+        "crew_day": "2022-08-22",
+        "color": "teal",
+        "crew_starthour": "17:19:00",
+        "crew_endhour": "20:19:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 22,
+    "fields": {
+        "crew": 12,
+        "user": 18,
+        "crew_day": "2022-08-19",
+        "color": "purple",
+        "crew_starthour": "08:00:00",
+        "crew_endhour": "14:30:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 23,
+    "fields": {
+        "crew": 10,
+        "user": 17,
+        "crew_day": "2022-08-19",
+        "color": "red",
+        "crew_starthour": "08:00:00",
+        "crew_endhour": "14:00:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 24,
+    "fields": {
+        "crew": 10,
+        "user": 17,
+        "crew_day": "2022-08-19",
+        "color": "red",
+        "crew_starthour": "08:00:00",
+        "crew_endhour": "14:00:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 25,
+    "fields": {
+        "crew": 10,
+        "user": 17,
+        "crew_day": "2022-08-20",
+        "color": "blue",
+        "crew_starthour": "15:00:00",
+        "crew_endhour": "21:00:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 26,
+    "fields": {
+        "crew": 10,
+        "user": 17,
+        "crew_day": "2022-08-21",
+        "color": "blue",
+        "crew_starthour": "15:00:00",
+        "crew_endhour": "21:00:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 27,
+    "fields": {
+        "crew": 23,
+        "user": 252,
+        "crew_day": "2022-08-23",
+        "color": "red",
+        "crew_starthour": "09:12:00",
+        "crew_endhour": "13:12:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 28,
+    "fields": {
+        "crew": 23,
+        "user": 252,
+        "crew_day": "2022-08-25",
+        "color": "blue",
+        "crew_starthour": "17:13:00",
+        "crew_endhour": "21:13:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 29,
+    "fields": {
+        "crew": 23,
+        "user": 252,
+        "crew_day": "2022-08-31",
+        "color": "red",
+        "crew_starthour": "03:14:00",
+        "crew_endhour": "09:14:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 30,
+    "fields": {
+        "crew": 23,
+        "user": 252,
+        "crew_day": "2022-08-25",
+        "color": "purple",
+        "crew_starthour": "03:14:00",
+        "crew_endhour": "21:14:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 31,
+    "fields": {
+        "crew": 23,
+        "user": 17,
+        "crew_day": "2022-08-22",
+        "color": "red",
+        "crew_starthour": "09:00:00",
+        "crew_endhour": "15:00:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 32,
+    "fields": {
+        "crew": 23,
+        "user": 17,
+        "crew_day": "2022-08-24",
+        "color": "red",
+        "crew_starthour": "09:00:00",
+        "crew_endhour": "15:00:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 33,
+    "fields": {
+        "crew": 23,
+        "user": 17,
+        "crew_day": "2022-08-25",
+        "color": "blue",
+        "crew_starthour": "15:00:00",
+        "crew_endhour": "23:00:00"
+    }
+},
+{
+    "model": "crews.crewschedule",
+    "pk": 34,
+    "fields": {
+        "crew": 23,
+        "user": 17,
+        "crew_day": "2022-08-26",
+        "color": "teal",
+        "crew_starthour": "09:00:00",
+        "crew_endhour": "15:00:00"
+    }
+}
+]

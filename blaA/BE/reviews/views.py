@@ -6,7 +6,7 @@ from rest_framework.generics import ListCreateAPIView,ListAPIView,CreateAPIView,
 from rest_framework.response import Response
 from reviews.models import ButtonReview, Store,Review, StoreButtonReview
 from reviews.serializers.review import ReviewDetailtSerializer, ReviewListCreateSerializer, ReviewShortListSerializer
-from reviews.serializers.store import StoreListCreateSerializer
+from reviews.serializers.store import StoreListSerializer,StoreNoneImageCreateSerializer,StoryCreateSerializer
 from rest_framework import filters
 from django.http import Http404
 from rest_framework.decorators import api_view
@@ -20,17 +20,39 @@ from rest_framework.permissions import IsAuthenticated
 class StoreListCreateAPIView(ListCreateAPIView):
     #요청한 user_pk로 유저 조회 
     # authentication_classes=[]
-    serializer_class = StoreListCreateSerializer
+    serializer_class = StoreListSerializer
     filter_backends = [filters.SearchFilter]
-    queryset=Store.objects.all()
+    queryset=Store.objects.all().order_by('-store_pk')
     search_fields = ['name']
 
+    def list(self, request, *args, **kwargs):
+        queryset = self.filter_queryset(self.get_queryset())
+
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            serializer = StoreListSerializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+
+        serializer = StoreListSerializer(queryset, many=True)
+
+        return Response(serializer.data)
+
+    def create(self, request, *args, **kwargs):
+        if request.FILES.get('image') :
+            serializer = StoryCreateSerializer(data=request.data)
+            # print(request.FILES.get('image'))
+        else : 
+            serializer = StoreNoneImageCreateSerializer(data= request.data)
+        serializer.is_valid(raise_exception=True)
+        self.perform_create(serializer)
+        headers = self.get_success_headers(serializer.data)
+        return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)
 
 class ReviewListAPIView(ListAPIView) :
     authentication_classes=[]
     serializer_class = ReviewListCreateSerializer
     filter_backends = [filters.SearchFilter]
-    queryset = Review.objects.all()
+    queryset = Review.objects.all().order_by('-created_at')
 
 
 #가게에 달린 리뷰 전체조회 및 리뷰 생성
@@ -76,7 +98,7 @@ class StoreReviewListCreateAPIView(ListCreateAPIView) :
         if cnt :
             review = Review.objects.filter(store=store).aggregate(Sum('star'))
             # sum = Store.objects.all().aggregate(Sum('star'))
-            print(cnt,review)
+            # print(cnt,review)
             return round(review['star__sum']/cnt,1)
         else :
             return 0
@@ -84,7 +106,7 @@ class StoreReviewListCreateAPIView(ListCreateAPIView) :
 
     def list(self, request,store_pk):
         # print(request.query_params['ordering'])
-        queryset = self.filter_queryset(Review.objects.filter(store=self.get_object(store_pk)))
+        queryset = self.filter_queryset(Review.objects.filter(store=self.get_object(store_pk))).order_by('-created_at')
         queryset = queryset.annotate(like_user_count=Count('like_users'))
         if request.query_params :
             if request.query_params['ordering'] == '-like_user_count':

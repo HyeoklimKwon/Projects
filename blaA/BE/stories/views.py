@@ -11,26 +11,41 @@ from .serializers.story import StoryLikeSerializer, StorySerializer,StoryDetailS
 from .serializers.comment import CommentSerializer
 from .serializers.hashtag import HashtagSerializer
 from django.db.models import Q
+from django.core.paginator import Paginator
 # Create your views here.
-
+from .serializers.hashtag import HashtagSerializer,HashtagFilterSerializer
+from datetime import date,datetime,timezone,timedelta
 @api_view(['GET', 'POST'])
 def story_list_or_create(request):
     
     def story_list():
-        story = Story.objects.all()
-        serializer = StorySerializer(story, many=True)
-        return Response(serializer.data)
+        # print(type(datetime.today().year))
+        # year=datetime.today().year
+        # month=datetime.today().month
+        # day=datetime.today().day
+        # print(type(date(year,month,day)))
+        # now = datetime.now()
+        # print(type(now))
+        # print(datetime.now() - timedelta(hours=24))
+        story = Story.objects.filter(created_at__gte = datetime.now() - timedelta(hours=24)).order_by('-created_at')
+        cnt = {'count':story.count()}
+        paginator = Paginator(story, 10) # Show 25 contacts per page.
+
+        page_number = request.GET.get('page')
+        page_obj = paginator.get_page(page_number)
+        serializer = StorySerializer(page_obj, many=True)
+        response_data=serializer.data
+        response_data.append(cnt)
+        return Response(response_data)
     
     def create_story():
         story_picture = request.FILES.get('story_picture')
         story_title = request.data['story_title']
-        print(story_picture)
+
         data = {
             'story_picture': story_picture,
             'story_title' : story_title
         }
-        
-        print(data)
         
         serializer = StorySerializer(data=data)
         
@@ -47,14 +62,13 @@ def story_list_or_create(request):
 def story_detail_or_update_or_delete(request, story_pk):
     story = get_object_or_404(Story, story_pk=story_pk)
     def story_detail():
-        print(request.user.user_pk)
         serializer = StoryDetailSerializer(story)
         return Response(serializer.data)
     
     def story_update() :
-        # print("~~~~~~~"+request.user.user_pk)
+
         if request.user.user_pk == story.user_pk_id:
-            print(story)
+
             serializer = StorySerializer(instance=story, data=request.data)
             if serializer.is_valid(raise_exception=True):
                 serializer.save(user_pk = request.user, region = request.user.region, category = request.user.category)
@@ -68,8 +82,7 @@ def story_detail_or_update_or_delete(request, story_pk):
     if request.method == 'GET':
         return story_detail()
     elif request.method == 'PUT':
-        # print(request.user.user_pk)
-        # print(story.user_pk_id)
+
         if request.user.user_pk == story.user_pk_id:
             return story_update()
     elif request.method == 'DELETE':
@@ -80,7 +93,7 @@ def story_detail_or_update_or_delete(request, story_pk):
 def comment_list_or_create(request, story_pk):
     def comment_list():
         story = get_object_or_404(Story, story_pk = story_pk)
-        print(story)
+
         comments = Comment.objects.filter(story_pk=story)
         serializer = CommentSerializer(comments, many= True)
         return Response(serializer.data)
@@ -91,7 +104,8 @@ def comment_list_or_create(request, story_pk):
         story_user = story.user_pk
         if serializer.is_valid(raise_exception=True):
             serializer.save(user_pk = request.user, story_pk = story)
-            Notification.objects.create(type='story',user=story_user,content=f'{request.user.nickname}님이 {story_user.nickname}의 게시글에 댓글을 남겼습니다.',redirect_pk=story_pk)
+            if request.user != story_user :
+                Notification.objects.create(type='story',user=story_user,content=f'{request.user.nickname}님이 {story_user.nickname}의 게시글에 댓글을 남겼습니다.',redirect_pk=story_pk)
             return Response(serializer.data, status=status.HTTP_201_CREATED)
 
     if request.method == 'GET':
@@ -142,25 +156,22 @@ def comment_update_or_delete(request, comment_pk):
 def hashtag_list_or_create(request, story_pk):
     
     def hashtag_list():
-        story = get_object_or_404(Story, story_pk = story_pk)
-        print(story)
+        story = get_object_or_404(Story, story_pk = story_pk).order_by('-created_at')
+
         hashtags = get_list_or_404(Hashtag,story_pk=story)
         serializer = HashtagSerializer(hashtags, many= True)
         return Response(serializer.data)
     
     def hashtag_create():
         story = get_object_or_404(Story, story_pk = story_pk)
-        print(request.data)
+
         tmp_query = request.data.copy()
-        print(request.data.__getitem__('hashtag_content'))
         tmp = request.data.__getitem__('hashtag_content').split(' ')
-        print(tmp)
-        
-        print(len(tmp))
+
         for hash in range(len(tmp)):
-            print(tmp[hash])
+
             tmp_query.__setitem__('hashtag_content',tmp[hash])
-            print(tmp_query)
+
             serializer = HashtagSerializer(data=tmp_query)
             if serializer.is_valid(raise_exception=True):
                 serializer.save(user_pk = request.user, story_pk = story)
@@ -207,15 +218,20 @@ def hashtag_update_or_delete(request, hashtag_pk):
 def follow_story_list(request):
     tmp = request.user.followings.all()
     if tmp :
-        print(tmp)
+
         story = Story.objects.filter(user_pk=tmp[0])
+        
         for user in range(1,len(tmp)) :
-            story_res = story | Story.objects.filter(user_pk=tmp[user])
+            story_res = story | Story.objects.filter(user_pk=tmp[user]).order_by('-created_at')
             story=story_res
-            
-        serializer = StorySerializer(story, many=True)
-        return Response(serializer.data)
-    
+        cnt = {'count':story.count()}
+        paginator = Paginator(story, 10) # Show 25 contacts per page.
+        page_number = request.GET.get('page')
+        page_obj = paginator.get_page(page_number)
+        serializer = StorySerializer(page_obj, many=True)
+        response_data=serializer.data
+        response_data.append(cnt)
+        return Response(response_data)
     else :
         story = Story.objects.filter(~Q(user_pk=request.user.user_pk))
         serializer = StorySerializer(story, many=True)
@@ -239,26 +255,71 @@ def like_story(request, story_pk):
 def story_region_filter(request):
     story = Story.objects.filter(Q(region= request.user.region)&~Q(user_pk = request.user))
     # story = get_list_or_404(Story, region= request.user.region, user_pk != request.user)
-    serializer = StorySerializer(story, many=True)
-    return Response(serializer.data)
+    cnt = {'count':story.count()}
+    paginator = Paginator(story, 10) # Show 25 contacts per page.
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    serializer = StorySerializer(page_obj, many=True)
+    response_data=serializer.data
+    response_data.append(cnt)
+    return Response(response_data)
 
 @api_view(['GET'])   
 def story_category_filter(request):
     story = Story.objects.filter(Q(category= request.user.category)&~Q(user_pk = request.user))
     # story = get_list_or_404(Story, category= request.user.category)
-    serializer = StorySerializer(story, many=True)
-    return Response(serializer.data)
+    cnt = {'count':story.count()}
+
+    paginator = Paginator(story, 10) # Show 25 contacts per page.
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    serializer = StorySerializer(page_obj, many=True)
+
+    response_data=serializer.data
+    response_data.append(cnt)
+    return Response(response_data)
+    
+@api_view(['GET'])   
+def hashtag_filter(request):
+    tmp = request.GET.get('id',"")
+    # print(tmp)
+    tmp3 = tmp.split(" ")
+    # print(tmp3)
+    story = Hashtag.objects.distinct().filter(Q(hashtag_content__in = tmp3))
+    # print(story)
+    cnt = {'count':story.count()}
+    paginator = Paginator(story, 10) # Show 25 contacts per page.
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    serializer = HashtagFilterSerializer(page_obj, many=True)
+    # serializer = HashtagFilterSerializer(story, many=True)
+    # story = get_list_or_404(Story, category= request.user.category)
+    response_data=serializer.data
+    response_data.append(cnt)
+    return Response(response_data)
 
 @api_view(['GET'])   
 def story_both_filter(request):
     story = Story.objects.filter(Q(region= request.user.region)&Q(category= request.user.category)&~Q(user_pk = request.user))
+    cnt = {'count':story.count()}
+    paginator = Paginator(story, 10) # Show 25 contacts per page.
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    serializer = StorySerializer(page_obj, many=True)
     # story = get_list_or_404(Story, category= request.user.category)
-    serializer = StorySerializer(story, many=True)
+    response_data=serializer.data
+    response_data.append(cnt)
     return Response(serializer.data)
 
 @api_view(['GET'])   
 def mystory_list(request,user_pk):
     story = Story.objects.filter(Q(user_pk=user_pk))
-    serializer = StorySerializer(story, many=True)
+    # cnt = {'count':story.count()}
+    paginator = Paginator(story, 10) # Show 25 contacts per page.
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+    serializer = StorySerializer(page_obj, many=True)
+    # story = get_list_or_404(Story, category= request.user.category)
+
     return Response(serializer.data)
     

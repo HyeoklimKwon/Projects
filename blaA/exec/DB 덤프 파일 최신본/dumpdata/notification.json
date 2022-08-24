@@ -1,0 +1,5800 @@
+[
+{
+    "model": "notifications.notification",
+    "pk": 2,
+    "fields": {
+        "created_at": "2022-08-17T13:30:42.266Z",
+        "updated_at": "2022-08-17T13:31:08.976Z",
+        "type": "crew",
+        "user": 4,
+        "content": "닥영이 덕명동크루에 가입되었습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 5,
+    "fields": {
+        "created_at": "2022-08-17T13:32:51.575Z",
+        "updated_at": "2022-08-17T13:32:51.575Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 6,
+    "fields": {
+        "created_at": "2022-08-17T15:44:51.621Z",
+        "updated_at": "2022-08-18T05:18:50.333Z",
+        "type": "story",
+        "user": 8,
+        "content": "구리구리혀구림님이 동동동대문을열어라의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 4,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 7,
+    "fields": {
+        "created_at": "2022-08-17T15:45:15.053Z",
+        "updated_at": "2022-08-18T09:21:07.350Z",
+        "type": "story",
+        "user": 5,
+        "content": "구리구리혀구림님이 박찬의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 2,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 9,
+    "fields": {
+        "created_at": "2022-08-17T15:48:22.364Z",
+        "updated_at": "2022-08-18T14:47:11.618Z",
+        "type": "story",
+        "user": 9,
+        "content": "구리구리혀구림님이 구구혁혁너너의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 5,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 12,
+    "fields": {
+        "created_at": "2022-08-17T16:51:28.364Z",
+        "updated_at": "2022-08-17T23:45:25.997Z",
+        "type": "follow",
+        "user": 12,
+        "content": "돌아엠옹님이 Zizissssi을 Follow 했습니다.",
+        "redirect_pk": 13,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 13,
+    "fields": {
+        "created_at": "2022-08-17T16:51:32.275Z",
+        "updated_at": "2022-08-18T01:41:57.337Z",
+        "type": "follow",
+        "user": 11,
+        "content": "돌아엠옹님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 13,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 14,
+    "fields": {
+        "created_at": "2022-08-17T16:51:37.076Z",
+        "updated_at": "2022-08-17T16:51:37.076Z",
+        "type": "follow",
+        "user": 10,
+        "content": "돌아엠옹님이 맨체스터주인맨유을 Follow 했습니다.",
+        "redirect_pk": 13,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 16,
+    "fields": {
+        "created_at": "2022-08-17T16:52:32.105Z",
+        "updated_at": "2022-08-17T23:45:25.982Z",
+        "type": "follow",
+        "user": 12,
+        "content": "Kiki님이 Zizissssi을 Follow 했습니다.",
+        "redirect_pk": 11,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 17,
+    "fields": {
+        "created_at": "2022-08-17T16:52:41.243Z",
+        "updated_at": "2022-08-17T17:41:59.277Z",
+        "type": "follow",
+        "user": 13,
+        "content": "Kiki님이 돌아엠옹을 Follow 했습니다.",
+        "redirect_pk": 11,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 18,
+    "fields": {
+        "created_at": "2022-08-17T16:52:58.264Z",
+        "updated_at": "2022-08-18T09:21:07.335Z",
+        "type": "follow",
+        "user": 5,
+        "content": "Kiki님이 박찬을 Follow 했습니다.",
+        "redirect_pk": 11,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 19,
+    "fields": {
+        "created_at": "2022-08-17T16:53:08.641Z",
+        "updated_at": "2022-08-18T14:47:11.602Z",
+        "type": "follow",
+        "user": 9,
+        "content": "Kiki님이 구구혁혁너너을 Follow 했습니다.",
+        "redirect_pk": 11,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 20,
+    "fields": {
+        "created_at": "2022-08-17T17:19:02.327Z",
+        "updated_at": "2022-08-17T17:41:59.146Z",
+        "type": "follow",
+        "user": 13,
+        "content": "구리구리혀구림님이 돌아엠옹을 Follow 했습니다.",
+        "redirect_pk": 6,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 22,
+    "fields": {
+        "created_at": "2022-08-17T17:30:03.535Z",
+        "updated_at": "2022-08-17T17:30:03.535Z",
+        "type": "crew_invite",
+        "user": 10,
+        "content": "스타벅스대전DT점크루에서 맨체스터주인맨유을 초대했습니다.",
+        "redirect_pk": 3,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 25,
+    "fields": {
+        "created_at": "2022-08-17T17:31:40.703Z",
+        "updated_at": "2022-08-18T05:18:50.341Z",
+        "type": "crew",
+        "user": 8,
+        "content": "동동동대문을열어라이 스타벅스대전DT점크루에 가입되었습니다.",
+        "redirect_pk": 3,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 26,
+    "fields": {
+        "created_at": "2022-08-17T17:43:06.989Z",
+        "updated_at": "2022-08-17T17:43:06.989Z",
+        "type": "story",
+        "user": 13,
+        "content": "blaa님이 돌아엠옹의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 9,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 27,
+    "fields": {
+        "created_at": "2022-08-17T17:43:32.076Z",
+        "updated_at": "2022-08-17T23:45:25.974Z",
+        "type": "story",
+        "user": 12,
+        "content": "blaa님이 Zizissssi의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 8,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 29,
+    "fields": {
+        "created_at": "2022-08-17T18:00:14.228Z",
+        "updated_at": "2022-08-18T01:41:57.330Z",
+        "type": "story",
+        "user": 11,
+        "content": "Kiki님이 Kiki의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 7,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 31,
+    "fields": {
+        "created_at": "2022-08-17T18:28:12.617Z",
+        "updated_at": "2022-08-18T05:19:39.985Z",
+        "type": "follow",
+        "user": 1,
+        "content": "알바몬님이 blaa을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 33,
+    "fields": {
+        "created_at": "2022-08-17T18:28:36.041Z",
+        "updated_at": "2022-08-18T05:15:30.584Z",
+        "type": "follow",
+        "user": 3,
+        "content": "알바몬님이 userA을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 34,
+    "fields": {
+        "created_at": "2022-08-17T18:28:55.278Z",
+        "updated_at": "2022-08-17T18:28:55.278Z",
+        "type": "follow",
+        "user": 4,
+        "content": "알바몬님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 37,
+    "fields": {
+        "created_at": "2022-08-17T18:30:22.564Z",
+        "updated_at": "2022-08-17T18:30:22.564Z",
+        "type": "follow",
+        "user": 7,
+        "content": "알바몬님이 string을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 38,
+    "fields": {
+        "created_at": "2022-08-17T18:30:31.043Z",
+        "updated_at": "2022-08-18T05:18:50.325Z",
+        "type": "follow",
+        "user": 8,
+        "content": "알바몬님이 동동동대문을열어라을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 39,
+    "fields": {
+        "created_at": "2022-08-17T18:30:41.361Z",
+        "updated_at": "2022-08-18T14:47:11.610Z",
+        "type": "follow",
+        "user": 9,
+        "content": "알바몬님이 구구혁혁너너을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 40,
+    "fields": {
+        "created_at": "2022-08-17T18:30:49.869Z",
+        "updated_at": "2022-08-17T18:30:49.869Z",
+        "type": "follow",
+        "user": 10,
+        "content": "알바몬님이 맨체스터주인맨유을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 42,
+    "fields": {
+        "created_at": "2022-08-17T18:31:26.367Z",
+        "updated_at": "2022-08-17T23:45:25.990Z",
+        "type": "follow",
+        "user": 12,
+        "content": "알바몬님이 Zizissssi을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 43,
+    "fields": {
+        "created_at": "2022-08-17T18:31:46.729Z",
+        "updated_at": "2022-08-17T18:31:46.729Z",
+        "type": "follow",
+        "user": 13,
+        "content": "알바몬님이 돌아엠옹을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 44,
+    "fields": {
+        "created_at": "2022-08-17T18:32:12.053Z",
+        "updated_at": "2022-08-17T18:32:12.053Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 45,
+    "fields": {
+        "created_at": "2022-08-17T19:14:56.089Z",
+        "updated_at": "2022-08-18T05:18:37.449Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바생님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 15,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 46,
+    "fields": {
+        "created_at": "2022-08-17T19:21:06.513Z",
+        "updated_at": "2022-08-18T05:18:37.441Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바생님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 15,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 47,
+    "fields": {
+        "created_at": "2022-08-17T19:22:45.106Z",
+        "updated_at": "2022-08-17T19:22:45.106Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 48,
+    "fields": {
+        "created_at": "2022-08-17T19:23:47.320Z",
+        "updated_at": "2022-08-17T19:23:47.320Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 49,
+    "fields": {
+        "created_at": "2022-08-17T19:26:16.113Z",
+        "updated_at": "2022-08-17T19:26:16.113Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 50,
+    "fields": {
+        "created_at": "2022-08-17T19:26:22.406Z",
+        "updated_at": "2022-08-17T19:26:22.406Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 51,
+    "fields": {
+        "created_at": "2022-08-17T19:29:54.487Z",
+        "updated_at": "2022-08-17T19:29:54.487Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 52,
+    "fields": {
+        "created_at": "2022-08-17T19:32:03.859Z",
+        "updated_at": "2022-08-17T19:32:03.859Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 53,
+    "fields": {
+        "created_at": "2022-08-17T19:32:27.273Z",
+        "updated_at": "2022-08-17T19:32:27.273Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 54,
+    "fields": {
+        "created_at": "2022-08-17T19:32:31.594Z",
+        "updated_at": "2022-08-17T19:32:31.594Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 55,
+    "fields": {
+        "created_at": "2022-08-17T19:32:38.118Z",
+        "updated_at": "2022-08-17T19:32:38.118Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 56,
+    "fields": {
+        "created_at": "2022-08-17T19:34:19.855Z",
+        "updated_at": "2022-08-17T19:34:19.855Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 57,
+    "fields": {
+        "created_at": "2022-08-17T19:34:27.063Z",
+        "updated_at": "2022-08-17T19:34:27.063Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 58,
+    "fields": {
+        "created_at": "2022-08-17T19:34:47.062Z",
+        "updated_at": "2022-08-17T19:34:47.062Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 59,
+    "fields": {
+        "created_at": "2022-08-17T19:35:01.976Z",
+        "updated_at": "2022-08-17T19:35:01.976Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 60,
+    "fields": {
+        "created_at": "2022-08-17T19:42:13.213Z",
+        "updated_at": "2022-08-17T19:42:13.213Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 61,
+    "fields": {
+        "created_at": "2022-08-17T19:43:04.280Z",
+        "updated_at": "2022-08-17T19:43:04.280Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 62,
+    "fields": {
+        "created_at": "2022-08-17T19:44:31.304Z",
+        "updated_at": "2022-08-18T05:18:37.433Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바생님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 15,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 63,
+    "fields": {
+        "created_at": "2022-08-17T19:45:08.123Z",
+        "updated_at": "2022-08-18T05:19:39.977Z",
+        "type": "follow",
+        "user": 1,
+        "content": "차니님이 blaa을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 64,
+    "fields": {
+        "created_at": "2022-08-17T19:45:15.383Z",
+        "updated_at": "2022-08-17T19:45:15.383Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 65,
+    "fields": {
+        "created_at": "2022-08-17T19:45:35.415Z",
+        "updated_at": "2022-08-17T19:45:35.415Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 66,
+    "fields": {
+        "created_at": "2022-08-17T19:47:20.461Z",
+        "updated_at": "2022-08-17T19:47:20.461Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 67,
+    "fields": {
+        "created_at": "2022-08-17T19:53:43.651Z",
+        "updated_at": "2022-08-17T19:53:43.651Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 68,
+    "fields": {
+        "created_at": "2022-08-17T19:53:43.721Z",
+        "updated_at": "2022-08-17T19:53:43.721Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 69,
+    "fields": {
+        "created_at": "2022-08-17T19:57:41.996Z",
+        "updated_at": "2022-08-17T19:57:41.996Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 70,
+    "fields": {
+        "created_at": "2022-08-17T19:58:08.831Z",
+        "updated_at": "2022-08-17T19:58:08.831Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 71,
+    "fields": {
+        "created_at": "2022-08-17T19:58:21.336Z",
+        "updated_at": "2022-08-17T19:58:21.336Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 72,
+    "fields": {
+        "created_at": "2022-08-17T19:58:31.733Z",
+        "updated_at": "2022-08-18T05:19:39.968Z",
+        "type": "follow",
+        "user": 1,
+        "content": "알바몬님이 blaa을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 73,
+    "fields": {
+        "created_at": "2022-08-17T20:00:21.594Z",
+        "updated_at": "2022-08-17T20:00:21.594Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 74,
+    "fields": {
+        "created_at": "2022-08-17T20:00:46.510Z",
+        "updated_at": "2022-08-17T20:00:46.510Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 75,
+    "fields": {
+        "created_at": "2022-08-17T20:00:55.799Z",
+        "updated_at": "2022-08-17T20:00:55.799Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 76,
+    "fields": {
+        "created_at": "2022-08-17T20:03:08.275Z",
+        "updated_at": "2022-08-17T20:03:08.275Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 77,
+    "fields": {
+        "created_at": "2022-08-17T20:03:12.997Z",
+        "updated_at": "2022-08-17T20:03:12.997Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 78,
+    "fields": {
+        "created_at": "2022-08-17T20:05:17.351Z",
+        "updated_at": "2022-08-17T20:05:17.351Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 79,
+    "fields": {
+        "created_at": "2022-08-17T20:11:44.661Z",
+        "updated_at": "2022-08-17T20:11:44.661Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 80,
+    "fields": {
+        "created_at": "2022-08-17T20:12:32.295Z",
+        "updated_at": "2022-08-17T20:12:32.295Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 81,
+    "fields": {
+        "created_at": "2022-08-17T20:12:36.845Z",
+        "updated_at": "2022-08-17T20:12:36.845Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 82,
+    "fields": {
+        "created_at": "2022-08-17T20:12:47.841Z",
+        "updated_at": "2022-08-17T20:12:47.841Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 83,
+    "fields": {
+        "created_at": "2022-08-17T20:17:29.732Z",
+        "updated_at": "2022-08-17T20:17:29.732Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 84,
+    "fields": {
+        "created_at": "2022-08-17T20:21:35.947Z",
+        "updated_at": "2022-08-17T20:21:35.947Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 85,
+    "fields": {
+        "created_at": "2022-08-17T20:22:55.865Z",
+        "updated_at": "2022-08-17T20:22:55.865Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 86,
+    "fields": {
+        "created_at": "2022-08-17T20:23:45.829Z",
+        "updated_at": "2022-08-17T20:23:45.829Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 87,
+    "fields": {
+        "created_at": "2022-08-17T20:24:36.752Z",
+        "updated_at": "2022-08-17T20:24:36.752Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 88,
+    "fields": {
+        "created_at": "2022-08-17T20:24:49.259Z",
+        "updated_at": "2022-08-17T20:24:49.259Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 89,
+    "fields": {
+        "created_at": "2022-08-17T20:24:51.000Z",
+        "updated_at": "2022-08-17T20:24:51.000Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 90,
+    "fields": {
+        "created_at": "2022-08-17T20:25:28.143Z",
+        "updated_at": "2022-08-17T20:25:28.143Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 91,
+    "fields": {
+        "created_at": "2022-08-17T20:25:38.217Z",
+        "updated_at": "2022-08-17T20:25:38.217Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 92,
+    "fields": {
+        "created_at": "2022-08-17T20:26:27.771Z",
+        "updated_at": "2022-08-17T20:26:27.771Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 93,
+    "fields": {
+        "created_at": "2022-08-17T20:27:34.441Z",
+        "updated_at": "2022-08-17T20:27:34.441Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 94,
+    "fields": {
+        "created_at": "2022-08-17T20:27:36.105Z",
+        "updated_at": "2022-08-17T20:27:36.105Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 95,
+    "fields": {
+        "created_at": "2022-08-17T20:27:37.286Z",
+        "updated_at": "2022-08-17T20:27:37.286Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 96,
+    "fields": {
+        "created_at": "2022-08-17T20:27:41.828Z",
+        "updated_at": "2022-08-17T20:27:41.828Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 97,
+    "fields": {
+        "created_at": "2022-08-17T20:27:47.073Z",
+        "updated_at": "2022-08-17T20:27:47.073Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 98,
+    "fields": {
+        "created_at": "2022-08-17T20:27:53.583Z",
+        "updated_at": "2022-08-17T20:27:53.583Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 99,
+    "fields": {
+        "created_at": "2022-08-17T20:30:45.587Z",
+        "updated_at": "2022-08-17T20:30:45.587Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 100,
+    "fields": {
+        "created_at": "2022-08-17T20:31:00.608Z",
+        "updated_at": "2022-08-17T20:31:00.608Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 101,
+    "fields": {
+        "created_at": "2022-08-17T20:31:05.317Z",
+        "updated_at": "2022-08-17T20:50:20.068Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 102,
+    "fields": {
+        "created_at": "2022-08-17T20:31:24.285Z",
+        "updated_at": "2022-08-17T20:50:20.075Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 103,
+    "fields": {
+        "created_at": "2022-08-17T20:31:26.543Z",
+        "updated_at": "2022-08-18T02:41:42.776Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 104,
+    "fields": {
+        "created_at": "2022-08-17T20:31:43.364Z",
+        "updated_at": "2022-08-18T02:41:58.454Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 105,
+    "fields": {
+        "created_at": "2022-08-17T20:31:44.786Z",
+        "updated_at": "2022-08-18T04:42:57.549Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 106,
+    "fields": {
+        "created_at": "2022-08-17T23:43:17.134Z",
+        "updated_at": "2022-08-17T23:45:25.894Z",
+        "type": "story",
+        "user": 12,
+        "content": "Zizissssi님이 Zizissssi의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 8,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 107,
+    "fields": {
+        "created_at": "2022-08-18T00:51:44.002Z",
+        "updated_at": "2022-08-18T01:41:57.322Z",
+        "type": "follow",
+        "user": 11,
+        "content": "매봉이님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 17,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 109,
+    "fields": {
+        "created_at": "2022-08-18T02:23:05.147Z",
+        "updated_at": "2022-08-18T08:41:30.870Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바의 신님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 110,
+    "fields": {
+        "created_at": "2022-08-18T02:29:15.516Z",
+        "updated_at": "2022-08-18T08:41:30.877Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바의 신님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 113,
+    "fields": {
+        "created_at": "2022-08-18T04:12:32.518Z",
+        "updated_at": "2022-08-18T05:18:37.425Z",
+        "type": "follow",
+        "user": 14,
+        "content": "구리구리혀구림님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 6,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 114,
+    "fields": {
+        "created_at": "2022-08-18T04:19:39.548Z",
+        "updated_at": "2022-08-18T04:19:39.548Z",
+        "type": "follow",
+        "user": 4,
+        "content": "알바몬님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 115,
+    "fields": {
+        "created_at": "2022-08-18T04:19:58.987Z",
+        "updated_at": "2022-08-18T08:41:30.846Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 116,
+    "fields": {
+        "created_at": "2022-08-18T04:20:01.346Z",
+        "updated_at": "2022-08-18T08:41:30.854Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 117,
+    "fields": {
+        "created_at": "2022-08-18T04:31:09.784Z",
+        "updated_at": "2022-08-18T15:13:19.831Z",
+        "type": "follow",
+        "user": 6,
+        "content": "차니님이 구리구리혀구림을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 118,
+    "fields": {
+        "created_at": "2022-08-18T04:54:42.373Z",
+        "updated_at": "2022-08-18T04:54:42.373Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 119,
+    "fields": {
+        "created_at": "2022-08-18T04:54:43.832Z",
+        "updated_at": "2022-08-18T04:54:43.832Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 120,
+    "fields": {
+        "created_at": "2022-08-18T04:54:45.414Z",
+        "updated_at": "2022-08-18T04:54:45.414Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 121,
+    "fields": {
+        "created_at": "2022-08-18T04:54:45.849Z",
+        "updated_at": "2022-08-18T04:54:45.849Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 122,
+    "fields": {
+        "created_at": "2022-08-18T04:54:46.216Z",
+        "updated_at": "2022-08-18T04:54:46.216Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 123,
+    "fields": {
+        "created_at": "2022-08-18T04:54:46.457Z",
+        "updated_at": "2022-08-18T08:53:44.436Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 124,
+    "fields": {
+        "created_at": "2022-08-18T04:54:46.703Z",
+        "updated_at": "2022-08-18T08:53:44.421Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 126,
+    "fields": {
+        "created_at": "2022-08-18T04:54:47.642Z",
+        "updated_at": "2022-08-18T08:53:44.443Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 129,
+    "fields": {
+        "created_at": "2022-08-18T04:56:16.899Z",
+        "updated_at": "2022-08-18T08:53:44.413Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 130,
+    "fields": {
+        "created_at": "2022-08-18T04:56:18.995Z",
+        "updated_at": "2022-08-18T08:53:44.428Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 131,
+    "fields": {
+        "created_at": "2022-08-18T04:56:54.048Z",
+        "updated_at": "2022-08-18T04:56:54.048Z",
+        "type": "story",
+        "user": 11,
+        "content": "blaa님이 Kiki의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 11,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 132,
+    "fields": {
+        "created_at": "2022-08-18T05:17:21.411Z",
+        "updated_at": "2022-08-18T19:20:20.460Z",
+        "type": "crew",
+        "user": 1,
+        "content": "blaa이 스타벅스 가로수길점크루에 가입되었습니다.",
+        "redirect_pk": 10,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 133,
+    "fields": {
+        "created_at": "2022-08-18T05:17:24.200Z",
+        "updated_at": "2022-08-18T08:41:30.862Z",
+        "type": "crew",
+        "user": 15,
+        "content": "역전할맥 알바생이 스타벅스 가로수길점크루에 가입되었습니다.",
+        "redirect_pk": 10,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 134,
+    "fields": {
+        "created_at": "2022-08-18T05:17:27.680Z",
+        "updated_at": "2022-08-18T05:18:50.317Z",
+        "type": "crew",
+        "user": 8,
+        "content": "동동동대문을열어라이 스타벅스 가로수길점크루에 가입되었습니다.",
+        "redirect_pk": 10,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 136,
+    "fields": {
+        "created_at": "2022-08-18T05:20:07.160Z",
+        "updated_at": "2022-08-18T05:20:07.160Z",
+        "type": "crew",
+        "user": 14,
+        "content": "알바몬이 스타벅스 가로수길점크루에 가입되었습니다.",
+        "redirect_pk": 10,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 137,
+    "fields": {
+        "created_at": "2022-08-18T05:24:10.698Z",
+        "updated_at": "2022-08-18T05:24:10.699Z",
+        "type": "follow",
+        "user": 10,
+        "content": "차니님이 맨체스터주인맨유을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 138,
+    "fields": {
+        "created_at": "2022-08-18T05:24:57.838Z",
+        "updated_at": "2022-08-18T05:24:57.838Z",
+        "type": "follow",
+        "user": 11,
+        "content": "차니님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 139,
+    "fields": {
+        "created_at": "2022-08-18T05:25:25.329Z",
+        "updated_at": "2022-08-18T10:16:16.183Z",
+        "type": "follow",
+        "user": 11,
+        "content": "매봉이님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 17,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 140,
+    "fields": {
+        "created_at": "2022-08-18T05:41:52.332Z",
+        "updated_at": "2022-08-18T05:41:52.332Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 141,
+    "fields": {
+        "created_at": "2022-08-18T05:43:01.804Z",
+        "updated_at": "2022-08-18T05:45:49.462Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 142,
+    "fields": {
+        "created_at": "2022-08-18T05:44:16.161Z",
+        "updated_at": "2022-08-18T05:45:49.455Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 143,
+    "fields": {
+        "created_at": "2022-08-18T05:44:18.289Z",
+        "updated_at": "2022-08-18T05:45:49.447Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 144,
+    "fields": {
+        "created_at": "2022-08-18T05:44:27.308Z",
+        "updated_at": "2022-08-18T05:45:49.440Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 147,
+    "fields": {
+        "created_at": "2022-08-18T05:47:04.024Z",
+        "updated_at": "2022-08-18T05:47:04.024Z",
+        "type": "follow",
+        "user": 20,
+        "content": "ㅇㅈ님이 동동을 Follow 했습니다.",
+        "redirect_pk": 22,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 148,
+    "fields": {
+        "created_at": "2022-08-18T05:47:49.313Z",
+        "updated_at": "2022-08-18T05:47:49.313Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 149,
+    "fields": {
+        "created_at": "2022-08-18T05:47:50.739Z",
+        "updated_at": "2022-08-18T05:47:50.739Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 150,
+    "fields": {
+        "created_at": "2022-08-18T05:47:53.048Z",
+        "updated_at": "2022-08-18T05:47:53.048Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 151,
+    "fields": {
+        "created_at": "2022-08-18T05:47:55.680Z",
+        "updated_at": "2022-08-18T05:47:55.680Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 152,
+    "fields": {
+        "created_at": "2022-08-18T05:48:17.988Z",
+        "updated_at": "2022-08-18T09:57:34.215Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 153,
+    "fields": {
+        "created_at": "2022-08-18T05:48:18.751Z",
+        "updated_at": "2022-08-18T09:57:34.207Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 154,
+    "fields": {
+        "created_at": "2022-08-18T05:48:22.351Z",
+        "updated_at": "2022-08-18T19:04:12.691Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 155,
+    "fields": {
+        "created_at": "2022-08-18T05:48:51.034Z",
+        "updated_at": "2022-08-18T19:04:12.683Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 156,
+    "fields": {
+        "created_at": "2022-08-18T05:53:27.355Z",
+        "updated_at": "2022-08-18T15:13:19.823Z",
+        "type": "follow",
+        "user": 6,
+        "content": "차니님이 구리구리혀구림을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 157,
+    "fields": {
+        "created_at": "2022-08-18T06:10:27.445Z",
+        "updated_at": "2022-08-18T15:13:19.815Z",
+        "type": "follow",
+        "user": 6,
+        "content": "차니님이 구리구리혀구림을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 159,
+    "fields": {
+        "created_at": "2022-08-18T06:43:17.289Z",
+        "updated_at": "2022-08-18T06:43:17.289Z",
+        "type": "follow",
+        "user": 12,
+        "content": "차니님이 Zizissssi을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 160,
+    "fields": {
+        "created_at": "2022-08-18T07:07:07.882Z",
+        "updated_at": "2022-08-18T19:04:12.675Z",
+        "type": "follow",
+        "user": 14,
+        "content": "알바의 신님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 18,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 162,
+    "fields": {
+        "created_at": "2022-08-18T07:17:38.850Z",
+        "updated_at": "2022-08-18T07:17:38.850Z",
+        "type": "crew",
+        "user": 27,
+        "content": "김싸피이 역전할머니맥주 이태원점크루에 가입되었습니다.",
+        "redirect_pk": 11,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 163,
+    "fields": {
+        "created_at": "2022-08-18T07:27:18.962Z",
+        "updated_at": "2022-08-18T07:28:57.970Z",
+        "type": "follow",
+        "user": 30,
+        "content": "blaa님이 전체적인그림을보자을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 164,
+    "fields": {
+        "created_at": "2022-08-18T07:28:01.053Z",
+        "updated_at": "2022-08-18T07:28:57.978Z",
+        "type": "follow",
+        "user": 30,
+        "content": "알바몬님이 전체적인그림을보자을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 165,
+    "fields": {
+        "created_at": "2022-08-18T07:28:03.086Z",
+        "updated_at": "2022-08-18T07:28:57.987Z",
+        "type": "follow",
+        "user": 30,
+        "content": "blaa님이 전체적인그림을보자을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 166,
+    "fields": {
+        "created_at": "2022-08-18T07:28:10.654Z",
+        "updated_at": "2022-08-18T07:28:57.962Z",
+        "type": "follow",
+        "user": 30,
+        "content": "알바몬님이 전체적인그림을보자을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 167,
+    "fields": {
+        "created_at": "2022-08-18T08:48:03.772Z",
+        "updated_at": "2022-08-18T19:29:26.723Z",
+        "type": "story",
+        "user": 28,
+        "content": "알바의 신님이 동동구리의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 18,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 168,
+    "fields": {
+        "created_at": "2022-08-18T08:53:22.733Z",
+        "updated_at": "2022-08-18T19:20:20.453Z",
+        "type": "follow",
+        "user": 1,
+        "content": "차니님이 blaa을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 169,
+    "fields": {
+        "created_at": "2022-08-18T08:53:27.315Z",
+        "updated_at": "2022-08-18T19:20:20.438Z",
+        "type": "follow",
+        "user": 1,
+        "content": "차니님이 blaa을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 170,
+    "fields": {
+        "created_at": "2022-08-18T09:15:02.880Z",
+        "updated_at": "2022-08-18T09:21:07.342Z",
+        "type": "follow",
+        "user": 5,
+        "content": "blaa님이 싸피최고을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 171,
+    "fields": {
+        "created_at": "2022-08-18T09:15:08.843Z",
+        "updated_at": "2022-08-18T09:15:08.843Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 172,
+    "fields": {
+        "created_at": "2022-08-18T09:16:10.118Z",
+        "updated_at": "2022-08-18T09:16:10.118Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 173,
+    "fields": {
+        "created_at": "2022-08-18T09:16:10.750Z",
+        "updated_at": "2022-08-18T09:16:10.750Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 174,
+    "fields": {
+        "created_at": "2022-08-18T09:16:11.475Z",
+        "updated_at": "2022-08-18T09:16:11.476Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 175,
+    "fields": {
+        "created_at": "2022-08-18T09:16:12.102Z",
+        "updated_at": "2022-08-18T09:16:12.102Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 176,
+    "fields": {
+        "created_at": "2022-08-18T09:16:12.731Z",
+        "updated_at": "2022-08-18T09:16:12.731Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 177,
+    "fields": {
+        "created_at": "2022-08-18T09:16:13.338Z",
+        "updated_at": "2022-08-18T09:16:13.338Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 178,
+    "fields": {
+        "created_at": "2022-08-18T09:16:14.046Z",
+        "updated_at": "2022-08-18T09:16:14.046Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 179,
+    "fields": {
+        "created_at": "2022-08-18T09:16:14.485Z",
+        "updated_at": "2022-08-18T09:16:14.485Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 180,
+    "fields": {
+        "created_at": "2022-08-18T09:16:15.137Z",
+        "updated_at": "2022-08-18T09:16:15.137Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 181,
+    "fields": {
+        "created_at": "2022-08-18T09:16:15.667Z",
+        "updated_at": "2022-08-18T09:16:15.667Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 182,
+    "fields": {
+        "created_at": "2022-08-18T09:16:16.294Z",
+        "updated_at": "2022-08-18T09:16:16.294Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 183,
+    "fields": {
+        "created_at": "2022-08-18T09:16:16.824Z",
+        "updated_at": "2022-08-18T09:16:16.824Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 184,
+    "fields": {
+        "created_at": "2022-08-18T09:16:17.449Z",
+        "updated_at": "2022-08-18T09:16:17.449Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 185,
+    "fields": {
+        "created_at": "2022-08-18T09:16:17.873Z",
+        "updated_at": "2022-08-18T09:16:17.873Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 186,
+    "fields": {
+        "created_at": "2022-08-18T09:16:18.515Z",
+        "updated_at": "2022-08-18T09:16:18.515Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 187,
+    "fields": {
+        "created_at": "2022-08-18T09:16:19.220Z",
+        "updated_at": "2022-08-18T09:16:19.220Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 188,
+    "fields": {
+        "created_at": "2022-08-18T09:16:22.733Z",
+        "updated_at": "2022-08-18T09:16:22.733Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 189,
+    "fields": {
+        "created_at": "2022-08-18T09:16:23.510Z",
+        "updated_at": "2022-08-18T09:16:23.510Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 190,
+    "fields": {
+        "created_at": "2022-08-18T09:16:36.590Z",
+        "updated_at": "2022-08-18T19:29:26.731Z",
+        "type": "follow",
+        "user": 28,
+        "content": "blaa님이 동동구리을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 191,
+    "fields": {
+        "created_at": "2022-08-18T09:16:44.869Z",
+        "updated_at": "2022-08-18T09:16:44.869Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 192,
+    "fields": {
+        "created_at": "2022-08-18T09:17:00.210Z",
+        "updated_at": "2022-08-18T09:17:00.210Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 193,
+    "fields": {
+        "created_at": "2022-08-18T09:17:02.892Z",
+        "updated_at": "2022-08-18T09:17:02.893Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 194,
+    "fields": {
+        "created_at": "2022-08-18T09:17:04.723Z",
+        "updated_at": "2022-08-18T09:17:04.723Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 195,
+    "fields": {
+        "created_at": "2022-08-18T09:17:11.794Z",
+        "updated_at": "2022-08-18T09:17:11.794Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 196,
+    "fields": {
+        "created_at": "2022-08-18T09:17:16.897Z",
+        "updated_at": "2022-08-18T09:17:16.897Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 197,
+    "fields": {
+        "created_at": "2022-08-18T09:17:20.719Z",
+        "updated_at": "2022-08-18T09:17:20.719Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 198,
+    "fields": {
+        "created_at": "2022-08-18T09:17:22.973Z",
+        "updated_at": "2022-08-18T09:17:22.973Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 199,
+    "fields": {
+        "created_at": "2022-08-18T09:17:24.622Z",
+        "updated_at": "2022-08-18T09:17:24.622Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 200,
+    "fields": {
+        "created_at": "2022-08-18T09:17:26.388Z",
+        "updated_at": "2022-08-18T09:17:26.388Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 201,
+    "fields": {
+        "created_at": "2022-08-18T09:17:32.325Z",
+        "updated_at": "2022-08-18T09:17:32.325Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 202,
+    "fields": {
+        "created_at": "2022-08-18T09:17:42.981Z",
+        "updated_at": "2022-08-18T09:17:42.981Z",
+        "type": "follow",
+        "user": 32,
+        "content": "blaa님이 nickname2을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 203,
+    "fields": {
+        "created_at": "2022-08-18T09:17:47.873Z",
+        "updated_at": "2022-08-18T09:17:47.873Z",
+        "type": "follow",
+        "user": 32,
+        "content": "blaa님이 nickname2을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 204,
+    "fields": {
+        "created_at": "2022-08-18T09:17:50.355Z",
+        "updated_at": "2022-08-18T09:17:50.355Z",
+        "type": "follow",
+        "user": 32,
+        "content": "blaa님이 nickname2을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 205,
+    "fields": {
+        "created_at": "2022-08-18T09:17:52.496Z",
+        "updated_at": "2022-08-18T09:17:52.496Z",
+        "type": "follow",
+        "user": 32,
+        "content": "blaa님이 nickname2을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 206,
+    "fields": {
+        "created_at": "2022-08-18T09:17:54.247Z",
+        "updated_at": "2022-08-18T09:17:54.247Z",
+        "type": "follow",
+        "user": 32,
+        "content": "blaa님이 nickname2을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 207,
+    "fields": {
+        "created_at": "2022-08-18T09:17:56.804Z",
+        "updated_at": "2022-08-18T09:17:56.804Z",
+        "type": "follow",
+        "user": 32,
+        "content": "blaa님이 nickname2을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 208,
+    "fields": {
+        "created_at": "2022-08-18T09:17:57.511Z",
+        "updated_at": "2022-08-18T09:17:57.511Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 209,
+    "fields": {
+        "created_at": "2022-08-18T09:18:03.237Z",
+        "updated_at": "2022-08-18T09:18:03.238Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 210,
+    "fields": {
+        "created_at": "2022-08-18T09:18:06.146Z",
+        "updated_at": "2022-08-18T09:18:06.146Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 211,
+    "fields": {
+        "created_at": "2022-08-18T09:19:22.008Z",
+        "updated_at": "2022-08-18T09:19:22.008Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 212,
+    "fields": {
+        "created_at": "2022-08-18T09:19:28.517Z",
+        "updated_at": "2022-08-18T09:19:28.517Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 213,
+    "fields": {
+        "created_at": "2022-08-18T09:22:21.946Z",
+        "updated_at": "2022-08-18T13:45:36.426Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 214,
+    "fields": {
+        "created_at": "2022-08-18T09:22:29.962Z",
+        "updated_at": "2022-08-18T09:22:29.962Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 215,
+    "fields": {
+        "created_at": "2022-08-18T09:22:51.874Z",
+        "updated_at": "2022-08-18T09:22:51.874Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 216,
+    "fields": {
+        "created_at": "2022-08-18T09:22:53.569Z",
+        "updated_at": "2022-08-18T09:22:53.569Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 217,
+    "fields": {
+        "created_at": "2022-08-18T09:22:54.544Z",
+        "updated_at": "2022-08-18T09:22:54.544Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 218,
+    "fields": {
+        "created_at": "2022-08-18T09:22:55.115Z",
+        "updated_at": "2022-08-18T09:22:55.115Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 219,
+    "fields": {
+        "created_at": "2022-08-18T09:22:55.599Z",
+        "updated_at": "2022-08-18T09:22:55.599Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 220,
+    "fields": {
+        "created_at": "2022-08-18T09:22:56.087Z",
+        "updated_at": "2022-08-18T09:22:56.087Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 221,
+    "fields": {
+        "created_at": "2022-08-18T09:22:56.617Z",
+        "updated_at": "2022-08-18T09:22:56.617Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 222,
+    "fields": {
+        "created_at": "2022-08-18T09:22:57.097Z",
+        "updated_at": "2022-08-18T09:22:57.097Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 223,
+    "fields": {
+        "created_at": "2022-08-18T09:22:57.605Z",
+        "updated_at": "2022-08-18T09:22:57.605Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 224,
+    "fields": {
+        "created_at": "2022-08-18T09:22:58.116Z",
+        "updated_at": "2022-08-18T09:22:58.116Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 225,
+    "fields": {
+        "created_at": "2022-08-18T09:23:12.150Z",
+        "updated_at": "2022-08-18T09:23:12.150Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 226,
+    "fields": {
+        "created_at": "2022-08-18T09:23:57.818Z",
+        "updated_at": "2022-08-18T09:23:57.818Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 227,
+    "fields": {
+        "created_at": "2022-08-18T09:23:58.921Z",
+        "updated_at": "2022-08-18T09:23:58.921Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 228,
+    "fields": {
+        "created_at": "2022-08-18T09:24:47.970Z",
+        "updated_at": "2022-08-18T10:16:16.175Z",
+        "type": "follow",
+        "user": 11,
+        "content": "blaa님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 229,
+    "fields": {
+        "created_at": "2022-08-18T09:24:51.557Z",
+        "updated_at": "2022-08-18T09:24:51.557Z",
+        "type": "follow",
+        "user": 30,
+        "content": "누군가님이 전체적인그림을보자을 Follow 했습니다.",
+        "redirect_pk": 23,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 230,
+    "fields": {
+        "created_at": "2022-08-18T09:24:52.836Z",
+        "updated_at": "2022-08-18T09:24:52.836Z",
+        "type": "follow",
+        "user": 30,
+        "content": "누군가님이 전체적인그림을보자을 Follow 했습니다.",
+        "redirect_pk": 23,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 231,
+    "fields": {
+        "created_at": "2022-08-18T09:24:53.008Z",
+        "updated_at": "2022-08-18T10:16:16.191Z",
+        "type": "follow",
+        "user": 11,
+        "content": "blaa님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 232,
+    "fields": {
+        "created_at": "2022-08-18T09:24:55.742Z",
+        "updated_at": "2022-08-18T10:16:16.168Z",
+        "type": "follow",
+        "user": 11,
+        "content": "blaa님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 233,
+    "fields": {
+        "created_at": "2022-08-18T09:24:59.461Z",
+        "updated_at": "2022-08-18T10:16:16.160Z",
+        "type": "follow",
+        "user": 11,
+        "content": "blaa님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 235,
+    "fields": {
+        "created_at": "2022-08-18T09:25:34.509Z",
+        "updated_at": "2022-08-18T09:25:34.509Z",
+        "type": "follow",
+        "user": 29,
+        "content": "blaa님이 곤다이마셍을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 236,
+    "fields": {
+        "created_at": "2022-08-18T09:25:37.718Z",
+        "updated_at": "2022-08-18T09:25:37.718Z",
+        "type": "follow",
+        "user": 20,
+        "content": "blaa님이 동동을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 240,
+    "fields": {
+        "created_at": "2022-08-18T09:26:23.735Z",
+        "updated_at": "2022-08-18T19:20:20.445Z",
+        "type": "crew",
+        "user": 1,
+        "content": "blaa이 싸피커피크루에 가입되었습니다.",
+        "redirect_pk": 12,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 241,
+    "fields": {
+        "created_at": "2022-08-18T09:28:29.072Z",
+        "updated_at": "2022-08-18T13:45:36.418Z",
+        "type": "crew",
+        "user": 16,
+        "content": "차니이 싸피커피크루에 가입되었습니다.",
+        "redirect_pk": 12,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 243,
+    "fields": {
+        "created_at": "2022-08-18T09:29:38.447Z",
+        "updated_at": "2022-08-18T16:23:06.150Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 244,
+    "fields": {
+        "created_at": "2022-08-18T09:29:40.807Z",
+        "updated_at": "2022-08-18T16:23:06.143Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 246,
+    "fields": {
+        "created_at": "2022-08-18T10:15:59.672Z",
+        "updated_at": "2022-08-18T10:15:59.672Z",
+        "type": "follow",
+        "user": 12,
+        "content": "Kiki님이 Zizissssi을 Follow 했습니다.",
+        "redirect_pk": 11,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 247,
+    "fields": {
+        "created_at": "2022-08-18T10:31:16.464Z",
+        "updated_at": "2022-08-18T10:31:16.464Z",
+        "type": "follow",
+        "user": 11,
+        "content": "차니님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 248,
+    "fields": {
+        "created_at": "2022-08-18T10:31:19.039Z",
+        "updated_at": "2022-08-18T10:31:19.039Z",
+        "type": "follow",
+        "user": 11,
+        "content": "차니님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 249,
+    "fields": {
+        "created_at": "2022-08-18T10:31:33.779Z",
+        "updated_at": "2022-08-18T10:31:33.779Z",
+        "type": "follow",
+        "user": 20,
+        "content": "차니님이 동동을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 250,
+    "fields": {
+        "created_at": "2022-08-18T10:31:34.770Z",
+        "updated_at": "2022-08-18T10:31:34.770Z",
+        "type": "follow",
+        "user": 20,
+        "content": "차니님이 동동을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 251,
+    "fields": {
+        "created_at": "2022-08-18T10:31:45.063Z",
+        "updated_at": "2022-08-18T10:31:45.063Z",
+        "type": "follow",
+        "user": 30,
+        "content": "차니님이 전체적인그림을보자을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 252,
+    "fields": {
+        "created_at": "2022-08-18T10:31:46.057Z",
+        "updated_at": "2022-08-18T10:31:46.057Z",
+        "type": "follow",
+        "user": 30,
+        "content": "차니님이 전체적인그림을보자을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 253,
+    "fields": {
+        "created_at": "2022-08-18T10:31:51.631Z",
+        "updated_at": "2022-08-18T10:31:51.631Z",
+        "type": "follow",
+        "user": 26,
+        "content": "차니님이 간장에새우한조각을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 254,
+    "fields": {
+        "created_at": "2022-08-18T10:31:53.065Z",
+        "updated_at": "2022-08-18T10:31:53.065Z",
+        "type": "follow",
+        "user": 26,
+        "content": "차니님이 간장에새우한조각을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 255,
+    "fields": {
+        "created_at": "2022-08-18T10:32:06.914Z",
+        "updated_at": "2022-08-18T10:32:06.914Z",
+        "type": "follow",
+        "user": 25,
+        "content": "차니님이 강강승승후을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 256,
+    "fields": {
+        "created_at": "2022-08-18T10:32:08.194Z",
+        "updated_at": "2022-08-18T10:32:08.194Z",
+        "type": "follow",
+        "user": 25,
+        "content": "차니님이 강강승승후을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 257,
+    "fields": {
+        "created_at": "2022-08-18T10:32:12.911Z",
+        "updated_at": "2022-08-18T19:17:04.978Z",
+        "type": "follow",
+        "user": 24,
+        "content": "차니님이 찬우찬우을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 258,
+    "fields": {
+        "created_at": "2022-08-18T10:32:14.368Z",
+        "updated_at": "2022-08-18T19:17:04.970Z",
+        "type": "follow",
+        "user": 24,
+        "content": "차니님이 찬우찬우을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 259,
+    "fields": {
+        "created_at": "2022-08-18T10:32:24.928Z",
+        "updated_at": "2022-08-18T10:32:24.928Z",
+        "type": "follow",
+        "user": 12,
+        "content": "차니님이 Zizissssi을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 260,
+    "fields": {
+        "created_at": "2022-08-18T10:32:26.176Z",
+        "updated_at": "2022-08-18T10:32:26.176Z",
+        "type": "follow",
+        "user": 12,
+        "content": "차니님이 Zizissssi을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 261,
+    "fields": {
+        "created_at": "2022-08-18T11:18:41.728Z",
+        "updated_at": "2022-08-18T11:18:41.728Z",
+        "type": "follow",
+        "user": 5,
+        "content": "싸피최고짱님이 싸피최고을 Follow 했습니다.",
+        "redirect_pk": 241,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 262,
+    "fields": {
+        "created_at": "2022-08-18T12:36:01.155Z",
+        "updated_at": "2022-08-18T12:36:01.155Z",
+        "type": "follow",
+        "user": 18,
+        "content": "알바몬님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 263,
+    "fields": {
+        "created_at": "2022-08-18T12:46:23.892Z",
+        "updated_at": "2022-08-18T12:46:23.892Z",
+        "type": "story",
+        "user": 18,
+        "content": "매봉이님이 알바의 신의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 22,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 264,
+    "fields": {
+        "created_at": "2022-08-18T12:48:09.163Z",
+        "updated_at": "2022-08-18T12:48:09.163Z",
+        "type": "story",
+        "user": 18,
+        "content": "매봉이님이 알바의 신의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 22,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 265,
+    "fields": {
+        "created_at": "2022-08-18T12:53:44.881Z",
+        "updated_at": "2022-08-18T12:53:44.881Z",
+        "type": "follow",
+        "user": 18,
+        "content": "알바몬님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 266,
+    "fields": {
+        "created_at": "2022-08-18T12:53:52.987Z",
+        "updated_at": "2022-08-18T12:53:52.987Z",
+        "type": "follow",
+        "user": 18,
+        "content": "알바몬님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 267,
+    "fields": {
+        "created_at": "2022-08-18T12:53:54.150Z",
+        "updated_at": "2022-08-18T12:53:54.150Z",
+        "type": "follow",
+        "user": 18,
+        "content": "알바몬님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 268,
+    "fields": {
+        "created_at": "2022-08-18T12:53:59.348Z",
+        "updated_at": "2022-08-18T12:53:59.348Z",
+        "type": "follow",
+        "user": 18,
+        "content": "알바몬님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 269,
+    "fields": {
+        "created_at": "2022-08-18T12:54:52.298Z",
+        "updated_at": "2022-08-18T12:54:52.298Z",
+        "type": "follow",
+        "user": 18,
+        "content": "알바몬님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 270,
+    "fields": {
+        "created_at": "2022-08-18T13:28:56.555Z",
+        "updated_at": "2022-08-18T13:28:56.555Z",
+        "type": "follow",
+        "user": 18,
+        "content": "알바몬님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 271,
+    "fields": {
+        "created_at": "2022-08-18T13:30:06.593Z",
+        "updated_at": "2022-08-18T13:30:06.593Z",
+        "type": "follow",
+        "user": 18,
+        "content": "알바몬님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 272,
+    "fields": {
+        "created_at": "2022-08-18T13:30:37.109Z",
+        "updated_at": "2022-08-18T13:30:37.109Z",
+        "type": "follow",
+        "user": 18,
+        "content": "알바몬님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 273,
+    "fields": {
+        "created_at": "2022-08-18T13:30:50.247Z",
+        "updated_at": "2022-08-18T13:30:50.247Z",
+        "type": "follow",
+        "user": 18,
+        "content": "알바몬님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 274,
+    "fields": {
+        "created_at": "2022-08-18T13:37:30.764Z",
+        "updated_at": "2022-08-18T13:37:30.764Z",
+        "type": "follow",
+        "user": 18,
+        "content": "차니님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 275,
+    "fields": {
+        "created_at": "2022-08-18T13:56:31.201Z",
+        "updated_at": "2022-08-18T13:56:31.201Z",
+        "type": "follow",
+        "user": 242,
+        "content": "nickname1님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 31,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 276,
+    "fields": {
+        "created_at": "2022-08-18T13:56:34.544Z",
+        "updated_at": "2022-08-18T13:56:34.544Z",
+        "type": "follow",
+        "user": 11,
+        "content": "nickname1님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 31,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 277,
+    "fields": {
+        "created_at": "2022-08-18T13:56:51.817Z",
+        "updated_at": "2022-08-18T13:56:51.817Z",
+        "type": "story",
+        "user": 11,
+        "content": "싸피최고짱님이 Kiki의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 21,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 278,
+    "fields": {
+        "created_at": "2022-08-18T14:05:48.347Z",
+        "updated_at": "2022-08-18T14:05:48.347Z",
+        "type": "follow",
+        "user": 11,
+        "content": "매봉이님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 17,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 279,
+    "fields": {
+        "created_at": "2022-08-18T14:06:48.387Z",
+        "updated_at": "2022-08-18T14:06:48.387Z",
+        "type": "story",
+        "user": 18,
+        "content": "싸피최고짱님이 알바의 신의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 22,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 280,
+    "fields": {
+        "created_at": "2022-08-18T14:16:52.772Z",
+        "updated_at": "2022-08-18T14:16:52.772Z",
+        "type": "crew",
+        "user": 18,
+        "content": "알바의 신이 싸피커피크루에 가입되었습니다.",
+        "redirect_pk": 12,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 281,
+    "fields": {
+        "created_at": "2022-08-18T14:16:55.127Z",
+        "updated_at": "2022-08-18T14:16:55.127Z",
+        "type": "crew",
+        "user": 137,
+        "content": "nickname108이 싸피커피크루에 가입되었습니다.",
+        "redirect_pk": 12,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 282,
+    "fields": {
+        "created_at": "2022-08-18T14:32:05.378Z",
+        "updated_at": "2022-08-18T16:23:06.135Z",
+        "type": "crew_invite",
+        "user": 16,
+        "content": "투썸플레이스 노은점크루에서 차니을 초대했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 283,
+    "fields": {
+        "created_at": "2022-08-18T14:42:38.845Z",
+        "updated_at": "2022-08-18T14:42:38.845Z",
+        "type": "crew_invite",
+        "user": 3,
+        "content": "스타벅스 둔산점크루에서 userA을 초대했습니다.",
+        "redirect_pk": 18,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 284,
+    "fields": {
+        "created_at": "2022-08-18T14:47:16.991Z",
+        "updated_at": "2022-08-18T14:47:16.991Z",
+        "type": "crew",
+        "user": 9,
+        "content": "구구혁혁너너이 스타벅스대전DT점크루에 가입되었습니다.",
+        "redirect_pk": 3,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 285,
+    "fields": {
+        "created_at": "2022-08-18T14:55:15.203Z",
+        "updated_at": "2022-08-18T16:23:06.127Z",
+        "type": "crew",
+        "user": 16,
+        "content": "차니이 투썸플레이스 노은점크루에 가입되었습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 286,
+    "fields": {
+        "created_at": "2022-08-18T14:55:35.081Z",
+        "updated_at": "2022-08-18T16:23:06.120Z",
+        "type": "follow",
+        "user": 16,
+        "content": "구리구리혀구림님이 차니을 Follow 했습니다.",
+        "redirect_pk": 6,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 287,
+    "fields": {
+        "created_at": "2022-08-18T14:58:30.799Z",
+        "updated_at": "2022-08-18T14:58:30.799Z",
+        "type": "follow",
+        "user": 18,
+        "content": "알바몬님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 288,
+    "fields": {
+        "created_at": "2022-08-18T14:58:35.533Z",
+        "updated_at": "2022-08-18T14:58:35.533Z",
+        "type": "follow",
+        "user": 18,
+        "content": "알바몬님이 알바의 신을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 289,
+    "fields": {
+        "created_at": "2022-08-18T14:59:03.694Z",
+        "updated_at": "2022-08-18T19:04:12.659Z",
+        "type": "follow",
+        "user": 14,
+        "content": "역전할맥 알바생님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 15,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 290,
+    "fields": {
+        "created_at": "2022-08-18T14:59:09.367Z",
+        "updated_at": "2022-08-18T19:04:12.668Z",
+        "type": "follow",
+        "user": 14,
+        "content": "역전할맥 알바생님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 15,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 291,
+    "fields": {
+        "created_at": "2022-08-18T15:06:14.131Z",
+        "updated_at": "2022-08-18T15:06:14.131Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 292,
+    "fields": {
+        "created_at": "2022-08-18T15:07:54.241Z",
+        "updated_at": "2022-08-18T15:07:54.241Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 293,
+    "fields": {
+        "created_at": "2022-08-18T15:10:34.734Z",
+        "updated_at": "2022-08-18T15:10:34.734Z",
+        "type": "story",
+        "user": 152,
+        "content": "닥영님이 nickname123의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 26,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 294,
+    "fields": {
+        "created_at": "2022-08-18T15:13:47.542Z",
+        "updated_at": "2022-08-18T19:20:20.430Z",
+        "type": "follow",
+        "user": 1,
+        "content": "차니님이 blaa을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 295,
+    "fields": {
+        "created_at": "2022-08-18T15:18:25.304Z",
+        "updated_at": "2022-08-18T15:18:25.304Z",
+        "type": "follow",
+        "user": 4,
+        "content": "blaa님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 296,
+    "fields": {
+        "created_at": "2022-08-18T15:19:37.131Z",
+        "updated_at": "2022-08-18T15:19:37.131Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 297,
+    "fields": {
+        "created_at": "2022-08-18T15:19:43.165Z",
+        "updated_at": "2022-08-18T15:19:43.165Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 298,
+    "fields": {
+        "created_at": "2022-08-18T15:20:23.291Z",
+        "updated_at": "2022-08-18T15:20:23.291Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 299,
+    "fields": {
+        "created_at": "2022-08-18T15:20:39.948Z",
+        "updated_at": "2022-08-18T15:20:39.948Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 300,
+    "fields": {
+        "created_at": "2022-08-18T15:20:40.229Z",
+        "updated_at": "2022-08-18T15:20:40.229Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 301,
+    "fields": {
+        "created_at": "2022-08-18T15:20:40.521Z",
+        "updated_at": "2022-08-18T15:20:40.521Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 302,
+    "fields": {
+        "created_at": "2022-08-18T15:20:40.773Z",
+        "updated_at": "2022-08-18T15:20:40.773Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 303,
+    "fields": {
+        "created_at": "2022-08-18T15:20:41.034Z",
+        "updated_at": "2022-08-18T15:20:41.034Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 304,
+    "fields": {
+        "created_at": "2022-08-18T15:20:41.661Z",
+        "updated_at": "2022-08-18T15:20:41.661Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 305,
+    "fields": {
+        "created_at": "2022-08-18T15:20:42.276Z",
+        "updated_at": "2022-08-18T15:20:42.276Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 306,
+    "fields": {
+        "created_at": "2022-08-18T15:20:43.065Z",
+        "updated_at": "2022-08-18T15:20:43.065Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 307,
+    "fields": {
+        "created_at": "2022-08-18T15:20:43.939Z",
+        "updated_at": "2022-08-18T15:20:43.939Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 308,
+    "fields": {
+        "created_at": "2022-08-18T15:20:44.814Z",
+        "updated_at": "2022-08-18T15:20:44.814Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 309,
+    "fields": {
+        "created_at": "2022-08-18T15:20:45.766Z",
+        "updated_at": "2022-08-18T15:20:45.766Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 310,
+    "fields": {
+        "created_at": "2022-08-18T15:20:52.971Z",
+        "updated_at": "2022-08-18T15:20:52.971Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 311,
+    "fields": {
+        "created_at": "2022-08-18T15:20:53.374Z",
+        "updated_at": "2022-08-18T15:20:53.374Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 312,
+    "fields": {
+        "created_at": "2022-08-18T15:20:53.692Z",
+        "updated_at": "2022-08-18T15:20:53.692Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 313,
+    "fields": {
+        "created_at": "2022-08-18T15:20:55.204Z",
+        "updated_at": "2022-08-18T15:20:55.204Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 314,
+    "fields": {
+        "created_at": "2022-08-18T15:20:57.267Z",
+        "updated_at": "2022-08-18T15:20:57.267Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 315,
+    "fields": {
+        "created_at": "2022-08-18T15:20:58.661Z",
+        "updated_at": "2022-08-18T15:20:58.661Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 316,
+    "fields": {
+        "created_at": "2022-08-18T15:21:04.052Z",
+        "updated_at": "2022-08-18T15:21:04.052Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 317,
+    "fields": {
+        "created_at": "2022-08-18T15:21:04.896Z",
+        "updated_at": "2022-08-18T15:21:04.897Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 318,
+    "fields": {
+        "created_at": "2022-08-18T15:21:06.164Z",
+        "updated_at": "2022-08-18T15:21:06.164Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 319,
+    "fields": {
+        "created_at": "2022-08-18T15:21:07.697Z",
+        "updated_at": "2022-08-18T15:21:07.697Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 320,
+    "fields": {
+        "created_at": "2022-08-18T15:22:29.987Z",
+        "updated_at": "2022-08-18T15:22:29.987Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 321,
+    "fields": {
+        "created_at": "2022-08-18T15:22:30.909Z",
+        "updated_at": "2022-08-18T15:22:30.909Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 322,
+    "fields": {
+        "created_at": "2022-08-18T15:22:36.446Z",
+        "updated_at": "2022-08-18T15:22:36.446Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 323,
+    "fields": {
+        "created_at": "2022-08-18T15:26:47.073Z",
+        "updated_at": "2022-08-18T15:26:47.073Z",
+        "type": "follow",
+        "user": 11,
+        "content": "awef님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 247,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 324,
+    "fields": {
+        "created_at": "2022-08-18T15:26:49.159Z",
+        "updated_at": "2022-08-18T15:26:49.159Z",
+        "type": "follow",
+        "user": 11,
+        "content": "awef님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 247,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 325,
+    "fields": {
+        "created_at": "2022-08-18T15:34:03.723Z",
+        "updated_at": "2022-08-18T15:34:03.723Z",
+        "type": "follow",
+        "user": 152,
+        "content": "딩딩님이 nickname123을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 326,
+    "fields": {
+        "created_at": "2022-08-18T15:34:04.736Z",
+        "updated_at": "2022-08-18T15:34:04.736Z",
+        "type": "follow",
+        "user": 152,
+        "content": "딩딩님이 nickname123을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 328,
+    "fields": {
+        "created_at": "2022-08-18T15:34:07.102Z",
+        "updated_at": "2022-08-18T15:34:07.102Z",
+        "type": "follow",
+        "user": 152,
+        "content": "딩딩님이 nickname123을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 329,
+    "fields": {
+        "created_at": "2022-08-18T15:34:07.266Z",
+        "updated_at": "2022-08-18T15:34:07.266Z",
+        "type": "crew",
+        "user": 9,
+        "content": "블라와함께라면이 스타벅스 둔산점크루에 가입되었습니다.",
+        "redirect_pk": 18,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 330,
+    "fields": {
+        "created_at": "2022-08-18T15:34:08.899Z",
+        "updated_at": "2022-08-18T15:34:08.899Z",
+        "type": "crew",
+        "user": 8,
+        "content": "동동동대문을열어라이 스타벅스 둔산점크루에 가입되었습니다.",
+        "redirect_pk": 18,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 331,
+    "fields": {
+        "created_at": "2022-08-18T15:34:09.094Z",
+        "updated_at": "2022-08-18T15:34:09.094Z",
+        "type": "follow",
+        "user": 152,
+        "content": "딩딩님이 nickname123을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 332,
+    "fields": {
+        "created_at": "2022-08-18T15:34:10.495Z",
+        "updated_at": "2022-08-18T15:34:10.495Z",
+        "type": "crew",
+        "user": 6,
+        "content": "구리구리혀구림이 스타벅스 둔산점크루에 가입되었습니다.",
+        "redirect_pk": 18,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 333,
+    "fields": {
+        "created_at": "2022-08-18T15:34:11.116Z",
+        "updated_at": "2022-08-18T15:34:11.116Z",
+        "type": "follow",
+        "user": 152,
+        "content": "딩딩님이 nickname123을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 334,
+    "fields": {
+        "created_at": "2022-08-18T15:34:11.710Z",
+        "updated_at": "2022-08-18T15:34:11.710Z",
+        "type": "follow",
+        "user": 152,
+        "content": "딩딩님이 nickname123을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 335,
+    "fields": {
+        "created_at": "2022-08-18T15:34:12.936Z",
+        "updated_at": "2022-08-18T15:34:12.936Z",
+        "type": "follow",
+        "user": 152,
+        "content": "딩딩님이 nickname123을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 336,
+    "fields": {
+        "created_at": "2022-08-18T15:34:16.032Z",
+        "updated_at": "2022-08-18T15:34:16.033Z",
+        "type": "crew",
+        "user": 9,
+        "content": "블라와함께라면이 한밭대 알바생 모임크루에 가입되었습니다.",
+        "redirect_pk": 17,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 337,
+    "fields": {
+        "created_at": "2022-08-18T15:34:16.250Z",
+        "updated_at": "2022-08-18T15:34:16.250Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 338,
+    "fields": {
+        "created_at": "2022-08-18T15:34:17.864Z",
+        "updated_at": "2022-08-18T15:34:17.864Z",
+        "type": "crew",
+        "user": 8,
+        "content": "동동동대문을열어라이 한밭대 알바생 모임크루에 가입되었습니다.",
+        "redirect_pk": 17,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 339,
+    "fields": {
+        "created_at": "2022-08-18T15:34:18.076Z",
+        "updated_at": "2022-08-18T15:34:18.076Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 340,
+    "fields": {
+        "created_at": "2022-08-18T15:34:19.297Z",
+        "updated_at": "2022-08-18T15:34:19.297Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 341,
+    "fields": {
+        "created_at": "2022-08-18T15:34:20.726Z",
+        "updated_at": "2022-08-18T15:34:20.726Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 342,
+    "fields": {
+        "created_at": "2022-08-18T15:34:21.859Z",
+        "updated_at": "2022-08-18T15:34:21.859Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 343,
+    "fields": {
+        "created_at": "2022-08-18T15:34:23.817Z",
+        "updated_at": "2022-08-18T15:34:23.818Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 345,
+    "fields": {
+        "created_at": "2022-08-18T15:34:26.080Z",
+        "updated_at": "2022-08-18T15:34:26.080Z",
+        "type": "crew",
+        "user": 9,
+        "content": "블라와함께라면이 청년다방 신부점크루에 가입되었습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 346,
+    "fields": {
+        "created_at": "2022-08-18T15:34:26.815Z",
+        "updated_at": "2022-08-18T15:34:26.815Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 347,
+    "fields": {
+        "created_at": "2022-08-18T15:34:27.841Z",
+        "updated_at": "2022-08-18T15:34:27.841Z",
+        "type": "crew",
+        "user": 8,
+        "content": "동동동대문을열어라이 청년다방 신부점크루에 가입되었습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 350,
+    "fields": {
+        "created_at": "2022-08-18T15:34:33.919Z",
+        "updated_at": "2022-08-18T15:34:33.919Z",
+        "type": "crew",
+        "user": 9,
+        "content": "블라와함께라면이 동대문엽기떡볶이 논산점크루에 가입되었습니다.",
+        "redirect_pk": 15,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 351,
+    "fields": {
+        "created_at": "2022-08-18T15:34:35.289Z",
+        "updated_at": "2022-08-18T15:34:35.289Z",
+        "type": "follow",
+        "user": 30,
+        "content": "딩딩님이 전체적인그림을보자을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 352,
+    "fields": {
+        "created_at": "2022-08-18T15:34:35.687Z",
+        "updated_at": "2022-08-18T15:34:35.687Z",
+        "type": "crew",
+        "user": 8,
+        "content": "동동동대문을열어라이 동대문엽기떡볶이 논산점크루에 가입되었습니다.",
+        "redirect_pk": 15,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 353,
+    "fields": {
+        "created_at": "2022-08-18T15:34:37.391Z",
+        "updated_at": "2022-08-18T15:34:37.391Z",
+        "type": "crew",
+        "user": 6,
+        "content": "구리구리혀구림이 동대문엽기떡볶이 논산점크루에 가입되었습니다.",
+        "redirect_pk": 15,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 354,
+    "fields": {
+        "created_at": "2022-08-18T15:34:38.732Z",
+        "updated_at": "2022-08-18T15:34:38.732Z",
+        "type": "follow",
+        "user": 11,
+        "content": "딩딩님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 355,
+    "fields": {
+        "created_at": "2022-08-18T15:34:47.258Z",
+        "updated_at": "2022-08-18T15:34:47.258Z",
+        "type": "follow",
+        "user": 11,
+        "content": "딩딩님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 356,
+    "fields": {
+        "created_at": "2022-08-18T15:34:48.472Z",
+        "updated_at": "2022-08-18T15:34:48.472Z",
+        "type": "follow",
+        "user": 11,
+        "content": "딩딩님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 357,
+    "fields": {
+        "created_at": "2022-08-18T15:34:50.644Z",
+        "updated_at": "2022-08-18T15:34:50.644Z",
+        "type": "follow",
+        "user": 11,
+        "content": "딩딩님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 358,
+    "fields": {
+        "created_at": "2022-08-18T15:34:52.201Z",
+        "updated_at": "2022-08-18T15:34:52.202Z",
+        "type": "follow",
+        "user": 11,
+        "content": "딩딩님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 359,
+    "fields": {
+        "created_at": "2022-08-18T15:35:00.653Z",
+        "updated_at": "2022-08-18T15:35:00.653Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 360,
+    "fields": {
+        "created_at": "2022-08-18T15:35:10.380Z",
+        "updated_at": "2022-08-18T19:17:04.985Z",
+        "type": "follow",
+        "user": 24,
+        "content": "딩딩님이 찬우찬우을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 362,
+    "fields": {
+        "created_at": "2022-08-18T15:39:00.429Z",
+        "updated_at": "2022-08-18T15:39:00.429Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 363,
+    "fields": {
+        "created_at": "2022-08-18T15:39:02.611Z",
+        "updated_at": "2022-08-18T15:39:02.611Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 364,
+    "fields": {
+        "created_at": "2022-08-18T15:39:03.994Z",
+        "updated_at": "2022-08-18T15:39:03.994Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 365,
+    "fields": {
+        "created_at": "2022-08-18T15:39:07.653Z",
+        "updated_at": "2022-08-18T15:39:07.653Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 366,
+    "fields": {
+        "created_at": "2022-08-18T15:39:08.627Z",
+        "updated_at": "2022-08-18T15:39:08.627Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 367,
+    "fields": {
+        "created_at": "2022-08-18T15:39:09.765Z",
+        "updated_at": "2022-08-18T15:39:09.765Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 368,
+    "fields": {
+        "created_at": "2022-08-18T15:39:11.161Z",
+        "updated_at": "2022-08-18T15:43:37.630Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 369,
+    "fields": {
+        "created_at": "2022-08-18T15:39:12.786Z",
+        "updated_at": "2022-08-18T15:43:37.622Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 370,
+    "fields": {
+        "created_at": "2022-08-18T15:39:14.605Z",
+        "updated_at": "2022-08-18T15:43:37.607Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 371,
+    "fields": {
+        "created_at": "2022-08-18T15:39:16.540Z",
+        "updated_at": "2022-08-18T15:43:37.599Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 372,
+    "fields": {
+        "created_at": "2022-08-18T15:39:17.756Z",
+        "updated_at": "2022-08-18T15:43:37.615Z",
+        "type": "follow",
+        "user": 242,
+        "content": "딩딩님이 마라마라을 Follow 했습니다.",
+        "redirect_pk": 246,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 373,
+    "fields": {
+        "created_at": "2022-08-18T15:53:43.058Z",
+        "updated_at": "2022-08-18T15:53:43.058Z",
+        "type": "story",
+        "user": 248,
+        "content": "블라와함께라면님이 재원재원의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 27,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 374,
+    "fields": {
+        "created_at": "2022-08-18T15:55:40.494Z",
+        "updated_at": "2022-08-18T15:55:40.494Z",
+        "type": "follow",
+        "user": 244,
+        "content": "블라와함께라면님이 박싸피을 Follow 했습니다.",
+        "redirect_pk": 9,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 375,
+    "fields": {
+        "created_at": "2022-08-18T15:55:41.323Z",
+        "updated_at": "2022-08-18T15:55:41.323Z",
+        "type": "follow",
+        "user": 244,
+        "content": "블라와함께라면님이 박싸피을 Follow 했습니다.",
+        "redirect_pk": 9,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 376,
+    "fields": {
+        "created_at": "2022-08-18T16:20:36.873Z",
+        "updated_at": "2022-08-18T16:20:36.873Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 377,
+    "fields": {
+        "created_at": "2022-08-18T16:20:40.104Z",
+        "updated_at": "2022-08-18T16:20:40.104Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 378,
+    "fields": {
+        "created_at": "2022-08-18T16:34:10.388Z",
+        "updated_at": "2022-08-18T16:34:10.388Z",
+        "type": "follow",
+        "user": 11,
+        "content": "우수미소지기님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 250,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 379,
+    "fields": {
+        "created_at": "2022-08-18T16:34:11.439Z",
+        "updated_at": "2022-08-18T16:34:11.439Z",
+        "type": "follow",
+        "user": 11,
+        "content": "우수미소지기님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 250,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 380,
+    "fields": {
+        "created_at": "2022-08-18T16:34:35.595Z",
+        "updated_at": "2022-08-18T16:34:35.595Z",
+        "type": "follow",
+        "user": 11,
+        "content": "우수미소지기님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 250,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 381,
+    "fields": {
+        "created_at": "2022-08-18T16:34:39.749Z",
+        "updated_at": "2022-08-18T16:34:39.749Z",
+        "type": "follow",
+        "user": 11,
+        "content": "우수미소지기님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 250,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 382,
+    "fields": {
+        "created_at": "2022-08-18T16:34:42.119Z",
+        "updated_at": "2022-08-18T16:34:42.119Z",
+        "type": "follow",
+        "user": 11,
+        "content": "우수미소지기님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 250,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 383,
+    "fields": {
+        "created_at": "2022-08-18T16:35:41.636Z",
+        "updated_at": "2022-08-18T16:35:41.637Z",
+        "type": "follow",
+        "user": 3,
+        "content": "알바몬님이 userA을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 384,
+    "fields": {
+        "created_at": "2022-08-18T16:37:53.215Z",
+        "updated_at": "2022-08-18T16:37:53.215Z",
+        "type": "follow",
+        "user": 3,
+        "content": "알바몬님이 userA을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 385,
+    "fields": {
+        "created_at": "2022-08-18T16:38:00.795Z",
+        "updated_at": "2022-08-18T16:38:00.795Z",
+        "type": "follow",
+        "user": 4,
+        "content": "알바몬님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 386,
+    "fields": {
+        "created_at": "2022-08-18T16:38:06.711Z",
+        "updated_at": "2022-08-18T16:38:06.711Z",
+        "type": "follow",
+        "user": 3,
+        "content": "알바몬님이 userA을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 387,
+    "fields": {
+        "created_at": "2022-08-18T16:38:10.306Z",
+        "updated_at": "2022-08-18T16:38:10.306Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 388,
+    "fields": {
+        "created_at": "2022-08-18T16:38:13.080Z",
+        "updated_at": "2022-08-18T16:38:13.080Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 389,
+    "fields": {
+        "created_at": "2022-08-18T16:38:14.422Z",
+        "updated_at": "2022-08-18T16:38:14.422Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 390,
+    "fields": {
+        "created_at": "2022-08-18T16:38:15.436Z",
+        "updated_at": "2022-08-18T16:38:15.436Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 391,
+    "fields": {
+        "created_at": "2022-08-18T16:38:54.057Z",
+        "updated_at": "2022-08-18T16:38:54.057Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 392,
+    "fields": {
+        "created_at": "2022-08-18T16:38:56.927Z",
+        "updated_at": "2022-08-18T16:38:56.927Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 393,
+    "fields": {
+        "created_at": "2022-08-18T16:39:31.841Z",
+        "updated_at": "2022-08-18T16:39:31.841Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 394,
+    "fields": {
+        "created_at": "2022-08-18T16:39:34.059Z",
+        "updated_at": "2022-08-18T16:39:34.059Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 395,
+    "fields": {
+        "created_at": "2022-08-18T16:40:09.642Z",
+        "updated_at": "2022-08-18T16:40:09.642Z",
+        "type": "follow",
+        "user": 11,
+        "content": "우수미소지기님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 250,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 396,
+    "fields": {
+        "created_at": "2022-08-18T16:40:16.008Z",
+        "updated_at": "2022-08-18T16:40:16.008Z",
+        "type": "follow",
+        "user": 11,
+        "content": "우수미소지기님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 250,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 397,
+    "fields": {
+        "created_at": "2022-08-18T16:40:18.232Z",
+        "updated_at": "2022-08-18T16:40:18.232Z",
+        "type": "follow",
+        "user": 11,
+        "content": "우수미소지기님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 250,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 398,
+    "fields": {
+        "created_at": "2022-08-18T16:40:19.325Z",
+        "updated_at": "2022-08-18T16:40:19.326Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 399,
+    "fields": {
+        "created_at": "2022-08-18T16:43:24.048Z",
+        "updated_at": "2022-08-18T16:43:24.049Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 400,
+    "fields": {
+        "created_at": "2022-08-18T16:43:27.575Z",
+        "updated_at": "2022-08-18T16:43:27.575Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 401,
+    "fields": {
+        "created_at": "2022-08-18T16:43:29.434Z",
+        "updated_at": "2022-08-18T16:43:29.434Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 402,
+    "fields": {
+        "created_at": "2022-08-18T16:43:30.642Z",
+        "updated_at": "2022-08-18T16:43:30.642Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 403,
+    "fields": {
+        "created_at": "2022-08-18T16:45:50.901Z",
+        "updated_at": "2022-08-18T16:45:50.901Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 404,
+    "fields": {
+        "created_at": "2022-08-18T16:45:55.311Z",
+        "updated_at": "2022-08-18T16:45:55.312Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 405,
+    "fields": {
+        "created_at": "2022-08-18T16:45:56.850Z",
+        "updated_at": "2022-08-18T16:45:56.850Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 406,
+    "fields": {
+        "created_at": "2022-08-18T16:45:59.243Z",
+        "updated_at": "2022-08-18T22:53:27.202Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 407,
+    "fields": {
+        "created_at": "2022-08-18T16:46:23.463Z",
+        "updated_at": "2022-08-18T22:53:27.186Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 408,
+    "fields": {
+        "created_at": "2022-08-18T16:46:26.550Z",
+        "updated_at": "2022-08-18T22:53:27.194Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 409,
+    "fields": {
+        "created_at": "2022-08-18T16:46:27.831Z",
+        "updated_at": "2022-08-18T22:53:27.179Z",
+        "type": "follow",
+        "user": 15,
+        "content": "알바몬님이 역전할맥 알바생을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 411,
+    "fields": {
+        "created_at": "2022-08-18T17:10:27.959Z",
+        "updated_at": "2022-08-18T17:10:27.959Z",
+        "type": "follow",
+        "user": 250,
+        "content": "blaa님이 우수미소지기을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 412,
+    "fields": {
+        "created_at": "2022-08-18T17:10:30.745Z",
+        "updated_at": "2022-08-18T17:10:30.745Z",
+        "type": "follow",
+        "user": 250,
+        "content": "blaa님이 우수미소지기을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 413,
+    "fields": {
+        "created_at": "2022-08-18T17:10:32.117Z",
+        "updated_at": "2022-08-18T17:10:32.117Z",
+        "type": "follow",
+        "user": 250,
+        "content": "blaa님이 우수미소지기을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 414,
+    "fields": {
+        "created_at": "2022-08-18T17:10:33.177Z",
+        "updated_at": "2022-08-18T17:10:33.177Z",
+        "type": "follow",
+        "user": 250,
+        "content": "blaa님이 우수미소지기을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 415,
+    "fields": {
+        "created_at": "2022-08-18T17:10:37.993Z",
+        "updated_at": "2022-08-18T17:10:37.993Z",
+        "type": "follow",
+        "user": 250,
+        "content": "blaa님이 우수미소지기을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 416,
+    "fields": {
+        "created_at": "2022-08-18T17:10:40.595Z",
+        "updated_at": "2022-08-18T17:10:40.595Z",
+        "type": "follow",
+        "user": 250,
+        "content": "blaa님이 우수미소지기을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 417,
+    "fields": {
+        "created_at": "2022-08-18T17:10:57.014Z",
+        "updated_at": "2022-08-18T17:10:57.014Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 418,
+    "fields": {
+        "created_at": "2022-08-18T17:11:04.547Z",
+        "updated_at": "2022-08-18T17:11:04.547Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 419,
+    "fields": {
+        "created_at": "2022-08-18T17:11:10.255Z",
+        "updated_at": "2022-08-18T17:11:10.255Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 420,
+    "fields": {
+        "created_at": "2022-08-18T17:11:13.431Z",
+        "updated_at": "2022-08-18T17:11:13.431Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 421,
+    "fields": {
+        "created_at": "2022-08-18T17:11:16.112Z",
+        "updated_at": "2022-08-18T19:38:31.480Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 422,
+    "fields": {
+        "created_at": "2022-08-18T17:21:07.647Z",
+        "updated_at": "2022-08-18T17:21:07.647Z",
+        "type": "follow",
+        "user": 4,
+        "content": "알바몬님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 423,
+    "fields": {
+        "created_at": "2022-08-18T17:27:10.689Z",
+        "updated_at": "2022-08-18T17:27:10.689Z",
+        "type": "follow",
+        "user": 4,
+        "content": "알바몬님이 닥영을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 424,
+    "fields": {
+        "created_at": "2022-08-18T17:29:03.496Z",
+        "updated_at": "2022-08-18T17:29:03.496Z",
+        "type": "follow",
+        "user": 246,
+        "content": "싸피최고짱님이 딩딩을 Follow 했습니다.",
+        "redirect_pk": 241,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 425,
+    "fields": {
+        "created_at": "2022-08-18T17:30:14.087Z",
+        "updated_at": "2022-08-18T17:30:14.087Z",
+        "type": "follow",
+        "user": 246,
+        "content": "싸피최고짱님이 딩딩을 Follow 했습니다.",
+        "redirect_pk": 241,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 426,
+    "fields": {
+        "created_at": "2022-08-18T17:48:52.580Z",
+        "updated_at": "2022-08-18T17:48:52.580Z",
+        "type": "follow",
+        "user": 248,
+        "content": "싸피최고짱님이 재원재원을 Follow 했습니다.",
+        "redirect_pk": 241,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 427,
+    "fields": {
+        "created_at": "2022-08-18T18:30:59.116Z",
+        "updated_at": "2022-08-18T19:38:31.465Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 428,
+    "fields": {
+        "created_at": "2022-08-18T18:31:02.529Z",
+        "updated_at": "2022-08-18T19:49:09.759Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 429,
+    "fields": {
+        "created_at": "2022-08-18T18:31:12.163Z",
+        "updated_at": "2022-08-18T20:08:57.047Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 430,
+    "fields": {
+        "created_at": "2022-08-18T18:31:22.044Z",
+        "updated_at": "2022-08-18T20:08:57.024Z",
+        "type": "follow",
+        "user": 16,
+        "content": "blaa님이 차니을 Follow 했습니다.",
+        "redirect_pk": 1,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 431,
+    "fields": {
+        "created_at": "2022-08-18T19:09:41.809Z",
+        "updated_at": "2022-08-18T19:10:12.960Z",
+        "type": "follow",
+        "user": 241,
+        "content": "알바몬님이 싸피최고짱을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 433,
+    "fields": {
+        "created_at": "2022-08-18T19:10:17.755Z",
+        "updated_at": "2022-08-18T19:10:17.755Z",
+        "type": "follow",
+        "user": 14,
+        "content": "싸피최고짱님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 241,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 434,
+    "fields": {
+        "created_at": "2022-08-18T19:10:18.930Z",
+        "updated_at": "2022-08-18T19:10:18.930Z",
+        "type": "follow",
+        "user": 241,
+        "content": "알바몬님이 싸피최고짱을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 435,
+    "fields": {
+        "created_at": "2022-08-18T19:10:19.284Z",
+        "updated_at": "2022-08-18T19:10:19.284Z",
+        "type": "follow",
+        "user": 241,
+        "content": "알바몬님이 싸피최고짱을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 436,
+    "fields": {
+        "created_at": "2022-08-18T19:10:19.574Z",
+        "updated_at": "2022-08-18T19:10:19.574Z",
+        "type": "follow",
+        "user": 241,
+        "content": "알바몬님이 싸피최고짱을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 437,
+    "fields": {
+        "created_at": "2022-08-18T19:10:19.859Z",
+        "updated_at": "2022-08-18T19:10:21.397Z",
+        "type": "follow",
+        "user": 241,
+        "content": "알바몬님이 싸피최고짱을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 438,
+    "fields": {
+        "created_at": "2022-08-18T19:10:20.163Z",
+        "updated_at": "2022-08-18T19:10:21.390Z",
+        "type": "follow",
+        "user": 241,
+        "content": "알바몬님이 싸피최고짱을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 439,
+    "fields": {
+        "created_at": "2022-08-18T19:10:20.451Z",
+        "updated_at": "2022-08-18T19:15:53.160Z",
+        "type": "follow",
+        "user": 241,
+        "content": "알바몬님이 싸피최고짱을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 440,
+    "fields": {
+        "created_at": "2022-08-18T19:10:20.780Z",
+        "updated_at": "2022-08-18T19:15:53.152Z",
+        "type": "follow",
+        "user": 241,
+        "content": "알바몬님이 싸피최고짱을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 441,
+    "fields": {
+        "created_at": "2022-08-18T19:10:21.080Z",
+        "updated_at": "2022-08-18T19:15:53.144Z",
+        "type": "follow",
+        "user": 241,
+        "content": "알바몬님이 싸피최고짱을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 442,
+    "fields": {
+        "created_at": "2022-08-18T19:10:21.430Z",
+        "updated_at": "2022-08-18T19:15:53.125Z",
+        "type": "follow",
+        "user": 241,
+        "content": "알바몬님이 싸피최고짱을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 443,
+    "fields": {
+        "created_at": "2022-08-18T19:10:21.739Z",
+        "updated_at": "2022-08-18T19:15:53.133Z",
+        "type": "follow",
+        "user": 241,
+        "content": "알바몬님이 싸피최고짱을 Follow 했습니다.",
+        "redirect_pk": 14,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 445,
+    "fields": {
+        "created_at": "2022-08-18T19:10:37.774Z",
+        "updated_at": "2022-08-18T19:10:37.774Z",
+        "type": "follow",
+        "user": 14,
+        "content": "싸피최고짱님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 241,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 446,
+    "fields": {
+        "created_at": "2022-08-18T19:13:55.238Z",
+        "updated_at": "2022-08-18T19:13:55.238Z",
+        "type": "follow",
+        "user": 246,
+        "content": "찬우찬우님이 딩딩을 Follow 했습니다.",
+        "redirect_pk": 24,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 447,
+    "fields": {
+        "created_at": "2022-08-18T19:15:32.431Z",
+        "updated_at": "2022-08-18T19:17:04.962Z",
+        "type": "story",
+        "user": 24,
+        "content": "blaa님이 찬우찬우의 게시글에 댓글을 남겼습니다.",
+        "redirect_pk": 15,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 448,
+    "fields": {
+        "created_at": "2022-08-18T19:29:38.832Z",
+        "updated_at": "2022-08-18T19:29:38.832Z",
+        "type": "follow",
+        "user": 250,
+        "content": "차니님이 우수미소지기을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 449,
+    "fields": {
+        "created_at": "2022-08-18T19:29:41.827Z",
+        "updated_at": "2022-08-18T19:29:41.827Z",
+        "type": "follow",
+        "user": 250,
+        "content": "차니님이 우수미소지기을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 450,
+    "fields": {
+        "created_at": "2022-08-18T19:29:43.038Z",
+        "updated_at": "2022-08-18T19:29:43.038Z",
+        "type": "follow",
+        "user": 250,
+        "content": "차니님이 우수미소지기을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 451,
+    "fields": {
+        "created_at": "2022-08-18T19:40:02.140Z",
+        "updated_at": "2022-08-18T20:08:57.016Z",
+        "type": "follow",
+        "user": 16,
+        "content": "곤다이마셍님이 차니을 Follow 했습니다.",
+        "redirect_pk": 29,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 453,
+    "fields": {
+        "created_at": "2022-08-18T19:49:13.025Z",
+        "updated_at": "2022-08-18T19:49:13.025Z",
+        "type": "follow",
+        "user": 29,
+        "content": "차니님이 곤다이마셍을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 454,
+    "fields": {
+        "created_at": "2022-08-18T19:49:16.891Z",
+        "updated_at": "2022-08-18T19:49:16.891Z",
+        "type": "follow",
+        "user": 29,
+        "content": "차니님이 곤다이마셍을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 455,
+    "fields": {
+        "created_at": "2022-08-18T20:02:40.948Z",
+        "updated_at": "2022-08-18T20:02:40.948Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 456,
+    "fields": {
+        "created_at": "2022-08-18T20:02:45.504Z",
+        "updated_at": "2022-08-18T20:02:45.504Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 457,
+    "fields": {
+        "created_at": "2022-08-18T20:02:47.174Z",
+        "updated_at": "2022-08-18T20:02:47.174Z",
+        "type": "follow",
+        "user": 9,
+        "content": "차니님이 블라와함께라면을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 458,
+    "fields": {
+        "created_at": "2022-08-18T20:08:26.815Z",
+        "updated_at": "2022-08-18T20:08:56.974Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 459,
+    "fields": {
+        "created_at": "2022-08-18T20:08:43.202Z",
+        "updated_at": "2022-08-18T20:08:56.965Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 460,
+    "fields": {
+        "created_at": "2022-08-18T20:09:54.307Z",
+        "updated_at": "2022-08-18T20:09:54.307Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 461,
+    "fields": {
+        "created_at": "2022-08-18T20:09:59.306Z",
+        "updated_at": "2022-08-18T20:09:59.306Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 462,
+    "fields": {
+        "created_at": "2022-08-18T20:10:34.877Z",
+        "updated_at": "2022-08-18T20:10:34.877Z",
+        "type": "follow",
+        "user": 137,
+        "content": "차니님이 nickname108을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 463,
+    "fields": {
+        "created_at": "2022-08-18T20:10:43.963Z",
+        "updated_at": "2022-08-18T20:10:43.963Z",
+        "type": "follow",
+        "user": 137,
+        "content": "차니님이 nickname108을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 464,
+    "fields": {
+        "created_at": "2022-08-18T20:10:51.055Z",
+        "updated_at": "2022-08-18T20:10:51.055Z",
+        "type": "follow",
+        "user": 137,
+        "content": "차니님이 nickname108을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 465,
+    "fields": {
+        "created_at": "2022-08-18T20:10:52.675Z",
+        "updated_at": "2022-08-18T20:10:52.675Z",
+        "type": "follow",
+        "user": 137,
+        "content": "차니님이 nickname108을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 466,
+    "fields": {
+        "created_at": "2022-08-18T20:11:26.161Z",
+        "updated_at": "2022-08-18T20:11:26.161Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스입니다님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 467,
+    "fields": {
+        "created_at": "2022-08-18T20:11:31.686Z",
+        "updated_at": "2022-08-18T20:11:31.686Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스입니다님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 468,
+    "fields": {
+        "created_at": "2022-08-18T20:11:35.039Z",
+        "updated_at": "2022-08-18T20:11:35.039Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스입니다님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 469,
+    "fields": {
+        "created_at": "2022-08-18T20:11:47.509Z",
+        "updated_at": "2022-08-18T20:11:47.509Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스입니다님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 470,
+    "fields": {
+        "created_at": "2022-08-18T20:11:51.034Z",
+        "updated_at": "2022-08-18T20:11:51.034Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스입니다님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 471,
+    "fields": {
+        "created_at": "2022-08-18T20:11:51.574Z",
+        "updated_at": "2022-08-18T20:11:51.574Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스입니다님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 472,
+    "fields": {
+        "created_at": "2022-08-18T20:11:52.354Z",
+        "updated_at": "2022-08-18T20:11:52.354Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스입니다님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 473,
+    "fields": {
+        "created_at": "2022-08-18T20:11:52.946Z",
+        "updated_at": "2022-08-18T20:19:19.174Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스입니다님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 474,
+    "fields": {
+        "created_at": "2022-08-18T20:11:57.237Z",
+        "updated_at": "2022-08-18T20:19:19.166Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스입니다님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 475,
+    "fields": {
+        "created_at": "2022-08-18T20:11:58.332Z",
+        "updated_at": "2022-08-18T20:19:19.159Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스입니다님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 476,
+    "fields": {
+        "created_at": "2022-08-18T20:12:44.747Z",
+        "updated_at": "2022-08-18T20:19:19.151Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스입니다님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 477,
+    "fields": {
+        "created_at": "2022-08-18T20:12:47.877Z",
+        "updated_at": "2022-08-18T20:19:19.141Z",
+        "type": "follow",
+        "user": 16,
+        "content": "동킨스입니다님이 차니을 Follow 했습니다.",
+        "redirect_pk": 251,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 478,
+    "fields": {
+        "created_at": "2022-08-18T20:18:45.622Z",
+        "updated_at": "2022-08-18T20:18:45.622Z",
+        "type": "follow",
+        "user": 11,
+        "content": "차니님이 Kiki을 Follow 했습니다.",
+        "redirect_pk": 16,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 479,
+    "fields": {
+        "created_at": "2022-08-18T21:50:21.826Z",
+        "updated_at": "2022-08-18T21:50:21.826Z",
+        "type": "follow",
+        "user": 14,
+        "content": "역전할머니맥주 알바생님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 15,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 480,
+    "fields": {
+        "created_at": "2022-08-18T21:51:16.472Z",
+        "updated_at": "2022-08-18T21:51:16.472Z",
+        "type": "follow",
+        "user": 14,
+        "content": "역전할머니맥주 알바생님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 15,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 481,
+    "fields": {
+        "created_at": "2022-08-18T21:51:19.938Z",
+        "updated_at": "2022-08-18T21:51:19.938Z",
+        "type": "follow",
+        "user": 5,
+        "content": "역전할머니맥주 알바생님이 싸피최고을 Follow 했습니다.",
+        "redirect_pk": 15,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 482,
+    "fields": {
+        "created_at": "2022-08-18T21:51:31.665Z",
+        "updated_at": "2022-08-18T21:51:31.665Z",
+        "type": "follow",
+        "user": 5,
+        "content": "역전할머니맥주 알바생님이 싸피최고을 Follow 했습니다.",
+        "redirect_pk": 15,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 483,
+    "fields": {
+        "created_at": "2022-08-18T21:53:18.325Z",
+        "updated_at": "2022-08-18T21:53:18.325Z",
+        "type": "follow",
+        "user": 5,
+        "content": "역전할머니맥주 알바생님이 싸피최고을 Follow 했습니다.",
+        "redirect_pk": 15,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 484,
+    "fields": {
+        "created_at": "2022-08-18T22:53:30.645Z",
+        "updated_at": "2022-08-18T22:53:30.645Z",
+        "type": "follow",
+        "user": 14,
+        "content": "역전할머니맥주 알바생님이 알바몬을 Follow 했습니다.",
+        "redirect_pk": 15,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 485,
+    "fields": {
+        "created_at": "2022-08-19T00:14:59.373Z",
+        "updated_at": "2022-08-19T00:38:06.196Z",
+        "type": "crew",
+        "user": 17,
+        "content": "매봉이이 스타벅스대전유성DT점크루에 가입되었습니다.",
+        "redirect_pk": 23,
+        "view": true
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 486,
+    "fields": {
+        "created_at": "2022-08-19T00:35:02.609Z",
+        "updated_at": "2022-08-19T00:35:02.609Z",
+        "type": "follow",
+        "user": 250,
+        "content": "매봉이님이 우수미소지기을 Follow 했습니다.",
+        "redirect_pk": 17,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 487,
+    "fields": {
+        "created_at": "2022-08-19T00:35:06.517Z",
+        "updated_at": "2022-08-19T00:35:06.517Z",
+        "type": "follow",
+        "user": 250,
+        "content": "매봉이님이 우수미소지기을 Follow 했습니다.",
+        "redirect_pk": 17,
+        "view": false
+    }
+},
+{
+    "model": "notifications.notification",
+    "pk": 488,
+    "fields": {
+        "created_at": "2022-08-19T00:35:08.826Z",
+        "updated_at": "2022-08-19T00:35:08.826Z",
+        "type": "follow",
+        "user": 250,
+        "content": "매봉이님이 우수미소지기을 Follow 했습니다.",
+        "redirect_pk": 17,
+        "view": false
+    }
+}
+]

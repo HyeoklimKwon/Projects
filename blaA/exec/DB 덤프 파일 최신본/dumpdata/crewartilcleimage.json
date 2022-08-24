@@ -1,0 +1,42 @@
+[
+{
+    "model": "crews.crewarticleimage",
+    "pk": 1,
+    "fields": {
+        "article": 1,
+        "article_picture": "crew_article/image/따봉도치.jpeg"
+    }
+},
+{
+    "model": "crews.crewarticleimage",
+    "pk": 4,
+    "fields": {
+        "article": 9,
+        "article_picture": "crew_article/image/싸피커피매뉴얼.png"
+    }
+},
+{
+    "model": "crews.crewarticleimage",
+    "pk": 5,
+    "fields": {
+        "article": 11,
+        "article_picture": "crew_article/image/IMG_8124.JPG"
+    }
+},
+{
+    "model": "crews.crewarticleimage",
+    "pk": 6,
+    "fields": {
+        "article": 12,
+        "article_picture": "crew_article/image/다운로드파일-6.jpg"
+    }
+},
+{
+    "model": "crews.crewarticleimage",
+    "pk": 7,
+    "fields": {
+        "article": 14,
+        "article_picture": "crew_article/image/스타벅스.png"
+    }
+}
+]

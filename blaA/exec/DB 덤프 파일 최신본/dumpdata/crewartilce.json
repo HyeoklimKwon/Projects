@@ -1,0 +1,198 @@
+[
+{
+    "model": "crews.crewarticle",
+    "pk": 1,
+    "fields": {
+        "created_at": "2022-08-17T13:36:15.788Z",
+        "updated_at": "2022-08-17T13:36:15.788Z",
+        "crew": 2,
+        "user": 3,
+        "crew_title": "알바 수칙! 이것만은 꼭 지켜주세요.",
+        "crew_content": "1. 아침에 오자마자 에어컨 킨다.\r\n2. 조명 킨다.\r\n3. 냉장고 조명 킨다.\r\n4. 물건 채운다.\r\n5. 청소 한다.\r\n6. 행복하진 않겠지만 그래도 행복하게 일한다.\r\n\r\n\r\n따봉도치가 도와줄거여요!",
+        "crew_private": false,
+        "crew_pin": true
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 3,
+    "fields": {
+        "created_at": "2022-08-17T18:49:11.268Z",
+        "updated_at": "2022-08-17T18:49:11.268Z",
+        "crew": 2,
+        "user": 3,
+        "crew_title": "이거 공개 + 게시글 고정",
+        "crew_content": "이거 공개  + 게시글 고정 + 이미지 없음",
+        "crew_private": false,
+        "crew_pin": true
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 5,
+    "fields": {
+        "created_at": "2022-08-18T04:33:52.753Z",
+        "updated_at": "2022-08-18T04:33:52.753Z",
+        "crew": 10,
+        "user": 16,
+        "crew_title": "공지사항",
+        "crew_content": "공지사항",
+        "crew_private": false,
+        "crew_pin": false
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 6,
+    "fields": {
+        "created_at": "2022-08-18T04:34:24.053Z",
+        "updated_at": "2022-08-18T04:34:24.053Z",
+        "crew": 10,
+        "user": 16,
+        "crew_title": "스타벅스 가로수길 메뉴얼",
+        "crew_content": "스타벅스 가로수길 메뉴얼",
+        "crew_private": false,
+        "crew_pin": true
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 7,
+    "fields": {
+        "created_at": "2022-08-18T07:10:09.309Z",
+        "updated_at": "2022-08-18T07:10:09.309Z",
+        "crew": 11,
+        "user": 18,
+        "crew_title": "역전할머니 이태원점에 오신걸 환영합니다!",
+        "crew_content": "역전할맥에 오신 여러분 환영합니다!\r\n\r\n!!숙지사항!!\r\n1. 출근시간 10분전에 도착해서 환복하고 준비할것\r\n2. 가게에서 일할 때는 핸드폰 보지 말 것\r\n3. 사고 나지않게 적정량만 서빙할 것\r\n4. 콜이 울리면 일단 모두 네 라고 응답하기\r\n\r\n위에 사항은 꼭 숙지하시고!\r\n모두 즐겁게 일해봅시다 :)",
+        "crew_private": false,
+        "crew_pin": true
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 8,
+    "fields": {
+        "created_at": "2022-08-18T07:14:22.761Z",
+        "updated_at": "2022-08-18T07:14:22.761Z",
+        "crew": 11,
+        "user": 17,
+        "crew_title": "경고사항",
+        "crew_content": "저번주부터 술값을 계산안하고 가는 테이블이 하나이상은 나오고 있습니다\r\n내일부터는 무조건 카운터 한분이 지키시고 나가는 분마다 계산여부를 여쭤봐주세요",
+        "crew_private": true,
+        "crew_pin": false
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 9,
+    "fields": {
+        "created_at": "2022-08-18T09:11:43.343Z",
+        "updated_at": "2022-08-18T14:19:13.014Z",
+        "crew": 12,
+        "user": 5,
+        "crew_title": "싸피커피 매뉴얼",
+        "crew_content": "다들 숙지하시고 좋은 하루!",
+        "crew_private": true,
+        "crew_pin": true
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 10,
+    "fields": {
+        "created_at": "2022-08-18T15:45:50.822Z",
+        "updated_at": "2022-08-18T15:45:50.822Z",
+        "crew": 12,
+        "user": 18,
+        "crew_title": "코로나 공지사항",
+        "crew_content": "최근 코로나 다시 유행해서 실내 취식은 금지로 변경되었습니다!! \r\n모두들 안에서 드시는 손님분들이 있으시면 외부에서 취식하도록 안내해주세요",
+        "crew_private": false,
+        "crew_pin": false
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 11,
+    "fields": {
+        "created_at": "2022-08-18T16:50:34.848Z",
+        "updated_at": "2022-08-18T16:50:34.848Z",
+        "crew": 16,
+        "user": 241,
+        "crew_title": "제가 첫 게시글이네요. 모두 반갑습니다 !",
+        "crew_content": "안녕하세요. 청년다방 알바 2년차 고성능 청년입니다. \n제 자랑거리는 바로 청년다방 메뉴판에 있는 모든 메뉴들을 한 번씩 먹어봤다는 것입니다. 만약 손님들이 메뉴에 대한 질문을 하신다면 저를 언제든지 불러주세요! 실 경험에 의한 추천이 가능합니다. 사진은 귀여워서 올립니다. 잘 부탁드립니다.",
+        "crew_private": false,
+        "crew_pin": false
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 12,
+    "fields": {
+        "created_at": "2022-08-18T19:23:48.397Z",
+        "updated_at": "2022-08-18T19:23:48.397Z",
+        "crew": 12,
+        "user": 16,
+        "crew_title": "❤싸피커피 개업 4주년 기념 이벤트❤",
+        "crew_content": "싸피 여러분의 성원에 힘입어 싸피커피가 개업한지 4주년이 되었습니다!\r\n고객 여러분의 많은 관심과 사랑에 비하면 너무나도 작지만 조금이나마 돌려드리고자 이벤트를 준비하였습니다!\r\n댓글에 \"싸피커피\"로 4행시를 지어주신 고객님들 중에서추첨을 통하여 커피 쿠폰을 채팅으로 통하여 보내드리겠습니다!!\r\n많은 참여 부탁드립니다!",
+        "crew_private": false,
+        "crew_pin": false
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 13,
+    "fields": {
+        "created_at": "2022-08-18T22:43:38.894Z",
+        "updated_at": "2022-08-18T22:43:38.894Z",
+        "crew": 10,
+        "user": 15,
+        "crew_title": "스타벅스 가로수길 매뉴얼",
+        "crew_content": "1. 오픈\r\n   - 전날 마감된 아이스크림 기계, 커피 머신 세팅\r\n   - 재고 확인 후 정리\r\n   - 음료 제조 위해 필요한 베이스 세팅\r\n\r\n2. 마감\r\n    - 아이스크림 기계 마감\r\n    - 커피 머신 마감\r\n    - 홀 청소\r\n    - 분리수거, 쓰레기 정리\r\n    - 재고 확인",
+        "crew_private": true,
+        "crew_pin": true
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 14,
+    "fields": {
+        "created_at": "2022-08-19T00:18:26.442Z",
+        "updated_at": "2022-08-19T00:18:26.442Z",
+        "crew": 23,
+        "user": 252,
+        "crew_title": "스타벅스대전DT점과 함께라면",
+        "crew_content": "그 무엇도 두렵지 않아요 항상 우리 뒤에서 지켜봐주시는 사장님 감사합니다.",
+        "crew_private": false,
+        "crew_pin": false
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 15,
+    "fields": {
+        "created_at": "2022-08-19T00:18:59.846Z",
+        "updated_at": "2022-08-19T00:18:59.846Z",
+        "crew": 23,
+        "user": 252,
+        "crew_title": "스타벅스 대전 DT점 공지사항 및 메뉴얼",
+        "crew_content": "어쩌구 저쩌구 어절시구",
+        "crew_private": true,
+        "crew_pin": true
+    }
+},
+{
+    "model": "crews.crewarticle",
+    "pk": 16,
+    "fields": {
+        "created_at": "2022-08-19T00:19:03.698Z",
+        "updated_at": "2022-08-19T00:19:03.698Z",
+        "crew": 23,
+        "user": 17,
+        "crew_title": "스타벅스 대전DT점에 오신것을 환영합니다",
+        "crew_content": "스타벅스 대전DT점에 오신것을 환영합니다!\r\n\r\n저희는 모두가 영어 닉네임을 사용하고 무조건 존대를 사용하기 떄문에 개인적 친분이 있다해도 사업장에서는 예의를 차려주세요\r\n\r\n출근시간은 꼭 맞춰서 출근합시다!\r\n\r\n모두들 화이팅",
+        "crew_private": false,
+        "crew_pin": true
+    }
+}
+]

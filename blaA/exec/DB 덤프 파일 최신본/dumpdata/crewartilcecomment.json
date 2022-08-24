@@ -1,0 +1,50 @@
+[
+{
+    "model": "crews.crewarticlecomment",
+    "pk": 1,
+    "fields": {
+        "created_at": "2022-08-18T05:18:54.391Z",
+        "updated_at": "2022-08-18T05:18:54.391Z",
+        "crew": 10,
+        "article": 6,
+        "user": 1,
+        "comment_content": "z"
+    }
+},
+{
+    "model": "crews.crewarticlecomment",
+    "pk": 2,
+    "fields": {
+        "created_at": "2022-08-18T05:18:57.592Z",
+        "updated_at": "2022-08-18T05:18:57.592Z",
+        "crew": 10,
+        "article": 6,
+        "user": 1,
+        "comment_content": "ㅋㅋ"
+    }
+},
+{
+    "model": "crews.crewarticlecomment",
+    "pk": 3,
+    "fields": {
+        "created_at": "2022-08-18T08:56:57.157Z",
+        "updated_at": "2022-08-18T08:56:57.157Z",
+        "crew": 11,
+        "article": 7,
+        "user": 18,
+        "comment_content": "댓글 작성"
+    }
+},
+{
+    "model": "crews.crewarticlecomment",
+    "pk": 4,
+    "fields": {
+        "created_at": "2022-08-18T15:48:25.795Z",
+        "updated_at": "2022-08-18T15:48:25.795Z",
+        "crew": 12,
+        "article": 9,
+        "user": 18,
+        "comment_content": "넵 알겠습니다!"
+    }
+}
+]

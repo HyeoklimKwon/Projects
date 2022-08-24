@@ -12,6 +12,7 @@
         <td>{{ member.nickname }}</td>
         <td>{{ member.category }}</td>
         <button @click="acceptRequest(member.user)">승인</button>
+        <button @click="denyRequest(member.user)">거절</button>
       </tr>
     </tbody>
   </table>
@@ -47,11 +48,19 @@ export default {
       });
     };
 
+    const denyRequest = async (user) => {
+      await store.dispatch("crew/denyRequest", {
+        crew_pk: route.query.crew_pk,
+        user_pk: user,
+      });
+    };
+
     getRequestList();
 
     return {
       list,
       acceptRequest,
+      denyRequest,
     };
   },
 };

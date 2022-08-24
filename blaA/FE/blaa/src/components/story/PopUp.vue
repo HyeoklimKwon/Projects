@@ -21,12 +21,13 @@ export default {
     height: 100%;
     /* 상단에 고정되어 있어야 하므로 */
     position: fixed;
-    /* top: 0px;
-    left: 0px; */
+    top: 0px;
+    left: 0px;
+    z-index: 5;
   }
   /* 모달이 떳을 떄 뒤에 배경화면을 안보이게 */
   .overlay {
-    background-color:rgba(255,255,255,0.5);
+    background-color:rgba(61, 58, 58, 0.5);
   }
 
   .modal-card {
@@ -36,7 +37,7 @@ export default {
     margin-top: 30px;
     padding: 20px;
     background-color: white;
-    min-height: 300px;
+    min-height: 100px;
     z-index:10;
     opacity: 1 !important;
   }

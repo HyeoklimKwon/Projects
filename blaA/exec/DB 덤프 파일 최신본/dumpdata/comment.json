@@ -1,0 +1,202 @@
+[
+{
+    "model": "stories.comment",
+    "pk": 1,
+    "fields": {
+        "user_pk": 6,
+        "story_pk": 4,
+        "story_comment": "동동님 천사가 아니라 악마 아닌가요?",
+        "created_at": "2022-08-17T15:44:51.620Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 2,
+    "fields": {
+        "user_pk": 6,
+        "story_pk": 2,
+        "story_comment": "찬님 너무 귀여우세요~ 소통해요 ㅎ",
+        "created_at": "2022-08-17T15:45:15.051Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 4,
+    "fields": {
+        "user_pk": 6,
+        "story_pk": 5,
+        "story_comment": "누가 구구님이신가요?",
+        "created_at": "2022-08-17T15:48:22.363Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 6,
+    "fields": {
+        "user_pk": 6,
+        "story_pk": 7,
+        "story_comment": "미소가 안보이네요 ㅠ 모나리자 같은건가요",
+        "created_at": "2022-08-17T17:19:51.692Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 7,
+    "fields": {
+        "user_pk": 1,
+        "story_pk": 9,
+        "story_comment": "돌아엠옹 돌아와 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+        "created_at": "2022-08-17T17:43:06.987Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 8,
+    "fields": {
+        "user_pk": 1,
+        "story_pk": 8,
+        "story_comment": "카페 모카 한 잔 줘봐라 ㅋ",
+        "created_at": "2022-08-17T17:43:32.075Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 9,
+    "fields": {
+        "user_pk": 1,
+        "story_pk": 3,
+        "story_comment": "헉 넘 귀엽당",
+        "created_at": "2022-08-17T17:43:44.529Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 10,
+    "fields": {
+        "user_pk": 11,
+        "story_pk": 7,
+        "story_comment": "눈부실까봐 살짝 가렸습니다 ㅋ",
+        "created_at": "2022-08-17T18:00:14.227Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 11,
+    "fields": {
+        "user_pk": 6,
+        "story_pk": 3,
+        "story_comment": "헉 넘 고맙당",
+        "created_at": "2022-08-17T18:20:17.171Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 12,
+    "fields": {
+        "user_pk": 12,
+        "story_pk": 8,
+        "story_comment": "고객님 휘핑크림 올려드릴까요?",
+        "created_at": "2022-08-17T23:43:17.132Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 13,
+    "fields": {
+        "user_pk": 1,
+        "story_pk": 11,
+        "story_comment": "미지는 미소지기의 준말인가요 ?ㅋ",
+        "created_at": "2022-08-18T04:56:54.047Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 14,
+    "fields": {
+        "user_pk": 18,
+        "story_pk": 18,
+        "story_comment": "너무 힘들겠다.. ㅠㅠ",
+        "created_at": "2022-08-18T08:48:03.770Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 15,
+    "fields": {
+        "user_pk": 17,
+        "story_pk": 22,
+        "story_comment": "우리 가게 앞에도 밥주는 고양이 있는데!",
+        "created_at": "2022-08-18T12:46:23.890Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 16,
+    "fields": {
+        "user_pk": 17,
+        "story_pk": 22,
+        "story_comment": "완전 귀여움!",
+        "created_at": "2022-08-18T12:48:09.160Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 17,
+    "fields": {
+        "user_pk": 241,
+        "story_pk": 21,
+        "story_comment": "우왕 맛나겠다 팝콘 ~!",
+        "created_at": "2022-08-18T13:56:51.816Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 18,
+    "fields": {
+        "user_pk": 241,
+        "story_pk": 22,
+        "story_comment": "고양이 ! 귀여워 ! 고양이 ! 좋아 ! 고양이 ! 행복해 !",
+        "created_at": "2022-08-18T14:06:48.386Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 19,
+    "fields": {
+        "user_pk": 4,
+        "story_pk": 26,
+        "story_comment": "뇽재.... 왜 여기서 나와......",
+        "created_at": "2022-08-18T15:10:34.732Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 20,
+    "fields": {
+        "user_pk": 9,
+        "story_pk": 27,
+        "story_comment": "현명한 선택을 하셨군요",
+        "created_at": "2022-08-18T15:53:43.056Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 21,
+    "fields": {
+        "user_pk": 24,
+        "story_pk": 15,
+        "story_comment": "ㅎㅇ",
+        "created_at": "2022-08-18T19:14:43.089Z"
+    }
+},
+{
+    "model": "stories.comment",
+    "pk": 22,
+    "fields": {
+        "user_pk": 1,
+        "story_pk": 15,
+        "story_comment": "우와 고양이 귀여워",
+        "created_at": "2022-08-18T19:15:32.429Z"
+    }
+}
+]

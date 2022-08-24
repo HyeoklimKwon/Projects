@@ -13,12 +13,17 @@ class Story(models.Model) :
     
     like_user = models.ManyToManyField('accounts.User', related_name='like_story')
     
+    def __str__(self) :
+        return self.story_title
 class Comment(models.Model) :
     comment_pk = models.AutoField(primary_key=True)
     user_pk = models.ForeignKey('accounts.User',on_delete=models.CASCADE)
     story_pk = models.ForeignKey('Story', on_delete=models.CASCADE)
     story_comment = models.CharField(max_length=50)
     created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self) :
+        return self.story_comment
     
 
 class Hashtag(models.Model) :
@@ -26,4 +31,7 @@ class Hashtag(models.Model) :
     user_pk = models.ForeignKey('accounts.User',on_delete=models.CASCADE)
     story_pk = models.ForeignKey('Story', on_delete=models.CASCADE)
     hashtag_content = models.CharField(max_length=20)
+
+    def __str__(self) :
+        return self.hashtag_content
     

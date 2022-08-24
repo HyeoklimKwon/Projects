@@ -7,7 +7,7 @@ class ReviewUserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields= ('nickname',)
+        fields= ('nickname','image','user_pk')
 
 
 class StoreListCreateSerializer(serializers.ModelSerializer) :

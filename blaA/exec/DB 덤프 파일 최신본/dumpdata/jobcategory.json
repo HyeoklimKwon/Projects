@@ -1,0 +1,72 @@
+[
+{
+    "model": "categorys.jobcategory",
+    "pk": "1",
+    "fields": {
+        "job_main_category": "음식점"
+    }
+},
+{
+    "model": "categorys.jobcategory",
+    "pk": "10",
+    "fields": {
+        "job_main_category": "기타"
+    }
+},
+{
+    "model": "categorys.jobcategory",
+    "pk": "2",
+    "fields": {
+        "job_main_category": "카페/음료"
+    }
+},
+{
+    "model": "categorys.jobcategory",
+    "pk": "3",
+    "fields": {
+        "job_main_category": "유통/판매"
+    }
+},
+{
+    "model": "categorys.jobcategory",
+    "pk": "4",
+    "fields": {
+        "job_main_category": "문화/여가"
+    }
+},
+{
+    "model": "categorys.jobcategory",
+    "pk": "5",
+    "fields": {
+        "job_main_category": "서비스"
+    }
+},
+{
+    "model": "categorys.jobcategory",
+    "pk": "6",
+    "fields": {
+        "job_main_category": "사무/회계"
+    }
+},
+{
+    "model": "categorys.jobcategory",
+    "pk": "7",
+    "fields": {
+        "job_main_category": "IT/인터넷"
+    }
+},
+{
+    "model": "categorys.jobcategory",
+    "pk": "8",
+    "fields": {
+        "job_main_category": "교육/강사"
+    }
+},
+{
+    "model": "categorys.jobcategory",
+    "pk": "9",
+    "fields": {
+        "job_main_category": "운전/배달"
+    }
+}
+]

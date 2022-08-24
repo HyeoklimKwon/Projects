@@ -1,5 +1,4 @@
 <template>
-  <div>게시판-view</div>
   <router-view></router-view>
 </template>
 
@@ -9,9 +8,7 @@ export default {
   components: {
     // BoardList,
   },
-}
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

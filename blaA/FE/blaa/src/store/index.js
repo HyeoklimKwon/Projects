@@ -6,6 +6,7 @@ import story from "./modules/story";
 import account from "./modules/account";
 import review from "./modules/review";
 import profile from "./modules/profile";
+import createPersistedState from "vuex-persistedstate";
 
 export default createStore({
   modules: {
@@ -18,4 +19,9 @@ export default createStore({
     review,
     profile,
   },
+  plugins: [
+    createPersistedState({
+      storage: window.sessionStorage,
+    }),
+  ],
 });

@@ -1,0 +1,44 @@
+[
+{
+    "model": "reviews.buttonreview",
+    "pk": 1,
+    "fields": {
+        "type": "친절한 사장님"
+    }
+},
+{
+    "model": "reviews.buttonreview",
+    "pk": 2,
+    "fields": {
+        "type": "깨끗한 매장"
+    }
+},
+{
+    "model": "reviews.buttonreview",
+    "pk": 3,
+    "fields": {
+        "type": "좋은 분위기"
+    }
+},
+{
+    "model": "reviews.buttonreview",
+    "pk": 4,
+    "fields": {
+        "type": "교통 접근성"
+    }
+},
+{
+    "model": "reviews.buttonreview",
+    "pk": 5,
+    "fields": {
+        "type": "칼퇴근 가능"
+    }
+},
+{
+    "model": "reviews.buttonreview",
+    "pk": 6,
+    "fields": {
+        "type": "유니폼 제공"
+    }
+}
+]

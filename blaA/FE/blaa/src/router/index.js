@@ -10,7 +10,7 @@ import SignupForm from "@/pages/account/signup/SecondSignupView.vue";
 import SignupCategory from "@/pages/account/signup/ThirdSignupView.vue";
 
 import Story from "@/pages/story/StoryView.vue";
-import StoryFollow from '@/pages/story/StoryFollowView.vue'
+import StoryFollow from "@/pages/story/StoryFollowView.vue";
 import StoryMain from "@/pages/story/StoryMain.vue";
 import StoryForm from "@/pages/story/StoryForm.vue";
 import StoryDetailView from "@/pages/story/StoryDetailView.vue";
@@ -23,16 +23,20 @@ import ReviewForm from "@/pages/review/ReviewForm.vue";
 import ReviewDetail from "@/pages/review/ReviewDetail.vue";
 import ReviewCommentDetail from "@/pages/review/ReviewCommentDetail.vue";
 import Chatroom from "@/pages/chat/ChatroomView.vue";
-import SearchCrewUsers from "@/pages/crew/SearchCrewUsersView.vue"
+import SearchCrewUsers from "@/pages/crew/SearchCrewUsersView.vue";
 import ProfileMain from "@/pages/profile/ProfileMainView.vue";
 import UpdateUserInfo from "@/pages/profile/UpdateUserInfoView.vue";
 import FollowList from "@/pages/profile/FollowListView.vue";
 import MyStory from "@/pages/profile/MyStoryView.vue";
-import SearchAllUsers from "@/pages/crew/SearchAllUsersView.vue"
-import InvitedCrew from "@/pages/profile/InvitedCrewView.vue"
-import MyReview from "@/pages/profile/MyReviewView.vue";
-import MyCrew from "@/pages/profile/MyCrewView.vue";
+import SearchAllUsers from "@/pages/crew/SearchAllUsersView.vue";
+import InvitedCrew from "@/pages/profile/InvitedCrewView.vue";
+import ReviewList from "@/pages/profile/ReviewListView.vue";
+import CrewList from "@/pages/profile/CrewListView.vue";
 import MyInfo from "@/pages/profile/MyInfoView.vue";
+import UserProfile from "@/pages/profile/UserProfileView.vue";
+import SetBlackList from "@/pages/profile/BlackListView.vue";
+import DeleteAccount from "@/pages/profile/DeleteAccountView.vue";
+import Notification from "@/pages/notification/NotificationView.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -40,7 +44,7 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: Home,
+      component: () => import("@/pages/MainLoadingView.vue"),
     },
     {
       path: "/login",
@@ -106,19 +110,19 @@ const router = createRouter({
     {
       path: "/crew",
       name: "crew",
-      redirect: "/crew/list/alllist",
+      redirect: "/crew/list",
       component: Crew,
       children: [
         {
           path: "regist",
           name: "crewregistview",
           redirect: { name: "crewregist" },
-          component: () => import("@/components/crew/manage/CrewRegistView.vue"),
+          component: () => import("@/components/crew/manage/regist/CrewRegistView.vue"),
           children: [
             {
               path: "",
               name: "crewregist",
-              component: () => import("@/components/crew/manage/CrewRegistInput.vue"),
+              component: () => import("@/components/crew/manage/regist/CrewRegistInput.vue"),
             },
           ],
         },
@@ -133,11 +137,16 @@ const router = createRouter({
               component: () => import("@/components/crew/list/CrewListAll.vue"),
             },
             {
-              path: "mylist/:user_pk",
+              path: "mylist",
               name: "mycrewlist",
               component: () => import("@/components/crew/list/CrewListMy.vue"),
             },
           ],
+        },
+        {
+          path: "search",
+          name: "crewsearch",
+          component: () => import("@/components/crew/list/CrewListSearch.vue"),
         },
         {
           path: "modify/:crew_pk",
@@ -155,65 +164,65 @@ const router = createRouter({
           component: () => import("@/components/crew/manage/CrewDetail.vue"),
         },
         {
-          path: ":crew_pk",
-          name: "crewboard",
-          redirect: { name: "articlelist" },
-          component: () => import("@/components/crew/CrewBoard.vue"),
+          path: "leave/:crew_pk",
+          name: "crewleave",
+          component: () => import("@/components/crew/member/CrewMemberLeave.vue"),
+        },
+        {
+          path: "nm/:crew_pk",
+          name: "crewboardnonmember",
+          component: () => import("@/components/crew/manage/CrewBoardNonMember.vue"),
+        },
+        {
+          path: "m/:crew_pk",
+          name: "crewboardmember",
+          component: () => import("@/components/crew/manage/CrewBoardMember.vue"),
+          
+        },
+        {
+          path: "article/:crew_pk",
+          name: "article",
+          component: () => import("@/components/crew/article/ArticleListView.vue"),
           children: [
             {
-              path: "list",
+              path: "",
               name: "articlelist",
-              component: () =>
-                import("@/components/crew/article/ArticleList.vue"),
-            },
-            {
-              path: "regist",
-              name: "articleregist",
-              component: () =>
-                import("@/components/crew/article/ArticleRegist.vue"),
-            },
-            {
-              path: ":crew_article_pk",
-              name: "articledetail",
-              component: () =>
-                import("@/components/crew/article/ArticleDetail.vue"),
+              component: () => import("@/components/crew/article/ArticleList.vue"),
             },
             {
               path: ":crew_article_pk",
               name: "articlemodify",
-              component: () =>
-                import("@/components/crew/article/ArticleModify.vue"),
+              component: () => import("@/components/crew/article/ArticleModify.vue"),
             },
             {
               path: ":crew_article_pk",
               name: "articledelete",
-              component: () =>
-                import("@/components/crew/article/ArticleDelete.vue"),
+              component: () => import("@/components/crew/article/ArticleDelete.vue"),
             },
-            {
-              path: "schedule",
-              name: "schedule",
-              component: () =>
-                import("@/components/crew/schedule/ScheduleView.vue"),
-              // children: [
-              //   {
-              //     path: "calendar",
-              //     name: "calendar",
-              //     component: () => import("@/components/crew/schedule/ScheduleView.vue"),
-              //   },
-              // ],
-            },
-            {
-              path: "crewmember",
-              name: "crewmember",
-              component: () => import("@/components/crew/crewmember/CrewMemberView.vue")
-            },
-            {
-              path: "",
-              name: "crewmemberlist",
-              component: () => import("@/components/crew/member/CrewMemberList.vue"),
-            },
+            
+            // {
+            //   path: "crewmember",
+            //   name: "crewmember",
+            //   component: () =>
+            //     import("@/components/crew/crewmember/CrewMemberView.vue"),
+            // },
           ],
+        },
+        {
+          path: "article/detail/:crew_article_pk",
+          name: "articledetail",
+          component: () => import("@/components/crew/article/ArticleDetail.vue"),
+        },
+        {
+          path: "regist/:crew_pk",
+          name: "articleregist",
+          component: () => import("@/components/crew/article/ArticleRegist.vue"),
+        },
+
+        {
+          path: "user/:crew_pk",
+          name: "crewmemberlist",
+          component: () => import("@/components/crew/member/CrewMemberList.vue"),
         },
         {
           path: "request",
@@ -250,7 +259,7 @@ const router = createRouter({
       ],
     },
     {
-      path: "/chat/:from_userpk",
+      path: "/chat/:from_userpk/:from_usernickname",
       name: "chat",
       component: Chat,
     },
@@ -270,6 +279,11 @@ const router = createRouter({
           component: UpdateUserInfo,
         },
         {
+          path: ":user_pk/updatePassword",
+          name: "updatePassword",
+          component: () => import("@/pages/profile/UpdatePasswordView.vue"),
+        },
+        {
           path: ":user_pk/:followType",
           name: "followList",
           component: FollowList,
@@ -280,19 +294,34 @@ const router = createRouter({
           component: MyStory,
         },
         {
-          path: ":user_pk/myreview",
-          name: "myreview",
-          component: MyReview,
+          path: ":user_pk/review",
+          name: "reviewList",
+          component: ReviewList,
         },
         {
-          path: ":user_pk/mycrew",
-          name: "mycrew",
-          component: MyCrew,
+          path: ":user_pk/crew",
+          name: "crewList",
+          component: CrewList,
         },
         {
           path: ":user_pk/myinfo",
           name: "myinfo",
           component: MyInfo,
+        },
+        {
+          path: ":user_pk/delete",
+          name: "deleteAccount",
+          component: DeleteAccount,
+        },
+        {
+          path: ":user_pk",
+          name: "userProfile",
+          component: UserProfile,
+        },
+        {
+          path: "blacklist/:user_pk",
+          name: "setBlackList",
+          component: SetBlackList,
         },
       ],
     },
@@ -304,18 +333,33 @@ const router = createRouter({
     {
       path: "/searchusers/:crew_pk",
       name: "searchcrewusers",
-      component: SearchCrewUsers
+      component: SearchCrewUsers,
     },
     {
       path: "/searchusers",
       name: "searchallusers",
-      component: SearchAllUsers
+      component: SearchAllUsers,
     },
     {
       path: "/invitedcrewlist",
-      name : "invitedcrewlist",
-      component : InvitedCrew
-    }
+      name: "invitedcrewlist",
+      component: InvitedCrew,
+    },
+    {
+      path: "/notifications",
+      name: "notifications",
+      component: Notification,
+    },
+    {
+      path: "/crew/schedule/:crew_pk",
+      name: "schedule",
+      component: () => import("@/components/crew/schedule/ScheduleView.vue"),
+    },
+    {
+      path: "/crew/scheduleregister/:crew_pk",
+      name: "scheduleregister",
+      component: () => import("@/components/crew/schedule/ScheduleRegisterView.vue"),
+    },
   ],
 });
 

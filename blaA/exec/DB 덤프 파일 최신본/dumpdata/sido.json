@@ -1,0 +1,121 @@
+[
+{
+    "model": "categorys.sido",
+    "pk": "1100000000",
+    "fields": {
+        "sido_name": "서울특별시"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "2600000000",
+    "fields": {
+        "sido_name": "부산광역시"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "2700000000",
+    "fields": {
+        "sido_name": "대구광역시"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "2800000000",
+    "fields": {
+        "sido_name": "인천광역시"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "2900000000",
+    "fields": {
+        "sido_name": "광주광역시"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "3000000000",
+    "fields": {
+        "sido_name": "대전광역시"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "3100000000",
+    "fields": {
+        "sido_name": "울산광역시"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "3611000000",
+    "fields": {
+        "sido_name": "세종특별자치시"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "4100000000",
+    "fields": {
+        "sido_name": "경기도"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "4200000000",
+    "fields": {
+        "sido_name": "강원도"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "4300000000",
+    "fields": {
+        "sido_name": "충청북도"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "4400000000",
+    "fields": {
+        "sido_name": "충청남도"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "4500000000",
+    "fields": {
+        "sido_name": "전라북도"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "4600000000",
+    "fields": {
+        "sido_name": "전라남도"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "4700000000",
+    "fields": {
+        "sido_name": "경상북도"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "4800000000",
+    "fields": {
+        "sido_name": "경상남도"
+    }
+},
+{
+    "model": "categorys.sido",
+    "pk": "5000000000",
+    "fields": {
+        "sido_name": "제주특별자치도"
+    }
+}
+]

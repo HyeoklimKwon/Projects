@@ -40,8 +40,36 @@ class UserSerializer(serializers.ModelSerializer):
     followings = serializers.IntegerField(source = 'followings.count',read_only=True)
     class Meta:
         model = User
-        fields= ['user_pk','email','name','nickname','region','category','is_alba','image','followers','followings']
+        fields= ['user_pk','email','name','nickname','region','category','is_alba','image','followers','followings','tel','image']
         read_only_fields = ['email']
+
+    def update(self, instance, validated_data):
+        instance.name = validated_data.get('name', instance.name)
+        instance.nickname = validated_data.get('nickname', instance.nickname)
+        instance.tel = validated_data.get('tel', instance.tel)
+        instance.region = validated_data.get('region', instance.region)
+        instance.category = validated_data.get('category', instance.category)
+        instance.is_alba = validated_data.get('is_alba', instance.is_alba)
+
+        try:
+            images_data = validated_data.get('image')
+        except:
+            images_data = None
+        # print(validated_data.get())
+        if images_data is not None:
+            instance.image = images_data
+
+        instance.save()
+
+        return instance
+
+class UserNoneImageSerializer(serializers.ModelSerializer):
+    followers = serializers.IntegerField(source = 'followers.count',read_only=True)
+    followings = serializers.IntegerField(source = 'followings.count',read_only=True)
+    class Meta:
+        model = User
+        fields= ['user_pk','email','name','nickname','region','category','is_alba','image','followers','followings','tel','image']
+        read_only_fields = ['email','image']
         
 
 class ChangePasswordSerializer(serializers.ModelSerializer):
@@ -97,10 +125,12 @@ class UserCrewSerializer(serializers.ModelSerializer):
 
 
 class ReviewSerializer(serializers.ModelSerializer) :
-    store = serializers.CharField(source='store.name')
+    store_pk = serializers.IntegerField(source='store.store_pk')
+    store_name = serializers.CharField(source='store.name')
+    store_image = serializers.ImageField(source='store.image')
     class Meta: 
         model = Review
-        fields = ('review_pk','user','star','store')
+        fields = ('review_pk','user','star','store_pk','store_name','store_image')
         
 
 class UserReviewSerializer(serializers.ModelSerializer):
