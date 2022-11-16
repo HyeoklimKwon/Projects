@@ -19,6 +19,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Arrays;
 import java.util.List;
 
 @Controller
@@ -61,6 +62,7 @@ public class UserGameController {
         String userEmail = tokenService.getUserEmailFromToken(request);
         User user = userRepository.findUserByUserEmail(userEmail);
         List<UserGameDto> userGameList = (UserGameInfo.getMyGameInfo(pagenationDto.getStart(),pagenationDto.getEnd(), user.getUserId()));
+        System.out.println(userGameList.toString());
         double avgDistance = 0;
         double avgAttack = 0;
         double avgDefence = 0;
